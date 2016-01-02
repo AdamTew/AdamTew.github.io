@@ -2,21 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam Tew</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Adam Tew
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Jan 2016 05:07:54 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Jan 2016 05:07:54 -0700</lastBuildDate>
+    <pubDate>Sat, 02 Jan 2016 06:20:58 -0700</pubDate>
+    <lastBuildDate>Sat, 02 Jan 2016 06:20:58 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>New Post</title>
-        <description>&lt;h1 id=&quot;here-is-a-new-page&quot;&gt;Here is a new page&lt;/h1&gt;
+        <title>How To Markdown</title>
+        <description>&lt;h2 id=&quot;hr&quot;&gt;&lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
+
+&lt;h6 id=&quot;header-6&quot;&gt;header 6&lt;/h6&gt;
+
+&lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;header 4&lt;/h4&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;header 3&lt;/h3&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;/h2&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;header 1&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;# header 1
+## header 2
+### header 3
+#### header 4
+##### header 5
+###### header 6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bulleted&lt;/li&gt;
+  &lt;li&gt;list
+    &lt;ul&gt;
+      &lt;li&gt;with&lt;/li&gt;
+      &lt;li&gt;indentation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;or not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;- bulleted
+- list
+    + with 
+    + indentation
+- or not&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Topic&lt;/th&gt;
+      &lt;th&gt;Subtopic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Topic&lt;/td&gt;
+      &lt;td&gt;Subtopic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Subtopic&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;|Topic|Subtopic|
+|---|---|
+|Topic  |Subtopic|
+|       |Subtopic|&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 02 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2016/01/02/new-post.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2016/01/02/new-post.html</guid>
+        <link>http://yourdomain.com/2016/01/02/How-to-Markdown.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/02/How-to-Markdown.html</guid>
         
         
       </item>
