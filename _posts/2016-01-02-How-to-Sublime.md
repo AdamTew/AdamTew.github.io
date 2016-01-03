@@ -1,3 +1,8 @@
+---
+title: How To Sublime
+layout: post
+---
+
 # How to sublime
 
 Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven't found anything that can rival Sublime (note, I haven't tried [Atom](https://atom.io/) yet, but it feels like it was built with a lot of the same ideas in mind).

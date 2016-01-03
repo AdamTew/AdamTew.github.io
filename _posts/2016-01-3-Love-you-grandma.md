@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Love You Granda
+title: Love You Grandma
 ---
 
 My grandma passed away last week.
