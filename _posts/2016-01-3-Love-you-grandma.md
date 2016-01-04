@@ -10,7 +10,6 @@ There was a wonderful service held in her honor. Many showed up to pay tribute. 
 I loved Afton Tew.
 
 ![afton]({{ site.url }}assets/images/afton.jpg)
-![afton](afton.jpg)
 
 Nearly ten years ago, when I was a teenager, I had the opportunity to live with grandma. Things were difficult at my home with parents and school, so I left and went to my grandmas house. While there, she made it a point to help me in any way that she could. She found out foods I liked, would drive me to classes, tried to help me make friends, and helped me learn to play the piano.
 
