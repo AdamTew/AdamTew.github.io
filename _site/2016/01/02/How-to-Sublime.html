@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Adam Tew</title>
+    <title>How To Sublime</title>
     <meta name="description" content="Adam Tew
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://adamtew.com//">
+    <link rel="canonical" href="http://adamtew.com//2016/01/02/How-to-Sublime.html">
 </head>
 
 
@@ -54,23 +54,87 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- <div class="home"> -->
-<h1>What I Do</h1>
+        <div class="post">
 
-<hr />
+  <header class="post-header">
+    <h1 class="post-title">How To Sublime</h1>
+    <p class="post-meta">Jan 2, 2016</p>
+  </header>
 
-<p><br /></p>
+  <article class="post-content">
+    <h1 id="how-to-sublime">How to sublime</h1>
 
-<h2>Code</h2>
+<p>Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven’t found anything that can rival Sublime (note, I haven’t tried <a href="https://atom.io/">Atom</a> yet, but it feels like it was built with a lot of the same ideas in mind).</p>
 
-<p>Primarily, I use web technologies, because that’s what I do for work.
-Recently, I’ve worked a lot with <a href="https://facebook.github.io/react/">react.js</a> and
-the node version of <a href="https://github.com/pattern-lab/patternlab-node">pattern lab</a>.
-But I also play around with other stuff for school and fun.</p>
+<h1 id="multiple-cursors">1 Multiple Cursors</h1>
 
-<h2></h2>
+<p>I cannot express how useful multiple cursors is. When altering multiple instances of the same (or similar) content, this comes in quite handy. just highlight some text and hit <strong>⌘ + d</strong>. Sublime will select the next instance of the given text with a new cursor. This can be repeated until there are no instances on the page. Often times I’ll use this approach as a quick search for additional references to a given variable, changing things like single quotes <code>'</code> to double quotes <code>"</code>, parethesis <code>(</code> to braces <code>{</code>, or underscores <code>_</code> ro dashes <code>-</code>.</p>
 
-<!-- </div> -->
+<p>Another method is with searching. You can toggle the search bar (⌘ + f), type in a search term, and hit find all (option + r). This will instantly grab all of the instances of a given term and create cursors. I generally use this when I want to delete every instance of a term, or modify it slightly.</p>
+
+<p>The third method, that I’ve started using more recently is with ⌘ + shift + l. It will take all of the highlighted text and break every line into its own cursor. I generally use this when I don’t have a common reference point. Say you want to put tags around 20 different pieces of text. Because text is very similar, there’s not really anything to ⌘ + d or search. So, I’ll just highlight the whole block of variables, hit ⌘ + shift + l, and away we go.</p>
+
+<p>Pretty nifty.</p>
+
+<h1 id="vim-integration">2 vim integration</h1>
+
+<p>Even though PyCharm, CLion, and Visual Studio have their perks, I’ve never found anything with as good vim integration as sublime. All you need to do to enable it is change <code>vintage mode</code> in the user preference to enabled, and then away you go.</p>
+
+<p>Once vintage mode is enabled, you get a command mode (entered via <code>esc</code>) where you can run most of the traditional vi(m) commands</p>
+
+<h3 id="basic-navigation">basic navigation</h3>
+
+<ul>
+  <li><code>h</code> <code>j</code> <code>k</code> <code>l</code></li>
+</ul>
+
+<h3 id="insertion">Insertion</h3>
+
+<ul>
+  <li><code>a</code> and <code>⇧ a</code></li>
+  <li><code>i</code> and <code>⇧i</code></li>
+  <li><code>⇧ o</code> and <code>o</code></li>
+</ul>
+
+<h3 id="jumping-around-the-page">Jumping around the page</h3>
+
+<ul>
+  <li><code>⇧ h</code> <code>⇧ m</code> <code>⇧ l</code></li>
+</ul>
+
+<h3 id="advanced-navigation">advanced navigation</h3>
+
+<ul>
+  <li><code>e</code> <code>f</code> <code>b</code></li>
+  <li><code>$</code> <code>^</code></li>
+</ul>
+
+<h3 id="highlighting--copying">highlighting / copying</h3>
+
+<ul>
+  <li><code>v</code> <code>y</code> <code>d</code> <code>p</code></li>
+</ul>
+
+<h1 id="plugins-for-everything">3 plugins for everything</h1>
+
+<p>Need syntax highlighting for… Any language? Gotcha covered - <code>⇧⌘p</code> brings up a list of things you can do.</p>
+
+<h1 id="projects">4 Projects</h1>
+
+<p>Project are extremely useful if you have, well, lots of projects that you’re working on. I do a lot of contract work / school / personal fun projects, so it’s good for me.</p>
+
+<p>The way it works:</p>
+
+<p>Project &gt; add folder to project</p>
+
+<h1 id="p-ctrl--p">5 ⌘ + p (ctrl + p)</h1>
+
+<p>This one is at the bottom of the list because I don’t use it that often. I know lots of people that do, but I have this weird mental thing about knowing where every file is (I tend to use it a lot more on bigger projects where I don’t want to navigate through piles of directories)</p>
+
+
+  </article>
+
+</div>
 
       </div>
     </div>

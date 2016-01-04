@@ -4,7 +4,7 @@ email: adamjtew@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Adam Tew
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://adamtew.com/" # the base hostname & protocol for your site
 twitter_username: adamjtew
 github_username:  adamtew
 
