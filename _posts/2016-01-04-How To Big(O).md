@@ -1,3 +1,8 @@
+---
+layout: post
+title: How to Big O
+---
+
 # How To Big(O)
 
 ## Basics
