@@ -30,11 +30,12 @@ Each one is a theoretical limit of how long an algorithm will take to complete.
 
 Take a traditional `for` loop 
 
-```c++
+```
 
 for(int i = 0; i < n; i++) {
 	cout << "you've reached " << i << endl;
 }
+
 ```
 
 The loop will iterate `n` times, which is directly correlated to the size of the data set it's analyzing. The constant `cout << "you've reached " << i << endl;` is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read "order n".
@@ -43,13 +44,14 @@ The loop will iterate `n` times, which is directly correlated to the size of the
 
 Let's observe a nested `for` loop
 
-```c++
+```
 
 for (int i = 0; i < n; i++) {
 	for (int j = 0; j < n; j++) {
 		cout << "You've reached " << (i + j) << endl;
 	}
 }
+
 ```
 
 Here we see that a given data set will be iterated `n` times for every item in the data set. This gives us a complexity of O(n^2), which, as you can imagine, is __far worse__ than the previous O(n) example and should be avoided unless absolutely necessary.
@@ -71,7 +73,8 @@ Some rules to define are:
 
 So, in lay mans terms:
 
-```c++
+```
+
 void readCount(int count) 
 {
 	if(count <= 0)return;
@@ -83,6 +86,7 @@ void readCount(int count)
 	// divides the work by 2, so b = 2
 	return readCount(count / 2); 
 }
+
 ```
 
 With the above example we end up with 
@@ -97,7 +101,8 @@ So the complexity of our recursive call comes out to be `O(logn)`
 
 ### Another example
 
-```c++
+```
+
 void readStars(int stars)
 {
 	if(stars <= 0) return;
@@ -105,6 +110,7 @@ void readStars(int stars)
 	for(int i = 0; i < stars; i++) count << " * "; // k = 1
 	
 	return readStars(stars / 2) // a = 1, b = 2
+
 ```
 
 - a = 1
