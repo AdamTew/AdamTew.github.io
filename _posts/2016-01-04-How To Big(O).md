@@ -31,18 +31,20 @@ Each one is a theoretical limit of how long an algorithm will take to complete.
 Take a traditional `for` loop 
 
 ```c++
+
 for(int i = 0; i < n; i++) {
 	cout << "you've reached " << i << endl;
 }
 ```
 
-The loop will iterate `n` times, which is directly correlated to the size of the data set it's analyzing. The constant `cout << "you've reached " << i << endl;` is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read "order 'n'".
+The loop will iterate `n` times, which is directly correlated to the size of the data set it's analyzing. The constant `cout << "you've reached " << i << endl;` is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read "order n".
 
-<hr />
+<br /><hr /><br />
 
 Let's observe a nested `for` loop
 
 ```c++
+
 for (int i = 0; i < n; i++) {
 	for (int j = 0; j < n; j++) {
 		cout << "You've reached " << (i + j) << endl;
