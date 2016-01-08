@@ -21,6 +21,13 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$dark-green-color:	#00C853; // dark green
+$light-green-color: 	#69F0AE; // light green
+
+$red-color:	#FF3D00; 
+$red-color-light:	lighten($red-color, 40%);
+$red-color-dark:	darken($red-color, 25%);
+
 $on-palm:          600px;
 $on-laptop:        800px;
 

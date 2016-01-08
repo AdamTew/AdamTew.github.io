@@ -71,8 +71,6 @@
 
 <p>These are The basic run time complexities you’ll see with big O:</p>
 
-<script type="math/tex; mode=display">f(n)</script>
-
 <table>
   <thead>
     <tr>
@@ -120,91 +118,90 @@
 
 <p>Take a traditional <code>for</code> loop</p>
 
+<p>~~~c++</p>
+
+<p>for(int i = 0; i &lt; n; i++) {
+  cout « “you’ve reached “ « i « endl;
+}</p>
+
 <pre><code>
-for(int i = 0; i &lt; n; i++) {
-  cout &lt;&lt; "you've reached " &lt;&lt; i &lt;&lt; endl;
-}
+The loop will iterate `n` times, which is directly correlated to the size of the data set it's analyzing. The constant `cout &lt;&lt; "you've reached " &lt;&lt; i &lt;&lt; endl;` is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read "order n".
+
+&lt;br /&gt;
+
+---
+
+&lt;br /&gt;
+
+Let's observe a nested `for` loop
 
 </code></pre>
 
-<p>The loop will iterate <code>n</code> times, which is directly correlated to the size of the data set it’s analyzing. The constant <code>cout &lt;&lt; "you've reached " &lt;&lt; i &lt;&lt; endl;</code> is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read “order n”.</p>
-
-<p><br /></p>
-
-<hr />
-
-<p><br /></p>
-
-<p>Let’s observe a nested <code>for</code> loop</p>
-
-<pre><code>
-for (int i = 0; i &lt; n; i++) {
+<p>for (int i = 0; i &lt; n; i++) {
   for (int j = 0; j &lt; n; j++) {
-    cout &lt;&lt; "You've reached " &lt;&lt; (i + j) &lt;&lt; endl;
+    cout « “You’ve reached “ « (i + j) « endl;
   }
-}
+}</p>
 
-</code></pre>
+<pre><code>
+Here we see that a given data set will be iterated `n` times for every item in the data set. This gives us a complexity of O(n^2), which, as you can imagine, is __far worse__ than the previous O(n) example and should be avoided unless absolutely necessary.
 
-<p>Here we see that a given data set will be iterated <code>n</code> times for every item in the data set. This gives us a complexity of O(n^2), which, as you can imagine, is <strong>far worse</strong> than the previous O(n) example and should be avoided unless absolutely necessary.</p>
+## Analyzing Recursion
 
-<h2 id="analyzing-recursion">Analyzing Recursion</h2>
+Big O gives us some really helpful insights on recursion. One big help is this theorem
 
-<p>Big O gives us some really helpful insights on recursion. One big help is this theorem</p>
-
-<p>Assume T(n)=aT(n/b)+O(n^k) is the time for the function.
+Assume T(n)=aT(n/b)+O(n^k) is the time for the function.
 if a &gt; b ^ k, the complexity is O(n^(log(ba))
 if a = b ^ k, the complexity is O((n^k) logn)
-if a &lt; b ^ k, the complexity is O(n ^ k)</p>
+if a &lt; b ^ k, the complexity is O(n ^ k)
 
-<p>Some rules to define are:</p>
+Some rules to define are:
 
-<p><code>a</code> is the number of recursive calls we make within a function<br />
-<code>b</code> is the number of pieces we divide the problem into<br />
-<code>k</code> is the power of n work we do inside each call</p>
+`a` is the number of recursive calls we make within a function  
+`b` is the number of pieces we divide the problem into  
+`k` is the power of n work we do inside each call
 
-<p>So, in lay mans terms:</p>
+So, in lay mans terms:
 
-<pre><code>
-void readCount(int count) 
+</code></pre>
+
+<p>void readCount(int count) 
 {
-  if(count &lt;= 0)return;
-	
-  // the amount of work we did never made it to n, so k is 0
-  cout &lt;&lt; count &lt;&lt; endl;			
+  if(count &lt;= 0)return;</p>
 
-  // we make one recursive call, so a = 1
+<p>// the amount of work we did never made it to n, so k is 0
+  cout « count « endl;</p>
+
+<p>// we make one recursive call, so a = 1
   // divides the work by 2, so b = 2
   return readCount(count / 2); 
-}
-
-</code></pre>
-
-<p>With the above example we end up with</p>
-
-<ul>
-  <li>a = 1</li>
-  <li>b = 2</li>
-  <li>k = 0</li>
-</ul>
-
-<p><code>1 = 2^0 = O((n^0) logn)</code></p>
-
-<p>So the complexity of our recursive call comes out to be <code>O(logn)</code></p>
-
-<h3 id="another-example">Another example</h3>
+}</p>
 
 <pre><code>
-void readStars(int stars)
-{
-  if(stars &lt;= 0) return;
-	
-  for(int i = 0; i &lt; stars; i++) count &lt;&lt; " * "; // k = 1
-	
-  return readStars(stars / 2) // a = 1, b = 2
-}
+With the above example we end up with 
+
+- a = 1
+- b = 2
+- k = 0
+
+`1 = 2^0 = O((n^0) logn)`
+
+So the complexity of our recursive call comes out to be `O(logn)`
+
+### Another example
 
 </code></pre>
+
+<p>void readStars(int stars)
+{
+  if(stars &lt;= 0) return;</p>
+
+<p>for(int i = 0; i &lt; stars; i++) count « ” * “; // k = 1</p>
+
+<p>return readStars(stars / 2) // a = 1, b = 2
+}</p>
+
+<p>~~~</p>
 
 <ul>
   <li>a = 1</li>

@@ -67,11 +67,13 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #2a7ae2;
+  color: #00C853;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #1756a9;
+    color: #00C853; }
   a:hover {
-    color: #111;
+    color: #00C853;
     opacity: .6; }
 
 /**
@@ -95,11 +97,7 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #f5f5f5;
-  background-color: #795548;
   background-color: #69F0AE;
-  color: #424242;
-  color: white;
   color: black; }
 
 code {
@@ -180,7 +178,10 @@ td {
 .site-header {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: relative;
+  position: fixed;
+  background-color: white;
+  width: 100%; }
 
 .site-title {
   font-size: 26px;
@@ -289,7 +290,8 @@ td {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  padding-top: 80px; }
 
 .page-heading {
   font-size: 20px; }

@@ -91,14 +91,17 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
+    color: $dark-green-color; // dark green
     text-decoration: none;
 
     &:visited {
         color: darken($brand-color, 15%);
+        color: $dark-green-color; // green
     }
 
     &:hover {
-        color: $text-color;
+        // color: $text-color;
+        color: $dark-green-color;
         opacity: .6;
     }
 }
@@ -131,12 +134,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    // background-color: #eef;
-    background-color: #f5f5f5;
-    background-color: #795548;
-    background-color: #69F0AE; // green
-    color: #424242;
-    color: white;
+    background-color: $light-green-color; // green
     color: black;
 }
 

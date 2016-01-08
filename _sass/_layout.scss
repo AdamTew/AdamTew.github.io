@@ -8,8 +8,9 @@
     // background: #E8F5E9; // light green
     // Positioning context for the mobile navigation icon
     position: relative;
-    // position: fixed;
-    // width: 100%;
+    position: fixed;
+    background-color: white;
+    width: 100%;
 
 }
 
@@ -166,6 +167,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    padding-top: 80px;
 }
 
 .page-heading {

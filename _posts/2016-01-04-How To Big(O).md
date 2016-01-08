@@ -29,7 +29,7 @@ Each one is a theoretical limit of how long an algorithm will take to complete.
 
 Take a traditional `for` loop 
 
-~~~
+~~~c++
 
 for(int i = 0; i < n; i++) {
   cout << "you've reached " << i << endl;

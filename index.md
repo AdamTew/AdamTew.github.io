@@ -3,15 +3,12 @@ layout: default
 ---
 
 <!-- <div class="home"> -->
-<h1>What I Do</h1>
 
 <hr />
 
 <br />
 
-
-
-<h2>Code</h2>
+I like to code.
 
 Primarily, I use web technologies, because that's what I do for work.
 Recently, I've worked a lot with [react.js](https://facebook.github.io/react/) and

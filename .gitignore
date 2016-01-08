@@ -1,2 +1,5 @@
 .sass-cache/
 *.construction
+*how-to-recurse.markdown
+*how-to-redux.markdown
+*how-to-regex.markdown
