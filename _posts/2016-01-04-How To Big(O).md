@@ -11,8 +11,6 @@ Big O is a way to reason about the complexity of algorithms in computer science.
 
 These are The basic run time complexities you'll see with big O:
 
-$$f(n)$$
-
 |---
 |Big O|Complexity|
 |---|---|
