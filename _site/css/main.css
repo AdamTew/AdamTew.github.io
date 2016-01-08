@@ -171,6 +171,23 @@ td {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+.icon--large > svg {
+  width: 30px;
+  height: 30px;
+  margin: 10px 33px; }
+  .icon--large > svg path {
+    fill: #69F0AE; }
+  .icon--large > svg:hover path {
+    fill: #dark-green-color; }
+
+/*
+	Text
+*/
+.text--center {
+  text-align: center !important; }
+
+.text--large {
+  font-size: 48px; }
 
 /**
  * Site header
@@ -480,3 +497,13 @@ td {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.profile__container {
+  width: 100%; }
+.profile__content {
+  margin: 0 auto;
+  max-width: 200px; }
+.profile--image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }

@@ -233,4 +233,21 @@ td{
             fill: $grey-color;
         }
     }
+
+    &--large {
+        > svg {
+            width: 30px;
+            height: 30px;
+            margin: 10px 33px;
+
+            path {
+                fill: $light-green-color;
+            }
+            &:hover {
+                path {
+                    fill: #dark-green-color;
+                }
+            }
+        }
+    }
 }
