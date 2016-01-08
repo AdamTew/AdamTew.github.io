@@ -3,8 +3,6 @@ layout: post
 title: How to Big O
 ---
 
-# How To Big(O)
-
 ## Basics
 
 Big O is a way to reason about the complexity of algorithms in computer science. There are many other methods, but big O is the most common that I've seen. Big O observes the theoretical limits of a given algorithm and generally ignores constants (because they're generally not relevant in the big picture)
@@ -13,6 +11,9 @@ Big O is a way to reason about the complexity of algorithms in computer science.
 
 These are The basic run time complexities you'll see with big O:
 
+$$f(n)$$
+
+|---
 |Big O|Complexity|
 |---|---|
 |O(1)		|Constant|
@@ -20,9 +21,9 @@ These are The basic run time complexities you'll see with big O:
 |O(n)		|doubles|
 |O(nlogn)	|slightly more than doubles|
 |O(n^2)	|quadruples|
+|---
 |O(n^n)	|Something really bad|
-|O(n!)		|Something even worse|
-
+|O(n!)		|Something even worse
 
 Each one is a theoretical limit of how long an algorithm will take to complete.
 
@@ -30,29 +31,33 @@ Each one is a theoretical limit of how long an algorithm will take to complete.
 
 Take a traditional `for` loop 
 
-```
+~~~
 
 for(int i = 0; i < n; i++) {
-	cout << "you've reached " << i << endl;
+  cout << "you've reached " << i << endl;
 }
 
-```
+~~~
 
 The loop will iterate `n` times, which is directly correlated to the size of the data set it's analyzing. The constant `cout << "you've reached " << i << endl;` is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read "order n".
 
-<br /><hr /><br />
+<br />
+
+---
+
+<br />
 
 Let's observe a nested `for` loop
 
-```
+~~~
 
 for (int i = 0; i < n; i++) {
-	for (int j = 0; j < n; j++) {
-		cout << "You've reached " << (i + j) << endl;
-	}
+  for (int j = 0; j < n; j++) {
+    cout << "You've reached " << (i + j) << endl;
+  }
 }
 
-```
+~~~
 
 Here we see that a given data set will be iterated `n` times for every item in the data set. This gives us a complexity of O(n^2), which, as you can imagine, is __far worse__ than the previous O(n) example and should be avoided unless absolutely necessary.
 
@@ -73,21 +78,21 @@ Some rules to define are:
 
 So, in lay mans terms:
 
-```
+~~~
 
 void readCount(int count) 
 {
-	if(count <= 0)return;
+  if(count <= 0)return;
 	
-	// the amount of work we did never made it to n, so k is 0
-	cout << count << endl;			
+  // the amount of work we did never made it to n, so k is 0
+  cout << count << endl;			
 
-	// we make one recursive call, so a = 1
-	// divides the work by 2, so b = 2
-	return readCount(count / 2); 
+  // we make one recursive call, so a = 1
+  // divides the work by 2, so b = 2
+  return readCount(count / 2); 
 }
 
-```
+~~~
 
 With the above example we end up with 
 
@@ -101,17 +106,18 @@ So the complexity of our recursive call comes out to be `O(logn)`
 
 ### Another example
 
-```
+~~~
 
 void readStars(int stars)
 {
-	if(stars <= 0) return;
+  if(stars <= 0) return;
 	
-	for(int i = 0; i < stars; i++) count << " * "; // k = 1
+  for(int i = 0; i < stars; i++) count << " * "; // k = 1
 	
-	return readStars(stars / 2) // a = 1, b = 2
+  return readStars(stars / 2) // a = 1, b = 2
+}
 
-```
+~~~
 
 - a = 1
 - b = 2

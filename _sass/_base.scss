@@ -99,7 +99,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        opacity: .6;
     }
 }
 
@@ -131,11 +131,17 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    // background-color: #eef;
+    background-color: #f5f5f5;
+    background-color: #795548;
+    background-color: #69F0AE; // green
+    color: #424242;
+    color: white;
+    color: black;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 3px 5px;
 }
 
 pre {
@@ -149,7 +155,34 @@ pre {
     }
 }
 
+/*
+    Table
+*/
 
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 2px;
+    padding: 2px;
+    border:2px solid $grey-color-light;
+    border-radius: 55px;
+}
+
+th{
+    margin: 10px;
+    padding: 2px;
+    color: $grey-color-dark;
+    border:2px solid $grey-color-light;
+    border-radius: 55px;
+}
+
+td{
+    padding: 8px;
+    margin: 2px;
+    color: $grey-color;
+    border:1px solid $grey-color-light;
+    border-radius: 55px;
+}
 
 /**
  * Wrapper

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
 /**
  * Reset some basic elements
  */
@@ -11,7 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Lora", serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -71,7 +72,7 @@ a {
     color: #1756a9; }
   a:hover {
     color: #111;
-    text-decoration: underline; }
+    opacity: .6; }
 
 /**
  * Blockquotes
@@ -94,10 +95,15 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #f5f5f5;
+  background-color: #795548;
+  background-color: #69F0AE;
+  color: #424242;
+  color: white;
+  color: black; }
 
 code {
-  padding: 1px 5px; }
+  padding: 3px 5px; }
 
 pre {
   padding: 8px 12px;
@@ -106,6 +112,31 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+/*
+    Table
+*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid #e8e8e8;
+  border-radius: 55px; }
+
+th {
+  margin: 10px;
+  padding: 2px;
+  color: #424242;
+  border: 2px solid #e8e8e8;
+  border-radius: 55px; }
+
+td {
+  padding: 8px;
+  margin: 2px;
+  color: #828282;
+  border: 1px solid #e8e8e8;
+  border-radius: 55px; }
 
 /**
  * Wrapper
@@ -147,7 +178,6 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
