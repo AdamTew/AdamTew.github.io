@@ -6,8 +6,8 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Jan 2016 23:02:48 -0700</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2016 23:02:48 -0700</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 10:12:49 -0700</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 10:12:49 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -306,11 +306,9 @@ void readStars(int stars)
     
       <item>
         <title>How To Sublime</title>
-        <description>&lt;h1 id=&quot;how-to-sublime&quot;&gt;How to sublime&lt;/h1&gt;
+        <description>&lt;p&gt;Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven’t found anything that can rival Sublime (note, I haven’t tried &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; yet, but it feels like it was built with a lot of the same ideas in mind).&lt;/p&gt;
 
-&lt;p&gt;Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven’t found anything that can rival Sublime (note, I haven’t tried &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; yet, but it feels like it was built with a lot of the same ideas in mind).&lt;/p&gt;
-
-&lt;h1 id=&quot;multiple-cursors&quot;&gt;1 Multiple Cursors&lt;/h1&gt;
+&lt;h2 id=&quot;multiple-cursors&quot;&gt;Multiple Cursors&lt;/h2&gt;
 
 &lt;p&gt;I cannot express how useful multiple cursors is. When altering multiple instances of the same (or similar) content, this comes in quite handy. just highlight some text and hit &lt;strong&gt;⌘ + d&lt;/strong&gt;. Sublime will select the next instance of the given text with a new cursor. This can be repeated until there are no instances on the page. Often times I’ll use this approach as a quick search for additional references to a given variable, changing things like single quotes &lt;code&gt;&#39;&lt;/code&gt; to double quotes &lt;code&gt;&quot;&lt;/code&gt;, parethesis &lt;code&gt;(&lt;/code&gt; to braces &lt;code&gt;{&lt;/code&gt;, or underscores &lt;code&gt;_&lt;/code&gt; ro dashes &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
 
@@ -320,7 +318,7 @@ void readStars(int stars)
 
 &lt;p&gt;Pretty nifty.&lt;/p&gt;
 
-&lt;h1 id=&quot;vim-integration&quot;&gt;2 vim integration&lt;/h1&gt;
+&lt;h2 id=&quot;vim-integration&quot;&gt;vim integration&lt;/h2&gt;
 
 &lt;p&gt;Even though PyCharm, CLion, and Visual Studio have their perks, I’ve never found anything with as good vim integration as sublime. All you need to do to enable it is change &lt;code&gt;vintage mode&lt;/code&gt; in the user preference to enabled, and then away you go.&lt;/p&gt;
 
@@ -359,11 +357,11 @@ void readStars(int stars)
   &lt;li&gt;&lt;code&gt;v&lt;/code&gt; &lt;code&gt;y&lt;/code&gt; &lt;code&gt;d&lt;/code&gt; &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;plugins-for-everything&quot;&gt;3 plugins for everything&lt;/h1&gt;
+&lt;h2 id=&quot;plugins-for-everything&quot;&gt;plugins for everything&lt;/h2&gt;
 
 &lt;p&gt;Need syntax highlighting for… Any language? Gotcha covered - &lt;code&gt;⇧⌘p&lt;/code&gt; brings up a list of things you can do.&lt;/p&gt;
 
-&lt;h1 id=&quot;projects&quot;&gt;4 Projects&lt;/h1&gt;
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
 
 &lt;p&gt;Project are extremely useful if you have, well, lots of projects that you’re working on. I do a lot of contract work / school / personal fun projects, so it’s good for me.&lt;/p&gt;
 
@@ -371,7 +369,7 @@ void readStars(int stars)
 
 &lt;p&gt;Project &amp;gt; add folder to project&lt;/p&gt;
 
-&lt;h1 id=&quot;p-ctrl--p&quot;&gt;5 ⌘ + p (ctrl + p)&lt;/h1&gt;
+&lt;h2 id=&quot;p-ctrl--p&quot;&gt;⌘ + p (ctrl + p)&lt;/h2&gt;
 
 &lt;p&gt;This one is at the bottom of the list because I don’t use it that often. I know lots of people that do, but I have this weird mental thing about knowing where every file is (I tend to use it a lot more on bigger projects where I don’t want to navigate through piles of directories)&lt;/p&gt;
 

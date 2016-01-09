@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 <!-- <div class="home"> -->
@@ -11,13 +11,18 @@ layout: default
                 <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#twitter"></use></svg>
             </span>
         </a>
+        <a href="mailto:{{ site.email }}">
+            <span class="icon icon--large">
+                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#email"></use></svg>
+            </span>
+        </a>
         <a href="https://github.com/{{ site.github_username }}">
             <span class="icon icon--large">
                 <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#github"></use></svg>
             </span>
         </a>
     </div>
-    <h1 class="text--large text--center">Adam Tew</h1>
+    <h1 class="text--title text--center">Adam Tew</h1>
 </div>
 
 <br />

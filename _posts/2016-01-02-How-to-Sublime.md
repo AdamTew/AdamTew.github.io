@@ -3,11 +3,9 @@ title: How To Sublime
 layout: post
 ---
 
-# How to sublime
-
 Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven't found anything that can rival Sublime (note, I haven't tried [Atom](https://atom.io/) yet, but it feels like it was built with a lot of the same ideas in mind).
 
-# 1 Multiple Cursors
+## Multiple Cursors
 
 I cannot express how useful multiple cursors is. When altering multiple instances of the same (or similar) content, this comes in quite handy. just highlight some text and hit __⌘ + d__. Sublime will select the next instance of the given text with a new cursor. This can be repeated until there are no instances on the page. Often times I'll use this approach as a quick search for additional references to a given variable, changing things like single quotes `'` to double quotes `"`, parethesis `(` to braces `{`, or underscores `_` ro dashes `-`.
 
@@ -17,7 +15,7 @@ The third method, that I've started using more recently is with ⌘ + shift + l.
 
 Pretty nifty.
 
-# 2 vim integration
+## vim integration
 
 Even though PyCharm, CLion, and Visual Studio have their perks, I've never found anything with as good vim integration as sublime. All you need to do to enable it is change `vintage mode` in the user preference to enabled, and then away you go.
 
@@ -46,11 +44,11 @@ Once vintage mode is enabled, you get a command mode (entered via `esc`) where y
 
 - `v` `y` `d` `p`
 
-# 3 plugins for everything
+## plugins for everything
 
 Need syntax highlighting for... Any language? Gotcha covered - `⇧⌘p` brings up a list of things you can do. 
 
-# 4 Projects
+## Projects
 
 Project are extremely useful if you have, well, lots of projects that you're working on. I do a lot of contract work / school / personal fun projects, so it's good for me.
 
@@ -58,7 +56,7 @@ The way it works:
 
 Project > add folder to project
 
-# 5 ⌘ + p (ctrl + p)
+## ⌘ + p (ctrl + p)
 
 This one is at the bottom of the list because I don't use it that often. I know lots of people that do, but I have this weird mental thing about knowing where every file is (I tend to use it a lot more on bigger projects where I don't want to navigate through piles of directories)
 

@@ -178,7 +178,7 @@ td {
 .icon--large > svg {
   width: 30px;
   height: 30px;
-  margin: 10px 33px; }
+  margin: 10px 16px; }
   .icon--large > svg path {
     fill: #69F0AE; }
   .icon--large > svg:hover path {
@@ -192,6 +192,9 @@ td {
 
 .text--large {
   font-size: 48px; }
+
+.text--title {
+  font-size: 68px; }
 
 /**
  * Site header
