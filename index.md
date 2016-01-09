@@ -31,4 +31,4 @@ I'm a programmer. Currently attending Utah State University while doing contract
 
 I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.
 
-I love to get away from work or school and do my own stuff, which usually includes time with my family or coding my own stuff.
+I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.
