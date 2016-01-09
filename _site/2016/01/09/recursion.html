@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Adam Tew</title>
+  <title>Recursion</title>
   <meta name="description" content="Adam Tew
 ">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://adamtew.com//blog.html">
+  <link rel="canonical" href="http://adamtew.com//2016/01/09/recursion.html">
 	<!-- mathjax support for LaTex! -->
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script>
@@ -66,93 +66,103 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">Recursion</h1>
+    <p class="post-meta">Jan 9, 2016</p>
   </header>
 
   <article class="post-content">
-    <div class="home">
+    <blockquote>
+  <p>the repeated application of a recursive procedure or definition.</p>
+</blockquote>
 
-  <h1 class="page-heading">Posts</h1>
+<p>Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the <a href="http://www.adamtew.com/2016/01/04/How-To-Big-O.html">complexity</a> by oodles of noodles if you don’t follow some simple rules</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
+<h2 id="the-base-cases">The Base Case(s)</h2>
 
-        <h2>
-          <a class="post-link" href="/2016/01/09/recursion.html">Recursion</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
+<p>The first thing to understand when building a recursive function is that somehow, sometime, <strong>the function needs to stop</strong>. The cause of this stop should be intentional and should <strong>always be possible</strong>. If you never hit a <em>base case</em> then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/09/data-structures.html">Data Structures</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 8, 2016</span>
+<p>Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn’t exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/08/redux-connect.html">Connecting to the Redux Store</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
+<p><code>if(x == target)return target;</code></p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-regex.html">How To Regex</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
+<p>and</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-redux.html">How To Redux</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2016</span>
+<p><code>if(count &gt;= 10000)return 'data not found';</code></p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/04/How-To-Big-O.html">How to Big O</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 3, 2016</span>
+<p>The way recursion works is by using a function that repeatedly calls itself until it hits a base case. Each time the function calls itself it puts another instance of the function on the call stack, which requires more memory. This happens until you run out of memory and the application throws a stack overflow error.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/03/Love-you-grandma.html">Love You Grandma</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
+<blockquote>
+  <p>A call stack is a data structure used by the program to store information about the active subroutines (like functions in C++ or methods in Java) in a program. - from <a href="http://www.programmerinterview.com/index.php/recursion/explanation-of-recursion/">here</a></p>
+</blockquote>
 
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Sublime.html">How To Sublime</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
+<h2 id="always-return">Always return</h2>
 
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Markdown.html">How To Markdown</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>Something else to keep in mind is that your function should <strong>always return something</strong>.</p>
 
-  <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
+<p>Everytime that a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.</p>
 
-</div>
+<blockquote>
+  <p>This isn’t something to be concerned with if your function doesn’t returning anything. For example, if your recursive call was just changing settings on every element of a tree.</p>
+</blockquote>
+
+<p>Just rememeber to <code>return</code> if you need access to the data later.</p>
+
+<p>example:</p>
+
+<p><code>return x * factorial(x - 1);</code></p>
+
+<h2 id="whos-recursing">Who’s recursing?</h2>
+
+<p>When using recursion, it’s good to remember that you want to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do <em>too much</em> work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.</p>
+
+<h2 id="examples">Examples</h2>
+
+<pre><code>
+// c++
+// inorder traversal to print the content of a tree
+
+// public function called by a user
+string toString()
+{
+    if(!isEmpty())return toString(root, "\t");
+    return "There is nothing for you here, \nonly death...\n\n";
+}
+
+// private / protected helper function
+string toString(Node * node, string indent)
+{
+    stringstream ss;
+    if(node == nullptr)return " ";      // base case
+    ss &lt;&lt; toString(node-&gt;left, indent + "\t");
+    ss &lt;&lt; indent &lt;&lt; node-&gt;element &lt;&lt; endl;
+    ss &lt;&lt; toString(node-&gt;right, indent + "\t");
+    return ss.str();
+}
+</code></pre>
+
+<pre><code>
+// c++
+// Delete a tree 
+
+// public function called from a user
+void makeEmpty()
+{
+    makeEmpty( root );
+}
+
+// private / protected function that gets called internally
+// This is the helper function that actually does the recursion
+void makeEmpty(Node * node)
+{
+    if(node != nullptr)             // base case
+    {
+        makeEmpty(node-&gt;left);
+        delete node;
+        makeEmpty(node-&gt;right);
+    }
+}
+
+</code></pre>
 
   </article>
 

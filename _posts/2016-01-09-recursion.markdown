@@ -5,11 +5,11 @@ layout: post
 
 > the repeated application of a recursive procedure or definition.
 
-Recursion is capable of being extremely powerful, while also being extremely simple. While at the same time, you can break stuff, cause unexpected behavior, or increase the [complexity]() by oodles of noodles if you don't follow some simple rules
+Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the [complexity](http://www.adamtew.com/2016/01/04/How-To-Big-O.html) by oodles of noodles if you don't follow some simple rules
 
 ## The Base Case(s)
 
-They first thing to understand when building a recursive function is that somehow, sometime, __the function needs to stop__. The cause of this stop should be intentional and should __always be possible__. If you never hit a _base case_ then you'll never stop, meaning you'll run forever. This is bad. This is why we start with the base case.
+The first thing to understand when building a recursive function is that somehow, sometime, __the function needs to stop__. The cause of this stop should be intentional and should __always be possible__. If you never hit a _base case_ then you'll never stop, meaning you'll run forever. This is bad. This is why we start with the base case.
 
 Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn't exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.
 
@@ -17,7 +17,7 @@ Sometimes there will be more than one base case. Say you want something to run u
 
 and 
 
-`if(count == 10000)return 'data not found';`
+`if(count >= 10000)return 'data not found';`
 
 The way recursion works is by using a function that repeatedly calls itself until it hits a base case. Each time the function calls itself it puts another instance of the function on the call stack, which requires more memory. This happens until you run out of memory and the application throws a stack overflow error.
 
@@ -29,7 +29,7 @@ Something else to keep in mind is that your function should __always return some
 
 Everytime that a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can't use the data that was collected.
 
-> This isn't something to be concerned with if your function doesn't `returning` anything. For example, if your recursive call was just changing settings on every element of a tree.
+> This isn't something to be concerned with if your function doesn't returning anything. For example, if your recursive call was just changing settings on every element of a tree.
 
 Just rememeber to `return` if you need access to the data later.
 

@@ -6,9 +6,163 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jan 2016 10:12:49 -0700</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 10:12:49 -0700</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 15:09:50 -0700</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 15:09:50 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Recursion</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;the repeated application of a recursive procedure or definition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;complexity&lt;/a&gt; by oodles of noodles if you don’t follow some simple rules&lt;/p&gt;
+
+&lt;h2 id=&quot;the-base-cases&quot;&gt;The Base Case(s)&lt;/h2&gt;
+
+&lt;p&gt;The first thing to understand when building a recursive function is that somehow, sometime, &lt;strong&gt;the function needs to stop&lt;/strong&gt;. The cause of this stop should be intentional and should &lt;strong&gt;always be possible&lt;/strong&gt;. If you never hit a &lt;em&gt;base case&lt;/em&gt; then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.&lt;/p&gt;
+
+&lt;p&gt;Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn’t exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if(x == target)return target;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;if(count &amp;gt;= 10000)return &#39;data not found&#39;;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The way recursion works is by using a function that repeatedly calls itself until it hits a base case. Each time the function calls itself it puts another instance of the function on the call stack, which requires more memory. This happens until you run out of memory and the application throws a stack overflow error.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A call stack is a data structure used by the program to store information about the active subroutines (like functions in C++ or methods in Java) in a program. - from &lt;a href=&quot;http://www.programmerinterview.com/index.php/recursion/explanation-of-recursion/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;always-return&quot;&gt;Always return&lt;/h2&gt;
+
+&lt;p&gt;Something else to keep in mind is that your function should &lt;strong&gt;always return something&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Everytime that a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This isn’t something to be concerned with if your function doesn’t returning anything. For example, if your recursive call was just changing settings on every element of a tree.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Just rememeber to &lt;code&gt;return&lt;/code&gt; if you need access to the data later.&lt;/p&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;return x * factorial(x - 1);&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whos-recursing&quot;&gt;Who’s recursing?&lt;/h2&gt;
+
+&lt;p&gt;When using recursion, it’s good to remember that you want to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do &lt;em&gt;too much&lt;/em&gt; work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.&lt;/p&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// c++
+// inorder traversal to print the content of a tree
+
+// public function called by a user
+string toString()
+{
+    if(!isEmpty())return toString(root, &quot;\t&quot;);
+    return &quot;There is nothing for you here, \nonly death...\n\n&quot;;
+}
+
+// private / protected helper function
+string toString(Node * node, string indent)
+{
+    stringstream ss;
+    if(node == nullptr)return &quot; &quot;;      // base case
+    ss &amp;lt;&amp;lt; toString(node-&amp;gt;left, indent + &quot;\t&quot;);
+    ss &amp;lt;&amp;lt; indent &amp;lt;&amp;lt; node-&amp;gt;element &amp;lt;&amp;lt; endl;
+    ss &amp;lt;&amp;lt; toString(node-&amp;gt;right, indent + &quot;\t&quot;);
+    return ss.str();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+// c++
+// Delete a tree 
+
+// public function called from a user
+void makeEmpty()
+{
+    makeEmpty( root );
+}
+
+// private / protected function that gets called internally
+// This is the helper function that actually does the recursion
+void makeEmpty(Node * node)
+{
+    if(node != nullptr)             // base case
+    {
+        makeEmpty(node-&amp;gt;left);
+        delete node;
+        makeEmpty(node-&amp;gt;right);
+    }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/09/recursion.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/09/recursion.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Data Structures</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;a data structure is a particular way of organizing data in a computer so that it can be used efficiently.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Data structures are at the core of everything computer scientists do. Understanding how to store, mwanipulate, sift, move, restructure (you name it) data is essential when working with programs. Because every data structure operates a little different, it’s important to know when to use what. A simple example in javascript is knowing when to use an array (list of variables) vs an object (key-value pair). Both are collections (data structures) but they operate in vrey different ways. Knowing what your options are and how they work can save you some headaches down the road.&lt;/p&gt;
+
+&lt;h2 id=&quot;linked-list&quot;&gt;Linked List&lt;/h2&gt;
+
+&lt;p&gt;A linked list is the most basic data structure you’ll come across in computer science. Under the hood, this is (most likely) what your simple collections are made out of in conventional languages.&lt;/p&gt;
+
+&lt;p&gt;The way it works is with pointers. Essentially, you take an object and point its &lt;code&gt;next&lt;/code&gt; variables at another object of the same type. These objects are called &lt;strong&gt;nodes&lt;/strong&gt; and they can contain any type of data. if you wanted a list of &lt;code&gt;int&lt;/code&gt;s. your node would look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class node 
+{
+  // the data
+  int myNumber;
+
+  // pointer to the next node
+  node  *next;
+
+  // constructor
+  node( int value, node *next)
+    : myNUmber{ value }, next{ next } { }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a node doesn’t have to be it’s own class, it could be a &lt;code&gt;struct&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;you would then point &lt;code&gt;next&lt;/code&gt; to another &lt;code&gt;node&lt;/code&gt; object and there you have it, a linked list. Granted, you’ll have to build out things 
+You can, in fact, have linked lists of other data structures.&lt;/p&gt;
+
+&lt;h3 id=&quot;double-linked-list&quot;&gt;Double Linked List&lt;/h3&gt;
+
+&lt;h2 id=&quot;trees&quot;&gt;Trees&lt;/h2&gt;
+
+&lt;h2 id=&quot;heaps&quot;&gt;Heaps&lt;/h2&gt;
+
+&lt;h2 id=&quot;union-find&quot;&gt;Union Find&lt;/h2&gt;
+
+&lt;h2 id=&quot;graphs&quot;&gt;Graphs&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/09/data-structures.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/09/data-structures.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Connecting to the Redux Store</title>
@@ -26,7 +180,7 @@
 
 &lt;p&gt;If the redux store were a river of data, flowing through your application, the connect function would be the water controller that routes the proverbial data into a given component. It changes a component from dumb to smart (more information on that &lt;a href=&quot;https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.tcfx9ct67&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;By connecting a component to store data you are subscribing to that data. This means a couple of things:&lt;/p&gt;
+&lt;p&gt;By connecting a component to store data you are &lt;em&gt;subscribing&lt;/em&gt; to that data. This means a couple of things:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;That component will always have access to the current version of the given data&lt;/li&gt;
@@ -100,17 +254,6 @@ export default connect(
         <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/07/how-to-redux.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/07/how-to-redux.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Recurse... recurse... recurse</title>
-        <description>
-</description>
-        <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/07/how-to-recurse.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/07/how-to-recurse.html</guid>
         
         
       </item>

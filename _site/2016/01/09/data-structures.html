@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>How to Recurse... recurse... recurse</title>
+  <title>Data Structures</title>
   <meta name="description" content="Adam Tew
 ">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://adamtew.com//2016/01/07/how-to-recurse.html">
+  <link rel="canonical" href="http://adamtew.com//2016/01/09/data-structures.html">
 	<!-- mathjax support for LaTex! -->
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script>
@@ -66,12 +66,53 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">How to Recurse... recurse... recurse</h1>
-    <p class="post-meta">Jan 7, 2016</p>
+    <h1 class="post-title">Data Structures</h1>
+    <p class="post-meta">Jan 9, 2016</p>
   </header>
 
   <article class="post-content">
-    
+    <blockquote>
+  <p>a data structure is a particular way of organizing data in a computer so that it can be used efficiently.</p>
+</blockquote>
+
+<p>Data structures are at the core of everything computer scientists do. Understanding how to store, mwanipulate, sift, move, restructure (you name it) data is essential when working with programs. Because every data structure operates a little different, it’s important to know when to use what. A simple example in javascript is knowing when to use an array (list of variables) vs an object (key-value pair). Both are collections (data structures) but they operate in vrey different ways. Knowing what your options are and how they work can save you some headaches down the road.</p>
+
+<h2 id="linked-list">Linked List</h2>
+
+<p>A linked list is the most basic data structure you’ll come across in computer science. Under the hood, this is (most likely) what your simple collections are made out of in conventional languages.</p>
+
+<p>The way it works is with pointers. Essentially, you take an object and point its <code>next</code> variables at another object of the same type. These objects are called <strong>nodes</strong> and they can contain any type of data. if you wanted a list of <code>int</code>s. your node would look something like this:</p>
+
+<pre><code>class node 
+{
+  // the data
+  int myNumber;
+
+  // pointer to the next node
+  node  *next;
+
+  // constructor
+  node( int value, node *next)
+    : myNUmber{ value }, next{ next } { }
+};
+</code></pre>
+
+<blockquote>
+  <p>a node doesn’t have to be it’s own class, it could be a <code>struct</code></p>
+</blockquote>
+
+<p>you would then point <code>next</code> to another <code>node</code> object and there you have it, a linked list. Granted, you’ll have to build out things 
+You can, in fact, have linked lists of other data structures.</p>
+
+<h3 id="double-linked-list">Double Linked List</h3>
+
+<h2 id="trees">Trees</h2>
+
+<h2 id="heaps">Heaps</h2>
+
+<h2 id="union-find">Union Find</h2>
+
+<h2 id="graphs">Graphs</h2>
 
   </article>
 

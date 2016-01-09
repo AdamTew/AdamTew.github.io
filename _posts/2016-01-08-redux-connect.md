@@ -17,7 +17,7 @@ In a nutshell, you have a `store` that houses data. This store would holds infor
 
 If the redux store were a river of data, flowing through your application, the connect function would be the water controller that routes the proverbial data into a given component. It changes a component from dumb to smart (more information on that [here](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.tcfx9ct67)).
 
-By connecting a component to store data you are subscribing to that data. This means a couple of things:
+By connecting a component to store data you are *subscribing* to that data. This means a couple of things:
 
 - That component will always have access to the current version of the given data
 - When the given data is updated your component will rerender

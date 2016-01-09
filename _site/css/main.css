@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /**
  * Reset some basic elements
  */
@@ -16,7 +16,7 @@ h2 {
  * Basic styling
  */
 body {
-  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
