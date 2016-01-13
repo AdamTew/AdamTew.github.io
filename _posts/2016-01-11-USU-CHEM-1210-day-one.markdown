@@ -35,7 +35,7 @@ Matter can be composed from about 100 different elements
 
 __pure substances__ have definite proportions of elements
 
-__Example:__ water is $H_2O$ and will always have that same chamical makeup
+__Example:__ water is $$H_2O$$ and will always have that same chamical makeup
 
 ### Mixtures
 
@@ -88,7 +88,7 @@ SI Scale
 |---|---|---|
 |Mass|Kilogram|kf
 |Length|Meter|m|
-|Time|Second|s^a|
+|Time|Second|$$s^a$$|
 |Temerature|Kelvin|K|
 |Amount of substance|Mole|mol|
 
@@ -96,23 +96,23 @@ meter is the basic
 
 ### measure of length
 
-- c = centi = $10^2$
-- k = kilo = $10^3$
-- M = mega = $10^6$
-- $\mu$ = micro = $10^6$
+- c = centi = $$10^2$$
+- k = kilo = $$10^3$$
+- M = mega = $$10^6$$
+- $$\mu$$ = micro = $$10^6$$
 
 ### Temerature
 
-- $C$ Celsius
-    - freezes at $0$ and boils at $100$
-- $K$ Kelvin
+- $$C$$ Celsius
+    - freezes at $$0$$ and boils at $$100$$
+- $$K$$ Kelvin
     - freezes at 273 and boils at 373
 
 ### Volume (derived unit)
 
-$length^3$
+$$length^3$$
 
-$cm^3 = mL$
+$$cm^3 = mL$$
 
 ### Uncertainty in Measurement
 

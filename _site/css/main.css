@@ -71,11 +71,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #2a7ae2;
-  color: #00C853;
   text-decoration: none; }
   a:visited {
-    color: #1756a9;
-    color: #00C853; }
+    color: #1756a9; }
   a:hover {
     color: #00C853;
     opacity: .6; }

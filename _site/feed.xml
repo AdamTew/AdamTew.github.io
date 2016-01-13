@@ -6,9 +6,329 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jan 2016 15:09:50 -0700</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 15:09:50 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 10:18:28 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 10:18:28 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CHEM 1210 - In Class Notes</title>
+        <description>&lt;script type=&quot;math/tex; mode=display&quot;&gt;Hello?&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta&lt;/script&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/13/chem-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-notes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;h1 id=&quot;computer-systems-organization-and-architecture&quot;&gt;Computer Systems Organization and Architecture&lt;/h1&gt;
+
+&lt;p&gt;Bryan Willis
+bryanwillisphd@gmail.com&lt;/p&gt;
+
+&lt;p&gt;Started off covering the syllabus and housekeeping notes&lt;/p&gt;
+
+&lt;h1 id=&quot;syllabus&quot;&gt;Syllabus&lt;/h1&gt;
+
+&lt;p&gt;Everything’s on Canvas (including the syllabus, which you can find &lt;a href=&quot;https://usu.instructure.com/courses/391777/files/?preview=59666251&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;things-to-note&quot;&gt;Things to note:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Make sure to attend class&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Get in touch via the email above.&lt;/li&gt;
+  &lt;li&gt;exams will be 70% of everall grade&lt;/li&gt;
+  &lt;li&gt;Homework is really just there to prepare for exams&lt;/li&gt;
+  &lt;li&gt;Grading will be done by a TA. If he screws up, email the teacher&lt;/li&gt;
+  &lt;li&gt;No extra credit (sad day)&lt;/li&gt;
+  &lt;li&gt;Late policy - If you don’t submit it by the due date, sucks to be you…&lt;/li&gt;
+  &lt;li&gt;Only 3 exams, don’t believe hte syllabus&lt;/li&gt;
+  &lt;li&gt;They’ll be on paper in class - don’t believe the syllabus…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;class-topics&quot;&gt;Class Topics&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Objective&lt;/th&gt;
+      &lt;th&gt;Level of Familiarity&lt;/th&gt;
+      &lt;th&gt;Evaluation Method&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Memory Hierarchy&lt;/td&gt;
+      &lt;td&gt;Familiarity&lt;/td&gt;
+      &lt;td&gt;Assignments, exams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Virtual Memory&lt;/td&gt;
+      &lt;td&gt;Master&lt;/td&gt;
+      &lt;td&gt;Assignments Exams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Storage and I/O topics&lt;/td&gt;
+      &lt;td&gt;Mastery&lt;/td&gt;
+      &lt;td&gt;Assignments Exams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Multicore and Processors&lt;/td&gt;
+      &lt;td&gt;Familiarity&lt;/td&gt;
+      &lt;td&gt;Assignments Exams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Clusters&lt;/td&gt;
+      &lt;td&gt;Mastery&lt;/td&gt;
+      &lt;td&gt;Assignments Exams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GPU Systems&lt;/td&gt;
+      &lt;td&gt;familiarity&lt;/td&gt;
+      &lt;td&gt;Assignments Exams&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;class-overview&quot;&gt;Class overview&lt;/h3&gt;
+&lt;p&gt;|Overview|
+|—|
+|jave/C|
+|Assembler|
+|Mahine Language|
+|1010011001010 (Binary)|
+|PC Components|&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Clock cycle&lt;/strong&gt; - has an oscillator that links the processor to pull in instructions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Registers&lt;/strong&gt; - where we store and access data (RAM)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MIPS Assembly Language&lt;/strong&gt; - (not “millions of instructions per second”)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;pipelining&lt;/strong&gt; - Use the output of one program as the input of another&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;parralelism&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hierarchy optimization&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example-from-work&quot;&gt;Example from work&lt;/h3&gt;
+
+&lt;p&gt;use a PCI card to pull analog data with digital sampling&lt;/p&gt;
+
+&lt;p&gt;Basically, you need everything to be faster to make the whole computer faster. You can’t just have fast processor, you also need fast busses.&lt;/p&gt;
+
+&lt;h3 id=&quot;abstractions&quot;&gt;Abstractions&lt;/h3&gt;
+
+&lt;p&gt;Normally, you’ll write a program in c++/Java/C# (or whatever). This is an abstraction from what’s actually happening, because, in the end, it’s all just binary running through switches. However, you can encounter bugs when your abstract code gets compiled down to assembly.&lt;/p&gt;
+
+&lt;h1 id=&quot;getting-into-the-book&quot;&gt;Getting into the book&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reading assignment for this week - 1.8&lt;/li&gt;
+  &lt;li&gt;page 11 talks about the ideas in computer architecture&lt;/li&gt;
+  &lt;li&gt;make sure to look at the blue highlited points&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/11/USU-CS-3810.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/11/USU-CS-3810.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>USU - CHEM 1210 - In Class Notes</title>
+        <description>&lt;p&gt;Today, we mostly talked about the syllabus (which you can checkout &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/?preview=59642630&quot;&gt;here&lt;/a&gt;). And then started into content from the first chapter of the book.&lt;/p&gt;
+
+&lt;h1 id=&quot;syllabus&quot;&gt;Syllabus&lt;/h1&gt;
+
+&lt;p&gt;There are all the normal things - office hours, location, grading scale, and whatnot. But there’s also some super cool stuff about grading.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lowest score on exam gets dropped &lt;em&gt;(awesome!)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;There will most likely be an upward curve at the end of class &lt;em&gt;(also awesome)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;About 20% of the grade will come from online quizzes you get &lt;strong&gt;unlimited&lt;/strong&gt; attemps on.
+    &lt;ul&gt;
+      &lt;li&gt;Questions on the quiz will come from a question bank that he’ll most likely draw all the exam questions from and just change numbers. &lt;em&gt;(favorite)&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SI (supplemental instruction) on Tuesdays and Thursdays.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These were the key things I noticed. If you saw anything else, email me (or maybe I’ll have comments set up by then)&lt;/p&gt;
+
+&lt;h1 id=&quot;chapter-1-content&quot;&gt;Chapter 1 Content&lt;/h1&gt;
+
+&lt;p&gt;All the material he covered is on the slides, which you can find &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=59641138&quot;&gt;here&lt;/a&gt;. I’ll just be adding my own notes and voice to things I thought were pertinent&lt;/p&gt;
+
+&lt;h2 id=&quot;matter&quot;&gt;Matter&lt;/h2&gt;
+
+&lt;p&gt;Matter can be composed from about 100 different elements&lt;/p&gt;
+
+&lt;h2 id=&quot;states-of-matter&quot;&gt;States of matter&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gas - no definite volume or shape&lt;/li&gt;
+  &lt;li&gt;Liquid - definite volume, not shape &lt;strong&gt;(important, I saw this on the pre-quiz for chapter 1)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Solid - definite volume and shape&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pure-substances&quot;&gt;Pure substances&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;pure substances&lt;/strong&gt; have definite proportions of elements&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; water is &lt;script type=&quot;math/tex&quot;&gt;H_2O&lt;/script&gt; and will always have that same chamical makeup&lt;/p&gt;
+
+&lt;h3 id=&quot;mixtures&quot;&gt;Mixtures&lt;/h3&gt;
+
+&lt;p&gt;Mixtures have at least two substances and, unlike pure substances, will have different ratios of elements at different points.&lt;/p&gt;
+
+&lt;p&gt;He used the example of pooring sugar into a bucket of water. Until the salt has been sifficiently mixed into the water, there will be varying quantities of salt and water.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;note:&lt;/strong&gt; mixtures can be solids, gasses, or liquids - concrete, steel, clouds, etc&lt;/p&gt;
+
+&lt;h3 id=&quot;homogeneous-vs-heterogeneous&quot;&gt;Homogeneous vs Heterogeneous&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hetero-: Prefix meaning different… The opposite of hetero- is homo-&lt;br /&gt;
+Homo - Greek prefix meaning “the same”, opposite of “hetero-“&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;mixtures can be homogeneous or heterogeneous&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;homogeneous: uniform composition - “get exactly the same thing no matter where you take a sample from”&lt;/li&gt;
+  &lt;li&gt;heterogeneous: __non__uniform composition - “get different compositions at different places in sample.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Homogeneous:&lt;/em&gt;  steel, air, sugar solution&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Heterogeneous:&lt;/em&gt; cloud, rock, lumps of sugar at bottom of solution&lt;/p&gt;
+
+&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Saw this on the prequiz too&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;physical
+    &lt;ul&gt;
+      &lt;li&gt;changes of state: melting, evaporation, etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;chemical
+    &lt;ul&gt;
+      &lt;li&gt;transformation into different substance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;units-of-measurement&quot;&gt;Units of Measurement&lt;/h2&gt;
+
+&lt;p&gt;Professor Scheiner said we’ll strictly be working with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Metric_system&quot;&gt;metric&lt;/a&gt; system. So, that’s pretty much what the rest of the lecture was about.&lt;/p&gt;
+
+&lt;p&gt;metric: 
+SI Scale&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;kg&lt;/li&gt;
+  &lt;li&gt;m&lt;/li&gt;
+  &lt;li&gt;s&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;PhysicalQuantity&lt;/th&gt;
+      &lt;th&gt;Name of Unit&lt;/th&gt;
+      &lt;th&gt;Abbreviation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mass&lt;/td&gt;
+      &lt;td&gt;Kilogram&lt;/td&gt;
+      &lt;td&gt;kf&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Length&lt;/td&gt;
+      &lt;td&gt;Meter&lt;/td&gt;
+      &lt;td&gt;m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Time&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;s^a&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Temerature&lt;/td&gt;
+      &lt;td&gt;Kelvin&lt;/td&gt;
+      &lt;td&gt;K&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Amount of substance&lt;/td&gt;
+      &lt;td&gt;Mole&lt;/td&gt;
+      &lt;td&gt;mol&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;meter is the basic&lt;/p&gt;
+
+&lt;h3 id=&quot;measure-of-length&quot;&gt;measure of length&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;c = centi = &lt;script type=&quot;math/tex&quot;&gt;10^2&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;k = kilo = &lt;script type=&quot;math/tex&quot;&gt;10^3&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;M = mega = &lt;script type=&quot;math/tex&quot;&gt;10^6&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; = micro = &lt;script type=&quot;math/tex&quot;&gt;10^6&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;temerature&quot;&gt;Temerature&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; Celsius
+    &lt;ul&gt;
+      &lt;li&gt;freezes at &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; and boils at &lt;script type=&quot;math/tex&quot;&gt;100&lt;/script&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;K&lt;/script&gt; Kelvin
+    &lt;ul&gt;
+      &lt;li&gt;freezes at 273 and boils at 373&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;volume-derived-unit&quot;&gt;Volume (derived unit)&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;length^3&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;cm^3 = mL&lt;/script&gt;
+
+&lt;h3 id=&quot;uncertainty-in-measurement&quot;&gt;Uncertainty in Measurement&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Precision = mutual agreement&lt;/li&gt;
+  &lt;li&gt;Accuracy = Closeness to true value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;significant-figures&quot;&gt;Significant Figures&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Only write those figures whose value is truly known (plus one)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;the last digit is uncertain&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/11/USU-CHEM-1210-day-one.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/11/USU-CHEM-1210-day-one.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Recursion</title>
@@ -16,11 +336,11 @@
   &lt;p&gt;the repeated application of a recursive procedure or definition.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;complexity&lt;/a&gt; by oodles of noodles if you don’t follow some simple rules&lt;/p&gt;
+&lt;p&gt;Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;complexity&lt;/a&gt; by oodles of noodles if you don’t follow some simple rules.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-base-cases&quot;&gt;The Base Case(s)&lt;/h2&gt;
 
-&lt;p&gt;The first thing to understand when building a recursive function is that somehow, sometime, &lt;strong&gt;the function needs to stop&lt;/strong&gt;. The cause of this stop should be intentional and should &lt;strong&gt;always be possible&lt;/strong&gt;. If you never hit a &lt;em&gt;base case&lt;/em&gt; then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.&lt;/p&gt;
+&lt;p&gt;The first thing to understand when building a recursive function is that somehow, sometime, &lt;strong&gt;the function needs to stop&lt;/strong&gt;. The cause of this stop should be intentional and should &lt;strong&gt;always be possible&lt;/strong&gt;. If you never hit a &lt;em&gt;base case&lt;/em&gt;, then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.&lt;/p&gt;
 
 &lt;p&gt;Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn’t exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.&lt;/p&gt;
 
@@ -40,21 +360,21 @@
 
 &lt;p&gt;Something else to keep in mind is that your function should &lt;strong&gt;always return something&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Everytime that a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.&lt;/p&gt;
+&lt;p&gt;Everytime a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;This isn’t something to be concerned with if your function doesn’t returning anything. For example, if your recursive call was just changing settings on every element of a tree.&lt;/p&gt;
+  &lt;p&gt;This isn’t something to be concerned with if your function doesn’t return anything. For example, your recursive call was just changing settings on every element of a tree.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Just rememeber to &lt;code&gt;return&lt;/code&gt; if you need access to the data later.&lt;/p&gt;
 
-&lt;p&gt;example:&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;return x * factorial(x - 1);&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;whos-recursing&quot;&gt;Who’s recursing?&lt;/h2&gt;
 
-&lt;p&gt;When using recursion, it’s good to remember that you want to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do &lt;em&gt;too much&lt;/em&gt; work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.&lt;/p&gt;
+&lt;p&gt;When using recursion, it’s good to remember to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do &lt;em&gt;too much&lt;/em&gt; work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.&lt;/p&gt;
 
 &lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
 
@@ -115,14 +435,14 @@ void makeEmpty(Node * node)
       <item>
         <title>Data Structures</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;a data structure is a particular way of organizing data in a computer so that it can be used efficiently.&lt;/p&gt;
+  &lt;p&gt;a data structure is a particular way of organizing data in a computer so that it can be used efficiently&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Data structures are at the core of everything computer scientists do. Understanding how to store, mwanipulate, sift, move, restructure (you name it) data is essential when working with programs. Because every data structure operates a little different, it’s important to know when to use what. A simple example in javascript is knowing when to use an array (list of variables) vs an object (key-value pair). Both are collections (data structures) but they operate in vrey different ways. Knowing what your options are and how they work can save you some headaches down the road.&lt;/p&gt;
+&lt;p&gt;Data structures are at the core of everything computer scientists do. Understanding how to store, manipulate, sift, move, restructure, or whatever, data is essential when working with programs. Because every data structure operates a little differently, it’s important to know when to use what. A simple example in javascript is knowing when to use an array (list of variables) vs an object (key-value pair). Both are collections (data structures) but they operate in very different ways. Knowing what your options are and how they work can save you some headaches down the road.&lt;/p&gt;
 
 &lt;h2 id=&quot;linked-list&quot;&gt;Linked List&lt;/h2&gt;
 
-&lt;p&gt;A linked list is the most basic data structure you’ll come across in computer science. Under the hood, this is (most likely) what your simple collections are made out of in conventional languages.&lt;/p&gt;
+&lt;p&gt;A linked list is the most basic data structure you’ll come across in computer science. Under the hood, this is what your simple collections are made out of in most conventional languages.&lt;/p&gt;
 
 &lt;p&gt;The way it works is with pointers. Essentially, you take an object and point its &lt;code&gt;next&lt;/code&gt; variables at another object of the same type. These objects are called &lt;strong&gt;nodes&lt;/strong&gt; and they can contain any type of data. if you wanted a list of &lt;code&gt;int&lt;/code&gt;s. your node would look something like this:&lt;/p&gt;
 
@@ -141,21 +461,40 @@ void makeEmpty(Node * node)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;a node doesn’t have to be it’s own class, it could be a &lt;code&gt;struct&lt;/code&gt;&lt;/p&gt;
+  &lt;p&gt;a node doesn’t have to be a class, it could be a &lt;code&gt;struct&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;you would then point &lt;code&gt;next&lt;/code&gt; to another &lt;code&gt;node&lt;/code&gt; object and there you have it, a linked list. Granted, you’ll have to build out things 
-You can, in fact, have linked lists of other data structures.&lt;/p&gt;
+&lt;p&gt;You would then point &lt;code&gt;next&lt;/code&gt; to another &lt;code&gt;node&lt;/code&gt; object and there you have it, a linked list. Granted, you’ll rarely, if ever, see a linked list built like that. You’ll normally have another actual linked list class that can perform operations such as &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;delete()&lt;/code&gt;, &lt;code&gt;add()&lt;/code&gt; and so forth.&lt;/p&gt;
 
-&lt;h3 id=&quot;double-linked-list&quot;&gt;Double Linked List&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Note: You can have a linked list of any data type, including ones that you’ve made&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;doubly-linked-list&quot;&gt;Doubly Linked List&lt;/h3&gt;
+
+&lt;p&gt;Most nodes in a linked list just have a pointer to their child. However, sometimes it’s more convenient to have a pointer back up to a parent node. A doubly linked list is a linked list where each node has a pointer to both it’s parent and child.&lt;/p&gt;
+
+&lt;h3 id=&quot;circular-linked-list&quot;&gt;Circular Linked List&lt;/h3&gt;
+
+&lt;p&gt;Usually, a linked list has a head and a tail. This makes it really easy to code things like traversals and deletes. Sometimes, though, it would be nice to go from the tail to the head. A &lt;strong&gt;circular linked list&lt;/strong&gt; does just that. It has a pointer from tail to head.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Usually, a cirular linked list will be a doubly linked list&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;trees&quot;&gt;Trees&lt;/h2&gt;
 
-&lt;h2 id=&quot;heaps&quot;&gt;Heaps&lt;/h2&gt;
+&lt;p&gt;Trees come in many different forms. Among the most common are the &lt;strong&gt;binary search tree&lt;/strong&gt;, &lt;strong&gt;AVL tree&lt;/strong&gt;, and the &lt;strong&gt;b+ tree&lt;/strong&gt;. Though the specifics are different, the basic form of a tree is a &lt;em&gt;root&lt;/em&gt; with pointers to two or more children. Each child also has pointers for two or more children.&lt;/p&gt;
 
-&lt;h2 id=&quot;union-find&quot;&gt;Union Find&lt;/h2&gt;
+&lt;h3 id=&quot;binary-search-tree&quot;&gt;Binary Search Tree&lt;/h3&gt;
 
-&lt;h2 id=&quot;graphs&quot;&gt;Graphs&lt;/h2&gt;
+&lt;p&gt;Binary search trees (BST) are among the simplest trees to write. Each node in a BST can have one or two children (left and right). What gives the tree its name is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Binary_search_algorithm&quot;&gt;binary search algorithm&lt;/a&gt;. The tree is always in order. In its traditional form, the value of the left child is less than the value of the node, and the right child is greater. This makes it so that if you print the nodes with an &lt;a href=&quot;https://en.wikipedia.org/wiki/Tree_traversal&quot;&gt;inorder traversal&lt;/a&gt; you’ll see all the values in ascending order. This design makes it extremely easy to perform basic operations like &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;insert()&lt;/code&gt;, and &lt;code&gt;delete()&lt;/code&gt;. However, the complexity will differ depending on how &lt;em&gt;balanced&lt;/em&gt; the tree is.&lt;/p&gt;
+
+&lt;h3 id=&quot;avl-tree&quot;&gt;AVL Tree&lt;/h3&gt;
+
+&lt;p&gt;An AVL tree (named after it’s creators, Georgy Adelson-Velsky and Evgenii Landis’) has the same properties as a BST with some added optimizations. Since the complexity of keeping a tree perfectly balanced all the time would be far too expensive, the AVL tree uses various rotations whenever nodes are inserted or deleted to keep it &lt;em&gt;mostly&lt;/em&gt; balanced. This, combined with the fact that it’s sorted, gives it a surprising &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;O(logn)&lt;/a&gt; complexity for any of the standard &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;insert()&lt;/code&gt;, and &lt;code&gt;delete()&lt;/code&gt; operations.&lt;/p&gt;
+
+&lt;h3 id=&quot;b-tree&quot;&gt;B+ Tree&lt;/h3&gt;
+
+&lt;p&gt;The B+ tree veers from tradition a little bit. All data is stored in the leaves (nodes with no children). Every other node acts as a pointer to get to the leaves. B+ trees are also architected in a such a way that all of the leaves are at the same depth.&lt;/p&gt;
+
+&lt;p&gt;B+ trees are generally used to house larger data types. The reason you might do this is if I/O is an issue and you want to maintain a conservative height to avoid storing data remotely.&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/09/data-structures.html</link>
@@ -443,162 +782,6 @@ void readStars(int stars)
         <pubDate>Sun, 03 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/03/Love-you-grandma.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/03/Love-you-grandma.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To Sublime</title>
-        <description>&lt;p&gt;Sublime is awesome. As a text editor. When trying to debug code, I generally tend to use an IDE with break points (anything IntelliJ, CLion, PyCharm, etc). However, when it comes to just editing text, I haven’t found anything that can rival Sublime (note, I haven’t tried &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; yet, but it feels like it was built with a lot of the same ideas in mind).&lt;/p&gt;
-
-&lt;h2 id=&quot;multiple-cursors&quot;&gt;Multiple Cursors&lt;/h2&gt;
-
-&lt;p&gt;I cannot express how useful multiple cursors is. When altering multiple instances of the same (or similar) content, this comes in quite handy. just highlight some text and hit &lt;strong&gt;⌘ + d&lt;/strong&gt;. Sublime will select the next instance of the given text with a new cursor. This can be repeated until there are no instances on the page. Often times I’ll use this approach as a quick search for additional references to a given variable, changing things like single quotes &lt;code&gt;&#39;&lt;/code&gt; to double quotes &lt;code&gt;&quot;&lt;/code&gt;, parethesis &lt;code&gt;(&lt;/code&gt; to braces &lt;code&gt;{&lt;/code&gt;, or underscores &lt;code&gt;_&lt;/code&gt; ro dashes &lt;code&gt;-&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another method is with searching. You can toggle the search bar (⌘ + f), type in a search term, and hit find all (option + r). This will instantly grab all of the instances of a given term and create cursors. I generally use this when I want to delete every instance of a term, or modify it slightly.&lt;/p&gt;
-
-&lt;p&gt;The third method, that I’ve started using more recently is with ⌘ + shift + l. It will take all of the highlighted text and break every line into its own cursor. I generally use this when I don’t have a common reference point. Say you want to put tags around 20 different pieces of text. Because text is very similar, there’s not really anything to ⌘ + d or search. So, I’ll just highlight the whole block of variables, hit ⌘ + shift + l, and away we go.&lt;/p&gt;
-
-&lt;p&gt;Pretty nifty.&lt;/p&gt;
-
-&lt;h2 id=&quot;vim-integration&quot;&gt;vim integration&lt;/h2&gt;
-
-&lt;p&gt;Even though PyCharm, CLion, and Visual Studio have their perks, I’ve never found anything with as good vim integration as sublime. All you need to do to enable it is change &lt;code&gt;vintage mode&lt;/code&gt; in the user preference to enabled, and then away you go.&lt;/p&gt;
-
-&lt;p&gt;Once vintage mode is enabled, you get a command mode (entered via &lt;code&gt;esc&lt;/code&gt;) where you can run most of the traditional vi(m) commands&lt;/p&gt;
-
-&lt;h3 id=&quot;basic-navigation&quot;&gt;basic navigation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;h&lt;/code&gt; &lt;code&gt;j&lt;/code&gt; &lt;code&gt;k&lt;/code&gt; &lt;code&gt;l&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;insertion&quot;&gt;Insertion&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;a&lt;/code&gt; and &lt;code&gt;⇧ a&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;i&lt;/code&gt; and &lt;code&gt;⇧i&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;⇧ o&lt;/code&gt; and &lt;code&gt;o&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;jumping-around-the-page&quot;&gt;Jumping around the page&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;⇧ h&lt;/code&gt; &lt;code&gt;⇧ m&lt;/code&gt; &lt;code&gt;⇧ l&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;advanced-navigation&quot;&gt;advanced navigation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;e&lt;/code&gt; &lt;code&gt;f&lt;/code&gt; &lt;code&gt;b&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;$&lt;/code&gt; &lt;code&gt;^&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;highlighting--copying&quot;&gt;highlighting / copying&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;v&lt;/code&gt; &lt;code&gt;y&lt;/code&gt; &lt;code&gt;d&lt;/code&gt; &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;plugins-for-everything&quot;&gt;plugins for everything&lt;/h2&gt;
-
-&lt;p&gt;Need syntax highlighting for… Any language? Gotcha covered - &lt;code&gt;⇧⌘p&lt;/code&gt; brings up a list of things you can do.&lt;/p&gt;
-
-&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
-
-&lt;p&gt;Project are extremely useful if you have, well, lots of projects that you’re working on. I do a lot of contract work / school / personal fun projects, so it’s good for me.&lt;/p&gt;
-
-&lt;p&gt;The way it works:&lt;/p&gt;
-
-&lt;p&gt;Project &amp;gt; add folder to project&lt;/p&gt;
-
-&lt;h2 id=&quot;p-ctrl--p&quot;&gt;⌘ + p (ctrl + p)&lt;/h2&gt;
-
-&lt;p&gt;This one is at the bottom of the list because I don’t use it that often. I know lots of people that do, but I have this weird mental thing about knowing where every file is (I tend to use it a lot more on bigger projects where I don’t want to navigate through piles of directories)&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 02 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/02/How-to-Sublime.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/02/How-to-Sublime.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To Markdown</title>
-        <description>&lt;h2 id=&quot;hr&quot;&gt;&lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt;&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
-
-&lt;h6 id=&quot;header-6&quot;&gt;header 6&lt;/h6&gt;
-
-&lt;h5 id=&quot;header-5&quot;&gt;header 5&lt;/h5&gt;
-
-&lt;h4 id=&quot;header-4&quot;&gt;header 4&lt;/h4&gt;
-
-&lt;h3 id=&quot;header-3&quot;&gt;header 3&lt;/h3&gt;
-
-&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;/h2&gt;
-
-&lt;h1 id=&quot;header-1&quot;&gt;header 1&lt;/h1&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;# header 1
-## header 2
-### header 3
-#### header 4
-##### header 5
-###### header 6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bulleted&lt;/li&gt;
-  &lt;li&gt;list
-    &lt;ul&gt;
-      &lt;li&gt;with&lt;/li&gt;
-      &lt;li&gt;indentation&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;or not&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;- bulleted
-- list
-    + with 
-    + indentation
-- or not&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Topic&lt;/th&gt;
-      &lt;th&gt;Subtopic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Topic&lt;/td&gt;
-      &lt;td&gt;Subtopic&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;Subtopic&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;|Topic|Subtopic|
-|---|---|
-|Topic  |Subtopic|
-|       |Subtopic|&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sat, 02 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/02/How-to-Markdown.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/02/How-to-Markdown.html</guid>
         
         
       </item>

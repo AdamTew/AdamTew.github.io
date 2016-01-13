@@ -75,11 +75,11 @@
   <p>the repeated application of a recursive procedure or definition.</p>
 </blockquote>
 
-<p>Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the <a href="http://www.adamtew.com/2016/01/04/How-To-Big-O.html">complexity</a> by oodles of noodles if you don’t follow some simple rules</p>
+<p>Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the <a href="http://www.adamtew.com/2016/01/04/How-To-Big-O.html">complexity</a> by oodles of noodles if you don’t follow some simple rules.</p>
 
 <h2 id="the-base-cases">The Base Case(s)</h2>
 
-<p>The first thing to understand when building a recursive function is that somehow, sometime, <strong>the function needs to stop</strong>. The cause of this stop should be intentional and should <strong>always be possible</strong>. If you never hit a <em>base case</em> then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.</p>
+<p>The first thing to understand when building a recursive function is that somehow, sometime, <strong>the function needs to stop</strong>. The cause of this stop should be intentional and should <strong>always be possible</strong>. If you never hit a <em>base case</em>, then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.</p>
 
 <p>Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn’t exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.</p>
 
@@ -99,21 +99,21 @@
 
 <p>Something else to keep in mind is that your function should <strong>always return something</strong>.</p>
 
-<p>Everytime that a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.</p>
+<p>Everytime a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.</p>
 
 <blockquote>
-  <p>This isn’t something to be concerned with if your function doesn’t returning anything. For example, if your recursive call was just changing settings on every element of a tree.</p>
+  <p>This isn’t something to be concerned with if your function doesn’t return anything. For example, your recursive call was just changing settings on every element of a tree.</p>
 </blockquote>
 
 <p>Just rememeber to <code>return</code> if you need access to the data later.</p>
 
-<p>example:</p>
+<p>Example:</p>
 
 <p><code>return x * factorial(x - 1);</code></p>
 
 <h2 id="whos-recursing">Who’s recursing?</h2>
 
-<p>When using recursion, it’s good to remember that you want to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do <em>too much</em> work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.</p>
+<p>When using recursion, it’s good to remember to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do <em>too much</em> work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.</p>
 
 <h2 id="examples">Examples</h2>
 
