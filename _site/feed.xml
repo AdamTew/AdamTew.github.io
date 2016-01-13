@@ -6,13 +6,187 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2016 10:19:52 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 10:19:52 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 11:20:28 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 11:20:28 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>USU - CHEM 1210 - In Class Notes</title>
-        <description>
+        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;prequiz 1 ends tonight&lt;/li&gt;
+  &lt;li&gt;prequiz 2 ends tomorrow night&lt;/li&gt;
+  &lt;li&gt;SI starts next week&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;chapter-1-content&quot;&gt;Chapter 1 Content&lt;/h1&gt;
+
+&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mixtures can be homogeneous or heterogeneous&lt;/li&gt;
+  &lt;li&gt;elements&lt;/li&gt;
+  &lt;li&gt;compounds&lt;/li&gt;
+  &lt;li&gt;changes
+    &lt;ul&gt;
+      &lt;li&gt;physical&lt;/li&gt;
+      &lt;li&gt;chemical&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;unites of measurement&lt;/li&gt;
+  &lt;li&gt;scales
+    &lt;ul&gt;
+      &lt;li&gt;prefixes (memorize metric system)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;for temperature we’ll be using celcius and kelvin
+    &lt;ul&gt;
+      &lt;li&gt;1 temperature change in celcius is the same as 1 change in kelvin&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;volume&lt;/li&gt;
+  &lt;li&gt;significant figures
+    &lt;ul&gt;
+      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;234.5&lt;/script&gt; has 4 significant figures&lt;/li&gt;
+      &lt;li&gt;234.53097 has 8 significant figures&lt;/li&gt;
+      &lt;li&gt;the last digit is a little unclear&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;new-material&quot;&gt;New Material&lt;/h2&gt;
+
+&lt;h3 id=&quot;scientific-notation&quot;&gt;Scientific Notation&lt;/h3&gt;
+
+&lt;p&gt;form: &lt;script type=&quot;math/tex&quot;&gt;a.bc x 10^m&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;always write one digit before the decimal point
+    &lt;ul&gt;
+      &lt;li&gt;234.5 becomes &lt;script type=&quot;math/tex&quot;&gt;2.345 * 10^2&lt;/script&gt; - 4 significant figures&lt;/li&gt;
+      &lt;li&gt;0.000352 becomes &lt;script type=&quot;math/tex&quot;&gt;3.52 * 10^4&lt;/script&gt; - 3 significant figures&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rules-of-arithmetic-operations&quot;&gt;Rules of Arithmetic Operations&lt;/h3&gt;
+
+&lt;h4 id=&quot;multiplication--division&quot;&gt;Multiplication / Division&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;significant figures in final answer equal to that of number used that has &lt;em&gt;smallest&lt;/em&gt; number of significant figures.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;12 becomes &lt;script type=&quot;math/tex&quot;&gt;1.2 * 10^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;addition--subtraction&quot;&gt;Addition / Subtraction&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Write all numbers side by side, then cut off at last significant figure&lt;/p&gt;
+
+  &lt;p&gt;round the number before the one you’re getting rid of.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;
+234.5
+  6.5__2417__
+ 35.8__2__
+&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;__&lt;/p&gt;
+
+&lt;h4 id=&quot;rounding&quot;&gt;Rounding&lt;/h4&gt;
+
+&lt;h2 id=&quot;dimensional-analysis&quot;&gt;Dimensional Analysis&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;in science numbers almost always have units with them.
+Every physical quantity has a unit with it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; means kilo&lt;/p&gt;
+
+&lt;p&gt;example: &lt;script type=&quot;math/tex&quot;&gt;10^3 / 1km = 1&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;3km\left(\frac{10^3m}{km}\right) = 3x10^3m&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;denominator of a denominator is a numberator&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;conversion-factors-for-derived-quantities&quot;&gt;Conversion Factors for Derived Quantities&lt;/h2&gt;
+
+&lt;p&gt;Basically you’ll need to get a nice list of all the differnt conversions and use it a lot. Hopefully get it memorized&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;and that concludes chapter 1&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h1&gt;
+
+&lt;h2 id=&quot;elements&quot;&gt;Elements&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;irreducible form of matter
+atoms (definition: indivisible)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;elemnts composed of atoms&lt;/li&gt;
+  &lt;li&gt;all atoms of same leemnt are identical&lt;/li&gt;
+  &lt;li&gt;chemical reactions to &lt;em&gt;not&lt;/em&gt; change properties of atoms&lt;/li&gt;
+  &lt;li&gt;atoms not created or destroyed (molecules are, atoms are not)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;electrons&quot;&gt;Electrons:&lt;/h3&gt;
+
+&lt;p&gt;Thomson Experiment&lt;/p&gt;
+
+&lt;h3 id=&quot;radioactivity&quot;&gt;Radioactivity&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;spontaneous emission of high-energy radiation&lt;br /&gt;
+the spontaneous vomitting of an infant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha, \beta&lt;/script&gt; are particles (matter)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\beta = e^-&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\beta&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha = He&lt;/script&gt; nucleus&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;all positive charges reside in the nucleus&lt;/li&gt;
+  &lt;li&gt;electrons fly around the outside&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;angstrom &lt;script type=&quot;math/tex&quot;&gt;\AA&lt;/script&gt; is used a lot with atoms, so you might want to write it down&lt;/p&gt;
+
+&lt;h3 id=&quot;atomic-structure&quot;&gt;Atomic Structure&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;p = protons&lt;/li&gt;
+  &lt;li&gt;n = neutrons&lt;/li&gt;
+  &lt;li&gt;e = elections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Atom’s identity is determined by number of protons (called atomic number)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;number of neutrons are independant of protons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;^{12}C&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;^{13}C&lt;/script&gt; (pronounced ‘C’ 12 and ‘C’ 13 ) are isotopes&lt;/p&gt;
+
+&lt;p&gt;next time we’ll talk about atomic weight and mass&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/13/chem-notes.html</link>
