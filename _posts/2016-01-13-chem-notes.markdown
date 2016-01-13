@@ -11,6 +11,8 @@ _notes_
 
 # Chapter 1 Content
 
+_slides for this lecture are [here](https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=59641138)_
+
 ## Review
 
 - mixtures can be homogeneous or heterogeneous
@@ -86,6 +88,8 @@ and that concludes chapter 1
 ---
 
 # Chapter 2
+
+_slides for this lecture are [here](https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=598576840)_
 
 ## Elements
 

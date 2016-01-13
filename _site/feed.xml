@@ -6,8 +6,8 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2016 11:20:28 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 11:20:28 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 12:44:54 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 12:44:54 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -21,6 +21,8 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;chapter-1-content&quot;&gt;Chapter 1 Content&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;slides for this lecture are &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=59641138&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
 
@@ -125,6 +127,8 @@ Every physical quantity has a unit with it&lt;/p&gt;
 
 &lt;h1 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h1&gt;
 
+&lt;p&gt;&lt;em&gt;slides for this lecture are &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=598576840&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;elements&quot;&gt;Elements&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -191,6 +195,135 @@ the spontaneous vomitting of an infant&lt;/p&gt;
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/13/chem-notes.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-notes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>USU - CHEM 1210 - Chapter 1 Notes</title>
+        <description>&lt;h1 id=&quot;introduction-matter-and-measurement&quot;&gt;Introduction: Matter and Measurement&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Chemistry&lt;/strong&gt; is the study of matter and the changes that matter undergoes.&lt;/p&gt;
+
+  &lt;p&gt;The first chapter provides an overview of what chemistry is about and what chemists do.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-study-of-chemistry&quot;&gt;1.1 The Study of Chemistry&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We begin with a brief description of what chemistry is, what chemsists do, and why it is useful to learn chemistry&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-atomic-and-molecular-perspective-of-chemistry&quot;&gt;The Atomic and Molecular Perspective of Chemistry&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Chemistry is the study of the properties and behavior of matter.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Matter&lt;/strong&gt; - the physical material of the universe. Anything that has &lt;strong&gt;mass&lt;/strong&gt; and occupies space&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Property&lt;/strong&gt; - any characteristic that allows us to recognize a particular type of matter and to distinguish it from other types&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elements&lt;/strong&gt; - about 100. Composed of atoms&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Atoms&lt;/strong&gt; - the almost infinitesimally small building block of matter
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;composition&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;structure&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;molecules&lt;/strong&gt; - two or more atoms joined together ina specific shape&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;macroscopic&lt;/strong&gt; - realm of ordinary-sized objects&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;microscopic&lt;/strong&gt; - realm of atoms and molecules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-study-chemistry&quot;&gt;Why Study Chemistry?&lt;/h3&gt;
+
+&lt;p&gt;… Because it’s awesome…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;chemistry is the &lt;em&gt;central science&lt;/em&gt;, central to a fundamental understanding of other sciences and technologies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;classifications-of-matter&quot;&gt;1.2 Classifications of Matter&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Next, we examine some fundamental ways to classify matter, distinguishing between &lt;em&gt;pure substances&lt;/em&gt; and &lt;em&gt;mixtures&lt;/em&gt; and between &lt;em&gt;elements&lt;/em&gt; and &lt;em&gt;compounds&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;two principal ways of classifying matter are according to physical state (gas, liquid, or solid) and according to composition (element, compound, or mixture).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;states-of-matter&quot;&gt;States of Matter&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;States of Matter&lt;/strong&gt; - (&lt;em&gt;simple states&lt;/em&gt;) gas, solid, or a liquid&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gas&lt;/strong&gt; &lt;em&gt;(vapor)&lt;/em&gt; - no fixed volume or shape; rather, it conforms to the volume and shape of its container. A gas can be compressed to occupy a smaller volume, or it can expand to occupy a larger one.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Liquid&lt;/strong&gt; - has a distinct volume independent of its container but has no specific shape. It assumes the shape of the portion of the container it occupies.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Solid&lt;/strong&gt; - has both a definite shape and a definite volume.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; neither liquids or solids can be compressed to any appreciable extent.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;distance between atoms in molecules
+    &lt;ul&gt;
+      &lt;li&gt;gas - furthest apart and fastest moving&lt;/li&gt;
+      &lt;li&gt;liquid - far apart and quickly moving, but not as fast as gas&lt;/li&gt;
+      &lt;li&gt;solid - closests together and slowest moving&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the distance betweenmolecules are similar in the liquid and solid states, but the two states differ in how free the molecules are to move around. Changes in temperature and/or pressure can lead to conversion from one state of matter to another, illustrated by such familiar processes as ice melting or water vapor condensing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;pure-substances&quot;&gt;Pure Substances&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Most forms of matter we encounter …. are not chemically pure. We can, however, separate these forms of matter into pure substances.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pure Substance&lt;/strong&gt; - &lt;em&gt;(usually referred to as just a substance)&lt;/em&gt; is matter that has disting properties and composition that does not vary from sample to sample
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;elements&lt;/strong&gt; - substances that cannot be decomposed into simpler&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;substances&lt;/strong&gt; - compounds - substances composed of two or more elements; they contain two or more kinds of atoms&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mixtures&lt;/strong&gt; - combinations of two or more substances in which each substance retains its chemical identity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;elements&quot;&gt;Elements&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;currently, 118 elements are known, though they vary widely in abundance. For example, only fie elements–oxygen, silicon, aluminum, iron, and calcium– acount for over 90% of Eearth’s crust (including oceans and atmosphere) and only three–oxygen, carbon, and hydrogen–acount for over 90% of the mass of the human body&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;compounds&quot;&gt;Compounds&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Most elements can interact with other elements to form compounds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;properties-of-matter&quot;&gt;1.3 Properties of Matter&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We then consider different characteristics, or properties, used to characterize, identify, and separate substances.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;unites-of-measurement&quot;&gt;1.4 Unites of Measurement&lt;/h2&gt;
+
+&lt;h2 id=&quot;uncertainty-in-measurement&quot;&gt;1.5 Uncertainty in Measurement&lt;/h2&gt;
+
+&lt;h2 id=&quot;dimensional-analysis&quot;&gt;1.6 Dimensional Analysis&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/13/chem-chapter-1.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-chapter-1.html</guid>
         
         
       </item>
@@ -929,31 +1062,6 @@ void readStars(int stars)
         <pubDate>Mon, 04 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/04/How-To-Big-O.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/04/How-To-Big-O.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Love You Grandma</title>
-        <description>&lt;p&gt;My grandma, Afton Tew, passed away last week - &lt;a href=&quot;http://www.legacy.com/obituaries/hjnews/obituary.aspx?n=afton-tew&amp;amp;pid=177092980&amp;amp;fhid=6864&quot;&gt;Sunday Dec. 27 2015&lt;/a&gt; after 86 years of tremendous influence. She was a wonderful person that helped so many people.&lt;/p&gt;
-
-&lt;p&gt;There was a wonderful service held in her honor. Many showed up to pay tribute. Her children spoke and sang songs. Grandchildren from across the country were there. It was, all-in-all, a wonderful service. Exactly how grandma would have liked it to be.&lt;/p&gt;
-
-&lt;p&gt;I loved Afton Tew.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://adamtew.com/assets/images/afton.jpg&quot; alt=&quot;afton&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nearly ten years ago, when I was a teenager, I had the opportunity to live with Grandma. Things were difficult at my home with parents and school, so I left and went to my grandma’s house. While there, she made it a point to help me in any way that she could. She found out foods I liked, would drive me to classes, tried to help me make friends, and helped me learn to play the piano.&lt;/p&gt;
-
-&lt;p&gt;In later years, I didn’t have work, but she employed me to do yard work for her. This helped pay for my school until I got a job elsewhere.&lt;/p&gt;
-
-&lt;p&gt;After getting married, my wife and I had a reception at her house and later lived in her basement apartment. We would often come up and talk with Grandma, help with her computer-related woes, rake leaves, shovel snow, and mow the lawn. We even had our first child while living there.&lt;/p&gt;
-
-&lt;p&gt;Life won’t be the same without Grandma, but after decades without her husband, years of physical struggle and living alone, I know she’s in a better place.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/03/Love-you-grandma.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/03/Love-you-grandma.html</guid>
         
         
       </item>
