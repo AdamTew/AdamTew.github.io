@@ -1,6 +1,6 @@
 ---
 layout: post
-title: USU Chemistry 1210 - Day One
+title: USU - CHEM 1210 - In Class Notes
 ---
 
 Today, we mostly talked about the syllabus (which you can checkout [here](https://usu.instructure.com/courses/393593/files/?preview=59642630)). And then started into content from the first chapter of the book.

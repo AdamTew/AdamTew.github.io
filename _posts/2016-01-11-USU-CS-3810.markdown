@@ -1,6 +1,6 @@
 ---
 layout: post
-title: USU Systems and Architecture - Day One
+title: USU - CS 3810 - In Class Notes
 ---
 
 # Computer Systems Organization and Architecture
