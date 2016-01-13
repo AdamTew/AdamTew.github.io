@@ -1,0 +1,97 @@
+---
+layout: post
+title: USU - CS 3810 - In Class Notes
+---
+
+_notes_ 
+
+- Reading 1.1 - 1.8
+- only 3 exams
+- starting with hardware
+
+## Overview
+
+### Hierarchy
+
+- Application Software (apps)
+- System Software and Hardware Apps
+- Compiler - programs - translate into high level assembly
+
+### Memory
+
+> one reason they can't make memoty more dense is because they built with positive and negative charges that you don't want getting close to each other.
+
+- volatile - loses information when loses power
+    + RAM - Random Access Memory
+    + SRAM (Static) (cache RAM) - faster than DRAM (Dynamic). Doesn't require refresh. Built with transistors
+    + DRAM - requires refresh, made of capacitors
+- nonvolatile - doesn't lose information (firmware)
+    + DVD
+    + Flash Memory
+        * Wears out after about 100,000 - 1,000,000 write
+    + SSD
+    + Hard Drive
+- EPROM - Electronically programmed read only memory
+- EEPROM
+
+### Processors
+
+
+- __CU__ - Control Unit. 
+    + Takes instructions
+    + Tells the ALU, I/O what to do
+- __ALU__ - Arithmetic Logic Unit
+- __ROM__ - Read Only Memory
+
+~~~
+
+ ---------------
+|  __   ___     |
+| |CU| |ALU|    |
+|  __________   |
+| | Registers|  |
+|               |
+ -|-----|-----|-
+ _|_____|_____|____
+/ |  BUS|     |    \
+\_|_____|_____|____/
+  |     |     |
+|RAM| |ROM| |I/O|
+
+~~~
+
+### Registers
+
+- Direct Access to CPU
+- Frequently used variables
+- __Critical to program performance__
+- You can only access registers through assembly code
+
+
+### Transistor
+
+- __transistor__ - logic gate. On/Off switch
+- __VLSI__ - Very Large Scale Integrated circuit
+- __ASICS__ - Application Specific Integrated Circuit. 
+    + Similar to the FPGA. 
+    + Not reprogrammable. 
+    + Expensive
+- __FPGA__ - Field Programmable G Array (kinda like a macro)
+    + not expensive
+
+### How Chips are Made
+
+- __Silicon__ - semi-conductor
+    + Add materials to make it a good conductor or insulator
+    + add paths - switches depends on conditions - charged or not
+- __defect__ - silicon waffers often have defects and must be discarded
+- __die__ - where the name "chip" came from
+- __yield__ - percentage of good dies from total dies on the the waffer
+
+
+Important things to note if you're looking at the industry
+
+- cost per die = $$cost per wafer/dies per wafer X yield$$
+- dies per wafer = $$wafer area/die area$$
+- yield = $$1/(1 + (defects / area x die area/2)^2)$$ based on empirical data
+- __te more chips you make the lower your costs are__

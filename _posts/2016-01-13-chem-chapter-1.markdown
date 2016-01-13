@@ -75,7 +75,12 @@ _Note:_ neither liquids or solids can be compressed to any appreciable extent.
 
 > Most elements can interact with other elements to form compounds.
 
+### Mixtures
 
+- __Heterogeneous__ - quantities can vary throughout the mixture
+- __Homogeneous__ - mixtures that are uniform *(also knows as __solutions__)*
+
+> Although the term _solution_ conjures an image of a liquid, solutions can be solids, liquids, or gases.
 
 ## 1.3 Properties of Matter
 

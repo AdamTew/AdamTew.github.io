@@ -6,8 +6,8 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2016 12:44:54 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 12:44:54 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 14:17:08 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 14:17:08 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -309,6 +309,17 @@ the spontaneous vomitting of an infant&lt;/p&gt;
   &lt;p&gt;Most elements can interact with other elements to form compounds.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h3 id=&quot;mixtures&quot;&gt;Mixtures&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Heterogeneous&lt;/strong&gt; - quantities can vary throughout the mixture&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Homogeneous&lt;/strong&gt; - mixtures that are uniform &lt;em&gt;(also knows as &lt;strong&gt;solutions&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although the term &lt;em&gt;solution&lt;/em&gt; conjures an image of a liquid, solutions can be solids, liquids, or gases.&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h2 id=&quot;properties-of-matter&quot;&gt;1.3 Properties of Matter&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -324,6 +335,143 @@ the spontaneous vomitting of an infant&lt;/p&gt;
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/13/chem-chapter-1.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-chapter-1.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reading 1.1 - 1.8&lt;/li&gt;
+  &lt;li&gt;only 3 exams&lt;/li&gt;
+  &lt;li&gt;starting with hardware&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;h3 id=&quot;hierarchy&quot;&gt;Hierarchy&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Application Software (apps)&lt;/li&gt;
+  &lt;li&gt;System Software and Hardware Apps&lt;/li&gt;
+  &lt;li&gt;Compiler - programs - translate into high level assembly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;memory&quot;&gt;Memory&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;one reason they can’t make memoty more dense is because they built with positive and negative charges that you don’t want getting close to each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;volatile - loses information when loses power
+    &lt;ul&gt;
+      &lt;li&gt;RAM - Random Access Memory&lt;/li&gt;
+      &lt;li&gt;SRAM (Static) (cache RAM) - faster than DRAM (Dynamic). Doesn’t require refresh. Built with transistors&lt;/li&gt;
+      &lt;li&gt;DRAM - requires refresh, made of capacitors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;nonvolatile - doesn’t lose information (firmware)
+    &lt;ul&gt;
+      &lt;li&gt;DVD&lt;/li&gt;
+      &lt;li&gt;Flash Memory
+        &lt;ul&gt;
+          &lt;li&gt;Wears out after about 100,000 - 1,000,000 write&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;SSD&lt;/li&gt;
+      &lt;li&gt;Hard Drive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EPROM - Electronically programmed read only memory&lt;/li&gt;
+  &lt;li&gt;EEPROM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;processors&quot;&gt;Processors&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CU&lt;/strong&gt; - Control Unit.
+    &lt;ul&gt;
+      &lt;li&gt;Takes instructions&lt;/li&gt;
+      &lt;li&gt;Tells the ALU, I/O what to do&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ALU&lt;/strong&gt; - Arithmetic Logic Unit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ROM&lt;/strong&gt; - Read Only Memory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+ ---------------
+|  __   ___     |
+| |CU| |ALU|    |
+|  __________   |
+| | Registers|  |
+|               |
+ -|-----|-----|-
+ _|_____|_____|____
+/ |  BUS|     |    \
+\_|_____|_____|____/
+  |     |     |
+|RAM| |ROM| |I/O|
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;registers&quot;&gt;Registers&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Direct Access to CPU&lt;/li&gt;
+  &lt;li&gt;Frequently used variables&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Critical to program performance&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;You can only access registers through assembly code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;transistor&quot;&gt;Transistor&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;transistor&lt;/strong&gt; - logic gate. On/Off switch&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VLSI&lt;/strong&gt; - Very Large Scale Integrated circuit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ASICS&lt;/strong&gt; - Application Specific Integrated Circuit.
+    &lt;ul&gt;
+      &lt;li&gt;Similar to the FPGA.&lt;/li&gt;
+      &lt;li&gt;Not reprogrammable.&lt;/li&gt;
+      &lt;li&gt;Expensive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;FPGA&lt;/strong&gt; - Field Programmable G Array (kinda like a macro)
+    &lt;ul&gt;
+      &lt;li&gt;not expensive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-chips-are-made&quot;&gt;How Chips are Made&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Silicon&lt;/strong&gt; - semi-conductor
+    &lt;ul&gt;
+      &lt;li&gt;Add materials to make it a good conductor or insulator&lt;/li&gt;
+      &lt;li&gt;add paths - switches depends on conditions - charged or not&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;defect&lt;/strong&gt; - silicon waffers often have defects and must be discarded&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;die&lt;/strong&gt; - where the name “chip” came from&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yield&lt;/strong&gt; - percentage of good dies from total dies on the the waffer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Important things to note if you’re looking at the industry&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cost per die = &lt;script type=&quot;math/tex&quot;&gt;cost per wafer/dies per wafer X yield&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;dies per wafer = &lt;script type=&quot;math/tex&quot;&gt;wafer area/die area&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;yield = &lt;script type=&quot;math/tex&quot;&gt;1/(1 + (defects / area x die area/2)^2)&lt;/script&gt; based on empirical data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;te more chips you make the lower your costs are&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/13/CS-3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/13/CS-3810-notes.html</guid>
         
         
       </item>
@@ -898,170 +1046,6 @@ export default connect(
         <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/07/how-to-redux.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/07/how-to-redux.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Big O</title>
-        <description>&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
-
-&lt;p&gt;Big O is a way to reason about the complexity of algorithms in computer science. There are many other methods, but big O is the most common that I’ve seen. Big O observes the theoretical limits of a given algorithm and generally ignores constants (because they’re generally not relevant in the big picture)&lt;/p&gt;
-
-&lt;h2 id=&quot;complexities&quot;&gt;Complexities&lt;/h2&gt;
-
-&lt;p&gt;These are The basic run time complexities you’ll see with big O:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Big O&lt;/th&gt;
-      &lt;th&gt;Complexity&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(1)&lt;/td&gt;
-      &lt;td&gt;Constant&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(logn)&lt;/td&gt;
-      &lt;td&gt;slightly less than doubles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(n)&lt;/td&gt;
-      &lt;td&gt;doubles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(nlogn)&lt;/td&gt;
-      &lt;td&gt;slightly more than doubles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(n^2)&lt;/td&gt;
-      &lt;td&gt;quadruples&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(n^n)&lt;/td&gt;
-      &lt;td&gt;Something really bad&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;O(n!)&lt;/td&gt;
-      &lt;td&gt;Something even worse&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Each one is a theoretical limit of how long an algorithm will take to complete.&lt;/p&gt;
-
-&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
-
-&lt;p&gt;Take a traditional &lt;code&gt;for&lt;/code&gt; loop&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-for(int i = 0; i &amp;lt; n; i++) {
-  cout &amp;lt;&amp;lt; &quot;you&#39;ve reached &quot; &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl;
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The loop will iterate &lt;code&gt;n&lt;/code&gt; times, which is directly correlated to the size of the data set it’s analyzing. The constant &lt;code&gt;cout &amp;lt;&amp;lt; &quot;you&#39;ve reached &quot; &amp;lt;&amp;lt; i &amp;lt;&amp;lt; endl;&lt;/code&gt; is less important the larger the data set. Because big O is a measure of the theoretical limit, the constant is ignored entirely, and the complexity we are concerned with becomes O(n) - which is read “order n”.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s observe a nested &lt;code&gt;for&lt;/code&gt; loop&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-for (int i = 0; i &amp;lt; n; i++) {
-  for (int j = 0; j &amp;lt; n; j++) {
-    cout &amp;lt;&amp;lt; &quot;You&#39;ve reached &quot; &amp;lt;&amp;lt; (i + j) &amp;lt;&amp;lt; endl;
-  }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Here we see that a given data set will be iterated &lt;code&gt;n&lt;/code&gt; times for every item in the data set. This gives us a complexity of O(n^2), which, as you can imagine, is &lt;strong&gt;far worse&lt;/strong&gt; than the previous O(n) example and should be avoided unless absolutely necessary.&lt;/p&gt;
-
-&lt;h2 id=&quot;analyzing-recursion&quot;&gt;Analyzing Recursion&lt;/h2&gt;
-
-&lt;p&gt;Big O gives us some really helpful insights on recursion. One big help is this theorem&lt;/p&gt;
-
-&lt;p&gt;Assume T(n)=aT(n/b)+O(n^k) is the time for the function.
-if a &amp;gt; b ^ k, the complexity is O(n^(log(ba))
-if a = b ^ k, the complexity is O((n^k) logn)
-if a &amp;lt; b ^ k, the complexity is O(n ^ k)&lt;/p&gt;
-
-&lt;p&gt;Some rules to define are:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;a&lt;/code&gt; is the number of recursive calls we make within a function&lt;br /&gt;
-&lt;code&gt;b&lt;/code&gt; is the number of pieces we divide the problem into&lt;br /&gt;
-&lt;code&gt;k&lt;/code&gt; is the power of n work we do inside each call&lt;/p&gt;
-
-&lt;p&gt;So, in lay mans terms:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-void readCount(int count) 
-{
-  if(count &amp;lt;= 0)return;
-	
-  // the amount of work we did never made it to n, so k is 0
-  cout &amp;lt;&amp;lt; count &amp;lt;&amp;lt; endl;			
-
-  // we make one recursive call, so a = 1
-  // divides the work by 2, so b = 2
-  return readCount(count / 2); 
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;With the above example we end up with&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a = 1&lt;/li&gt;
-  &lt;li&gt;b = 2&lt;/li&gt;
-  &lt;li&gt;k = 0&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;1 = 2^0 = O((n^0) logn)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;So the complexity of our recursive call comes out to be &lt;code&gt;O(logn)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;another-example&quot;&gt;Another example&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;
-void readStars(int stars)
-{
-  if(stars &amp;lt;= 0) return;
-	
-  for(int i = 0; i &amp;lt; stars; i++) count &amp;lt;&amp;lt; &quot; * &quot;; // k = 1
-	
-  return readStars(stars / 2) // a = 1, b = 2
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a = 1&lt;/li&gt;
-  &lt;li&gt;b = 2&lt;/li&gt;
-  &lt;li&gt;k = 1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;1 &amp;lt; 2^1 = O(n^1)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This gives us a complexity of &lt;code&gt;O(n)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;therefore&quot;&gt;Therefore&lt;/h2&gt;
-
-&lt;p&gt;We can see that simple changes to our code can dramatically affect the run-time complexity. So it makes sense to be mindful of where we put loops, how often we iterate entire datasets, and especially how much we process during any recursion.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/04/How-To-Big-O.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/04/How-To-Big-O.html</guid>
         
         
       </item>

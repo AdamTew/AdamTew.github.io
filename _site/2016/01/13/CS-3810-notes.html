@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Adam Tew</title>
+  <title>USU - CS 3810 - In Class Notes</title>
   <meta name="description" content="Adam Tew
 ">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://adamtew.com//">
+  <link rel="canonical" href="http://adamtew.com//2016/01/13/CS-3810-notes.html">
 	<!-- mathjax support for LaTex! -->
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script>
@@ -28,7 +28,7 @@
 
   <body>
 
-     <!-- <header class="site-header">
+     <header class="site-header">
 
   <div class="wrapper">
 
@@ -59,160 +59,149 @@
   </div>
 
 </header>
- -->
+
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- <div class="home"> -->
-<div class="profile__container">
-    <div class="profile__content">
-        <img class="profile--image" src="./assets/images/me.jpg" />
-        <a href="https://twitter.com/adamjtew">
-            <span class="icon icon--large">
-                <svg class="icon" viewbox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#twitter"></use></svg>
-            </span>
-        </a>
-        <a href="mailto:adamjtew@gmail.com">
-            <span class="icon icon--large">
-                <svg class="icon" viewbox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#email"></use></svg>
-            </span>
-        </a>
-        <a href="https://github.com/adamtew">
-            <span class="icon icon--large">
-                <svg class="icon" viewbox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#github"></use></svg>
-            </span>
-        </a>
-    </div>
-    <h1 class="text--title text--center">Adam Tew</h1>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">USU - CS 3810 - In Class Notes</h1>
+    <p class="post-meta">Jan 13, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <p><em>notes</em></p>
+
+<ul>
+  <li>Reading 1.1 - 1.8</li>
+  <li>only 3 exams</li>
+  <li>starting with hardware</li>
+</ul>
+
+<h2 id="overview">Overview</h2>
+
+<h3 id="hierarchy">Hierarchy</h3>
+
+<ul>
+  <li>Application Software (apps)</li>
+  <li>System Software and Hardware Apps</li>
+  <li>Compiler - programs - translate into high level assembly</li>
+</ul>
+
+<h3 id="memory">Memory</h3>
+
+<blockquote>
+  <p>one reason they can’t make memoty more dense is because they built with positive and negative charges that you don’t want getting close to each other.</p>
+</blockquote>
+
+<ul>
+  <li>volatile - loses information when loses power
+    <ul>
+      <li>RAM - Random Access Memory</li>
+      <li>SRAM (Static) (cache RAM) - faster than DRAM (Dynamic). Doesn’t require refresh. Built with transistors</li>
+      <li>DRAM - requires refresh, made of capacitors</li>
+    </ul>
+  </li>
+  <li>nonvolatile - doesn’t lose information (firmware)
+    <ul>
+      <li>DVD</li>
+      <li>Flash Memory
+        <ul>
+          <li>Wears out after about 100,000 - 1,000,000 write</li>
+        </ul>
+      </li>
+      <li>SSD</li>
+      <li>Hard Drive</li>
+    </ul>
+  </li>
+  <li>EPROM - Electronically programmed read only memory</li>
+  <li>EEPROM</li>
+</ul>
+
+<h3 id="processors">Processors</h3>
+
+<ul>
+  <li><strong>CU</strong> - Control Unit.
+    <ul>
+      <li>Takes instructions</li>
+      <li>Tells the ALU, I/O what to do</li>
+    </ul>
+  </li>
+  <li><strong>ALU</strong> - Arithmetic Logic Unit</li>
+  <li><strong>ROM</strong> - Read Only Memory</li>
+</ul>
+
+<pre><code>
+ ---------------
+|  __   ___     |
+| |CU| |ALU|    |
+|  __________   |
+| | Registers|  |
+|               |
+ -|-----|-----|-
+ _|_____|_____|____
+/ |  BUS|     |    \
+\_|_____|_____|____/
+  |     |     |
+|RAM| |ROM| |I/O|
+
+</code></pre>
+
+<h3 id="registers">Registers</h3>
+
+<ul>
+  <li>Direct Access to CPU</li>
+  <li>Frequently used variables</li>
+  <li><strong>Critical to program performance</strong></li>
+  <li>You can only access registers through assembly code</li>
+</ul>
+
+<h3 id="transistor">Transistor</h3>
+
+<ul>
+  <li><strong>transistor</strong> - logic gate. On/Off switch</li>
+  <li><strong>VLSI</strong> - Very Large Scale Integrated circuit</li>
+  <li><strong>ASICS</strong> - Application Specific Integrated Circuit.
+    <ul>
+      <li>Similar to the FPGA.</li>
+      <li>Not reprogrammable.</li>
+      <li>Expensive</li>
+    </ul>
+  </li>
+  <li><strong>FPGA</strong> - Field Programmable G Array (kinda like a macro)
+    <ul>
+      <li>not expensive</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="how-chips-are-made">How Chips are Made</h3>
+
+<ul>
+  <li><strong>Silicon</strong> - semi-conductor
+    <ul>
+      <li>Add materials to make it a good conductor or insulator</li>
+      <li>add paths - switches depends on conditions - charged or not</li>
+    </ul>
+  </li>
+  <li><strong>defect</strong> - silicon waffers often have defects and must be discarded</li>
+  <li><strong>die</strong> - where the name “chip” came from</li>
+  <li><strong>yield</strong> - percentage of good dies from total dies on the the waffer</li>
+</ul>
+
+<p>Important things to note if you’re looking at the industry</p>
+
+<ul>
+  <li>cost per die = <script type="math/tex">cost per wafer/dies per wafer X yield</script></li>
+  <li>dies per wafer = <script type="math/tex">wafer area/die area</script></li>
+  <li>yield = <script type="math/tex">1/(1 + (defects / area x die area/2)^2)</script> based on empirical data</li>
+  <li><strong>te more chips you make the lower your costs are</strong></li>
+</ul>
+
+  </article>
+
 </div>
-
-<p><br /></p>
-
-<p>I’m a programmer. Currently attending Utah State University while doing contract work on the side.</p>
-
-<p>I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.</p>
-
-<p>I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.
-<br />
-<br /></p>
-
-<h1 class="page-heading">Posts</h1>
-
-<ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/13/chem-notes.html">USU - CHEM 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/13/chem-chapter-1.html">USU - CHEM 1210 - Chapter 1 Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/13/CS-3810-notes.html">USU - CS 3810 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 11, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/11/USU-CS-3810.html">USU - CS 3810 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 11, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/11/USU-CHEM-1210-day-one.html">USU - CHEM 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/09/recursion.html">Recursion</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/09/data-structures.html">Data Structures</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 8, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/08/redux-connect.html">Connecting to the Redux Store</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-regex.html">How To Regex</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-redux.html">How To Redux</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/04/How-To-Big-O.html">How to Big O</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 3, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/03/Love-you-grandma.html">Love You Grandma</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Sublime.html">How To Sublime</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Markdown.html">How To Markdown</a>
-        </h2>
-      </li>
-    
-  </ul>
 
       </div>
     </div>
