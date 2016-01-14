@@ -6,191 +6,253 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2016 16:06:58 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 16:06:58 -0700</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 21:24:04 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 21:24:04 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>USU - CHEM 1210 - In Class Notes</title>
+        <title>USU - MATH 1210 - In Class Notes</title>
         <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;prequiz 1 ends tonight&lt;/li&gt;
-  &lt;li&gt;prequiz 2 ends tomorrow night&lt;/li&gt;
-  &lt;li&gt;SI starts next week&lt;/li&gt;
+  &lt;li&gt;still no syllabus&lt;/li&gt;
+  &lt;li&gt;published on canvas&lt;/li&gt;
+  &lt;li&gt;quiz next wednesday (January 20th)&lt;/li&gt;
+  &lt;li&gt;homework due the week after next&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;chapter-1-content&quot;&gt;Chapter 1 Content&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“We have more minute”&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;em&gt;slides for this lecture are &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=59641138&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+&lt;h2 id=&quot;rates-of-change--tangent-tocurves&quot;&gt;2.1 Rates of Change &amp;amp; tangent tocurves:&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;mixtures can be homogeneous or heterogeneous&lt;/li&gt;
-  &lt;li&gt;elements&lt;/li&gt;
-  &lt;li&gt;compounds&lt;/li&gt;
-  &lt;li&gt;changes
+  &lt;li&gt;average rate of change&lt;/li&gt;
+  &lt;li&gt;instantaneous rate of change&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; a barrel of maple syrup is trapped at &lt;script type=&quot;math/tex&quot;&gt;t = 0&lt;/script&gt;. The total amount of &lt;script type=&quot;math/tex&quot;&gt;f(t)&lt;/script&gt; of syrup poured out at time &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{t(min)}{f(t)gal.}&lt;/script&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     2       4      6
+--------------------
+f(t) 35.83  54.03  68.11
+        `-------`
+            |   `-------`
+            |       `14.08/2 = 7.70
+            `18.2/2 = 7.90 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     3.8       4      4.2
+--------------------
+f(t) 35.83  54.03  68.11
+        `-------`
+            |   `-------`
+            |       `14.08/2 = 7.8 
+            `18.2/2 = 7.8 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     3.98       4      4.02
+--------------------
+f(t) 35.83     54.03    68.11
+        `-------`
+            |   `--------`
+            |       `14.08/2 = 7.04 
+            `18.2/2 = 9.10 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;time interval is &lt;script type=&quot;math/tex&quot;&gt;\delta t&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;when &lt;script type=&quot;math/tex&quot;&gt;\delta t \rightarrow 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;average rate of change &lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; instantaeneous&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The slope of a secant line is the average rate of change (change in y over change in x)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;average rate of change = slope of secant line = &lt;script type=&quot;math/tex&quot;&gt;\frac{f(x_2)-f(x_1)}{x_2-x_1} = \frac{\delta y}{\delta x}&lt;/script&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta x = h&lt;/script&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instanteneous rate of change = slope of tangent line&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta y}{\deltax} = \frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;slope of tangent is limit
     &lt;ul&gt;
-      &lt;li&gt;physical&lt;/li&gt;
-      &lt;li&gt;chemical&lt;/li&gt;
+      &lt;li&gt;lim &lt;script type=&quot;math/tex&quot;&gt;h \rightarrow 0&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;unites of measurement&lt;/li&gt;
-  &lt;li&gt;scales
-    &lt;ul&gt;
-      &lt;li&gt;prefixes (memorize metric system)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;for temperature we’ll be using celcius and kelvin
-    &lt;ul&gt;
-      &lt;li&gt;1 temperature change in celcius is the same as 1 change in kelvin&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;volume&lt;/li&gt;
-  &lt;li&gt;significant figures
-    &lt;ul&gt;
-      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;234.5&lt;/script&gt; has 4 significant figures&lt;/li&gt;
-      &lt;li&gt;234.53097 has 8 significant figures&lt;/li&gt;
-      &lt;li&gt;the last digit is a little unclear&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;y - y_1 = m(x - x_1)&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;new-material&quot;&gt;New Material&lt;/h2&gt;
-
-&lt;h3 id=&quot;scientific-notation&quot;&gt;Scientific Notation&lt;/h3&gt;
-
-&lt;p&gt;form: &lt;script type=&quot;math/tex&quot;&gt;a.bc x 10^m&lt;/script&gt;&lt;/p&gt;
+&lt;h2 id=&quot;limit-of-a-function-and-limit-laws&quot;&gt;Limit of a function and Limit Laws&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;always write one digit before the decimal point
+  &lt;li&gt;limiting value&lt;/li&gt;
+  &lt;li&gt;approaching value&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;never 0&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;as x &lt;script type=&quot;math/tex&quot;&gt;\rightarrow x_0, x \rightarrow L&lt;/script&gt;
     &lt;ul&gt;
-      &lt;li&gt;234.5 becomes &lt;script type=&quot;math/tex&quot;&gt;2.345 * 10^2&lt;/script&gt; - 4 significant figures&lt;/li&gt;
-      &lt;li&gt;0.000352 becomes &lt;script type=&quot;math/tex&quot;&gt;3.52 * 10^4&lt;/script&gt; - 3 significant figures&lt;/li&gt;
+      &lt;li&gt;lim&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;x \rightarrow x_0 f(x) = L&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;if as x gets close to &lt;script type=&quot;math/tex&quot;&gt;x_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; gets clsoe to &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;rules-of-arithmetic-operations&quot;&gt;Rules of Arithmetic Operations&lt;/h3&gt;
+&lt;p&gt;approaching value or exact value - of a function&lt;/p&gt;
 
-&lt;h4 id=&quot;multiplication--division&quot;&gt;Multiplication / Division&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;significant figures in final answer equal to that of number used that has &lt;em&gt;smallest&lt;/em&gt; number of significant figures.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;12 becomes &lt;script type=&quot;math/tex&quot;&gt;1.2 * 10^2&lt;/script&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;addition--subtraction&quot;&gt;Addition / Subtraction&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Write all numbers side by side, then cut off at last significant figure&lt;/p&gt;
-
-  &lt;p&gt;round the number before the one you’re getting rid of.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;
-234.5
-  6.5__2417__
- 35.8__2__
-&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;__&lt;/p&gt;
-
-&lt;h4 id=&quot;rounding&quot;&gt;Rounding&lt;/h4&gt;
-
-&lt;h2 id=&quot;dimensional-analysis&quot;&gt;Dimensional Analysis&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;in science numbers almost always have units with them.
-Every physical quantity has a unit with it&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; means kilo&lt;/p&gt;
-
-&lt;p&gt;example: &lt;script type=&quot;math/tex&quot;&gt;10^3 / 1km = 1&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;3km\left(\frac{10^3m}{km}\right) = 3x10^3m&lt;/script&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;denominator of a denominator is a numberator&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;conversion-factors-for-derived-quantities&quot;&gt;Conversion Factors for Derived Quantities&lt;/h2&gt;
-
-&lt;p&gt;Basically you’ll need to get a nice list of all the differnt conversions and use it a lot. Hopefully get it memorized&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;and that concludes chapter 1&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;slides for this lecture are &lt;a href=&quot;https://usu.instructure.com/courses/393593/files/folder/lecture%20material?preview=598576840&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;elements&quot;&gt;Elements&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;irreducible form of matter
-atoms (definition: indivisible)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \frac{x^2-1}{x-1}&lt;/script&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;elemnts composed of atoms&lt;/li&gt;
-  &lt;li&gt;all atoms of same leemnt are identical&lt;/li&gt;
-  &lt;li&gt;chemical reactions to &lt;em&gt;not&lt;/em&gt; change properties of atoms&lt;/li&gt;
-  &lt;li&gt;atoms not created or destroyed (molecules are, atoms are not)&lt;/li&gt;
+  &lt;li&gt;$$f(1) = exact value does not exist
+    &lt;ul&gt;
+      &lt;li&gt;because there’s a hole at 1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;approaching value of &lt;script type=&quot;math/tex&quot;&gt;f(x) = 2&lt;/script&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;electrons&quot;&gt;Electrons:&lt;/h3&gt;
+&lt;p&gt;You would have to write it this way&lt;/p&gt;
 
-&lt;p&gt;Thomson Experiment&lt;/p&gt;
+&lt;p&gt;lim
+&lt;script type=&quot;math/tex&quot;&gt;x \rightarrow 1&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;\frac{x^2 - 1}{x - 1}&lt;/script&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;radioactivity&quot;&gt;Radioactivity&lt;/h3&gt;
+&lt;p&gt;With limiting values, you solve as much as you can and then plug in &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;
+- you can’t have 0 in the denominator&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;spontaneous emission of high-energy radiation&lt;br /&gt;
-the spontaneous vomitting of an infant&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h3 id=&quot;squeeze-theorem&quot;&gt;Squeeze theorem&lt;/h3&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha, \beta&lt;/script&gt; are particles (matter)&lt;/p&gt;
+&lt;p&gt;If you have 3 functions then you can solve for &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; on the left and right. Then you have the middle one.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\beta = e^-&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\beta&lt;/script&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha = He&lt;/script&gt; nucleus&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;all positive charges reside in the nucleus&lt;/li&gt;
-  &lt;li&gt;electrons fly around the outside&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;angstrom &lt;script type=&quot;math/tex&quot;&gt;\AA&lt;/script&gt; is used a lot with atoms, so you might want to write it down&lt;/p&gt;
-
-&lt;h3 id=&quot;atomic-structure&quot;&gt;Atomic Structure&lt;/h3&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/13/math-12010-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/13/math-12010-notes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>USU - MATH 1210 - In Class Notes</title>
+        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;p = protons&lt;/li&gt;
-  &lt;li&gt;n = neutrons&lt;/li&gt;
-  &lt;li&gt;e = elections&lt;/li&gt;
+  &lt;li&gt;still no syllabus&lt;/li&gt;
+  &lt;li&gt;published on canvas&lt;/li&gt;
+  &lt;li&gt;quiz next wednesday (January 20th)&lt;/li&gt;
+  &lt;li&gt;homework due the week after next&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Atom’s identity is determined by number of protons (called atomic number)&lt;/p&gt;
+  &lt;p&gt;“We have more minute”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;rates-of-change--tangent-tocurves&quot;&gt;2.1 Rates of Change &amp;amp; tangent tocurves:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;average rate of change&lt;/li&gt;
+  &lt;li&gt;instantaneous rate of change&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; a barrel of maple syrup is trapped at &lt;script type=&quot;math/tex&quot;&gt;t = 0&lt;/script&gt;. The total amount of &lt;script type=&quot;math/tex&quot;&gt;f(t)&lt;/script&gt; of syrup poured out at time &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{t(min)}{f(t)gal.}&lt;/script&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     2       4      6
+--------------------
+f(t) 35.83  54.03  68.11
+        `-------`
+            |   `-------`
+            |       `14.08/2 = 7.70
+            `18.2/2 = 7.90 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     3.8       4      4.2
+--------------------
+f(t) 35.83  54.03  68.11
+        `-------`
+            |   `-------`
+            |       `14.08/2 = 7.8 
+            `18.2/2 = 7.8 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;
+t     3.98       4      4.02
+--------------------
+f(t) 35.83     54.03    68.11
+        `-------`
+            |   `--------`
+            |       `14.08/2 = 7.04 
+            `18.2/2 = 9.10 gal/min
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;time interval is &lt;script type=&quot;math/tex&quot;&gt;\delta t&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;when &lt;script type=&quot;math/tex&quot;&gt;\delta t \rightarrow 0&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;average rate of change &lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; instantaeneous&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The slope of a secant line is the average rate of change (change in y over change in x)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;average rate of change = slope of secant line = &lt;script type=&quot;math/tex&quot;&gt;\frac{f(x_2)-f(x_1)}{x_2-x_1} = \frac{\delta y}{\delta x}&lt;/script&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;number of neutrons are independant of protons.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta x = h&lt;/script&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;^{12}C&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;^{13}C&lt;/script&gt; (pronounced ‘C’ 12 and ‘C’ 13 ) are isotopes&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Instanteneous rate of change = slope of tangent line&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;next time we’ll talk about atomic weight and mass&lt;/p&gt;
-
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta y}{\deltax} = \frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
+  &lt;/li&gt;
+  &lt;li&gt;slope of tangent is limit
+    &lt;ul&gt;
+      &lt;li&gt;lim &lt;script type=&quot;math/tex&quot;&gt;h \rightarrow 0&lt;/script&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/13/chem-notes.html</link>
@@ -323,14 +385,315 @@ the spontaneous vomitting of an infant&lt;/p&gt;
 &lt;h2 id=&quot;properties-of-matter&quot;&gt;1.3 Properties of Matter&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;We then consider different characteristics, or properties, used to characterize, identify, and separate substances.&lt;/p&gt;
+  &lt;p&gt;every substance has unique properties&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;unites-of-measurement&quot;&gt;1.4 Unites of Measurement&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Physical Properties&lt;/strong&gt; - can be observed without changing the identity and composition o the substance. These properties include color, odor, density, melting point, boiling point, and hardness.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chemical properties&lt;/strong&gt; - describe the way a substance may change, or react, to form another substance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intensive properties&lt;/strong&gt; - Do not depend on the amount of sample being examined and are particularly useful in chemistry because many intnsie properties an be used to &lt;em&gt;identify&lt;/em&gt; substances&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extensive properties&lt;/strong&gt; - depend on the amount of sample, with two examples being mas and volume. Extensive properties relate to the &lt;em&gt;amount&lt;/em&gt; of substance present&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;physical-and-chemical-changes&quot;&gt;Physical and Chemical Changes&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The changes substances undergo are either physical or chemical.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Physical Change&lt;/strong&gt; - changes physical appearance but not composition
+    &lt;ul&gt;
+      &lt;li&gt;All &lt;strong&gt;changes of state&lt;/strong&gt; are physical (from gas to liquid to solid, etc)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chemical Change&lt;/strong&gt; (Chemical reaction) - a substance is changed into a chemically different substance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;separation-of-mixtures&quot;&gt;Separation of Mixtures&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;filtration - using a filter to separate&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;distillation&lt;/strong&gt; - a method of separating the components of a homogeneous mixture&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromatography&lt;/strong&gt; -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;units-of-measurement&quot;&gt;1.4 Units of Measurement&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Metric System&lt;/strong&gt; - System for scientific measurements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;si-units&quot;&gt;SI Units&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 1960 an international agreement was reached specifying a particular choice of metric units for use in scientific measurements. Tese preferred units are called &lt;strong&gt;SI units&lt;/strong&gt;, after the French &lt;em&gt;System International d’Unites&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Physical Quantity&lt;/th&gt;
+      &lt;th&gt;Name of Unit&lt;/th&gt;
+      &lt;th&gt;Abbreviation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mass&lt;/td&gt;
+      &lt;td&gt;Kilogram&lt;/td&gt;
+      &lt;td&gt;kg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Length&lt;/td&gt;
+      &lt;td&gt;Meter&lt;/td&gt;
+      &lt;td&gt;m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Time&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;s or sec&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Termperature&lt;/td&gt;
+      &lt;td&gt;Kelvin&lt;/td&gt;
+      &lt;td&gt;K&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Amount of substance&lt;/td&gt;
+      &lt;td&gt;Mole&lt;/td&gt;
+      &lt;td&gt;mol&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Electric current&lt;/td&gt;
+      &lt;td&gt;Ampere&lt;/td&gt;
+      &lt;td&gt;A or amp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Luminous intensity&lt;/td&gt;
+      &lt;td&gt;Candela&lt;/td&gt;
+      &lt;td&gt;cd&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Prefixes used in Metric System with SI Units&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Prefix&lt;/th&gt;
+      &lt;th&gt;Abbreviation&lt;/th&gt;
+      &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;th&gt;Example&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Peta&lt;/td&gt;
+      &lt;td&gt;P&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{15}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 petawatt(pW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{15}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tera&lt;/td&gt;
+      &lt;td&gt;T&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{12}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 terawatt(tW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{12}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Giga&lt;/td&gt;
+      &lt;td&gt;G&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^9&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 gigawatt(gW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^9}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mega&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^6&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 megawatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^6}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kilo&lt;/td&gt;
+      &lt;td&gt;k&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^3&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 kilowatt(kW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^3}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Deci&lt;/td&gt;
+      &lt;td&gt;d&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-1}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 deciwatt(dW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-1}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Centi&lt;/td&gt;
+      &lt;td&gt;c&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-2}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 centiwatt(cW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-2}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Milli&lt;/td&gt;
+      &lt;td&gt;m&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-3}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 milliwatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-3}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Micro&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu^b&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-6}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 microwatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-6}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nano&lt;/td&gt;
+      &lt;td&gt;n&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-9}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 nanowatt(nW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-9}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pico&lt;/td&gt;
+      &lt;td&gt;p&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-12}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 picowatt(pW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-12}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Femto&lt;/td&gt;
+      &lt;td&gt;f&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-15}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 femtowatt(fW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-15}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Atto&lt;/td&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-18}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 attowatt(aW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-18}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Zepto&lt;/td&gt;
+      &lt;td&gt;z&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-21}&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;1 zeptowatt(zW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-21}&lt;/script&gt; watts&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;length-and-mass&quot;&gt;Length and Mass&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mass&lt;/strong&gt; - A measure of the amount of material in an object&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;temperature&quot;&gt;Temperature&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Temperature&lt;/strong&gt; - A measure of the hotness or coldness of an object
+    &lt;ul&gt;
+      &lt;li&gt;determines the &lt;strong&gt;direction of heat flow&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Heat always flows spontaneously from a substance at higher temperature to one at lower temperature.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Celsius scale&lt;/strong&gt; - originally based on the assignment of 0 C to the freezing point of water and 100 C to its boiling point at sea level&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kelvin&lt;/strong&gt; - is the SI temperature scale
+    &lt;ul&gt;
+      &lt;li&gt;Zero on the Kelvin scale is the lowest attainabl temperature, -273 C, referred to as &lt;em&gt;absolute zero&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;K = \ ^oC + 273.15&lt;/script&gt;
+
+&lt;h3 id=&quot;derived-si-units&quot;&gt;Derived SI Units&lt;/h3&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{m}{s}&lt;/script&gt; “Meters per second” is a derived unit&lt;/p&gt;
+
+&lt;p&gt;Two common derived units in chemistry are those for volume and density&lt;/p&gt;
+
+&lt;h3 id=&quot;volume&quot;&gt;Volume&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;em&gt;volume&lt;/em&gt; of a cube is its length cubes, (length)&lt;script type=&quot;math/tex&quot;&gt;^3&lt;/script&gt;. Thus, the derived SI unit of volume is  the SI unit of length, m, raised to the third power.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 mL = 1 cm^3&lt;/script&gt;
+
+&lt;h3 id=&quot;density&quot;&gt;Density&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Density is defined as the amount of mass in a unit of volume of a substance&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Density = \frac{mass}{volume}&lt;/script&gt;
 
 &lt;h2 id=&quot;uncertainty-in-measurement&quot;&gt;1.5 Uncertainty in Measurement&lt;/h2&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Exact Numbers&lt;/strong&gt; - those whose values are known exactly&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Inexact Numbers&lt;/strong&gt; - those whose values have some uncertainty
+    &lt;ul&gt;
+      &lt;li&gt;numbers obtained by measurements are always inexact&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;precision-and-accuracy&quot;&gt;Precision and Accuracy&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The terms &lt;em&gt;precision&lt;/em&gt; and &lt;em&gt;accuracy&lt;/em&gt; are often used in discussing the unvertainties of measured values.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Precision&lt;/strong&gt; - A measure of how closely individual measurement agree with one another&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Accuracy&lt;/strong&gt; - refers to how closely individual measurements agree with the correct, or “true,” value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;significant-figures&quot;&gt;Significant Figures&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;there is alwaus some uncertainty in the last digit reported for any measured quantity.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Significant figures&lt;/strong&gt; - All digits of a measured quantity, including the uncertain one
+    &lt;ul&gt;
+      &lt;li&gt;Zeros between nonzero digits are always significant&lt;/li&gt;
+      &lt;li&gt;Zeros at the beginning of a number are never significant; they merely indicate the position of the decimal point&lt;/li&gt;
+      &lt;li&gt;Zeros at the end ofa number are significant if the number contains a decimal point&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;significant-figures-in-calculations&quot;&gt;Significant Figures in Calculations&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When carrying measured quantities through calculations, the least certain measurement limits the certainty of the calculated quantity and thereby determines the number of significant figures in the final answer. The final answer should be reported with only one uncertain digit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Addition&lt;/strong&gt; - round to the smallest decimal place&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Multiplication&lt;/strong&gt; - Round to the smallest decimal place&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;dimensional-analysis&quot;&gt;1.6 Dimensional Analysis&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Using dimensional analysis helps ensure that solutions to problems yield the proper units. Moreover, it provides a systematic way of solving many numerical problems and of checking solutions for possible errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Conversion Factor&lt;/strong&gt; - A fraction whose numerator and denominator are the same quantity expressed in diferent units&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; 2.54 &lt;script type=&quot;math/tex&quot;&gt;cm&lt;/script&gt; and 1 &lt;script type=&quot;math/tex&quot;&gt;in&lt;/script&gt; are the same length, &lt;script type=&quot;math/tex&quot;&gt;2.54cm = 1in&lt;/script&gt;. This relationship allows us to write two conversion factors:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2.54cm}{1in} \text{ and } \frac{1in}{2.54cm}&lt;/script&gt;
+
+&lt;h3 id=&quot;using-two-or-more-conversion-factors&quot;&gt;Using Two or More Conversion Factors&lt;/h3&gt;
+
+&lt;h3 id=&quot;conversions-involving-volume&quot;&gt;Conversions Involving Volume&lt;/h3&gt;
+
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/13/chem-chapter-1.html</link>
@@ -1035,17 +1398,6 @@ export default connect(
         <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/07/how-to-regex.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/07/how-to-regex.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To Redux</title>
-        <description>
-</description>
-        <pubDate>Thu, 07 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/07/how-to-redux.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/07/how-to-redux.html</guid>
         
         
       </item>

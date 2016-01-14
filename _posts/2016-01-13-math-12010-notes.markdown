@@ -72,3 +72,38 @@ average rate of change $$\rightarrow$$ instantaeneous
 2. slope of tangent is limit
     + lim $$h \rightarrow 0$$
     + $$\frac{f(x_1 + h) - f(x_1)}{h}$$
+
+- $$y - y_1 = m(x - x_1)$$
+
+## Limit of a function and Limit Laws
+
+- limiting value
+- approaching value
+- __never 0__
+- as x $$ \rightarrow x_0, x \rightarrow L$$
+    + lim
+    + $$x \rightarrow x_0 f(x) = L$$
+    + if as x gets close to $$x_0$$, $$f(x)$$ gets clsoe to $$L$$
+
+approaching value or exact value - of a function
+
+$$f(x) = \frac{x^2-1}{x-1}$$
+
+- $$f(1) = exact value does not exist
+    + because there's a hole at 1
+- approaching value of $$f(x) = 2$$
+
+You would have to write it this way
+
+lim
+$$x \rightarrow 1$$ $$\frac{x^2 - 1}{x - 1}$$
+
+With limiting values, you solve as much as you can and then plug in $$L$$
+- you can't have 0 in the denominator
+
+### Squeeze theorem
+
+If you have 3 functions then you can solve for $$L$$ on the left and right. Then you have the middle one.
+
+
+
