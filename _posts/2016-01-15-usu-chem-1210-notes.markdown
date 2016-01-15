@@ -104,3 +104,57 @@ H - C - H
 
 ~~~
 
+- different types of structures
+    - ball and stick    
+    - space filling
+
+<br />
+---
+<br />
+
+__ION = non-neutral entity__
+
+
+- Electron has been added or removed
+    + + = cation ($$e^-$$ missing)
+    + - = anion ($$e^-$$ added)
+
+$$^{\text{Weight}\ \rightarrow 23}_{\text{Atomic Number} \rightarrow\ 11}NA$$
+
+- everything in the 1A column with almost always be +1
+- everything in the 2A column with almost always be +2
+- everything in the 7A column with almost always be -1
+- everything in the 6A column with almost always be -2
+
+everything else is pretty are to predict
+
+### Ionic bonds
+
+> the ide makes you know it's an anion
+
+#### General Rule
+
+Ionic compounds contain both metal and nonmetal molecules contain nonmetals only
+
+## Nomenclature
+
+- for ionic compounds
+    + metal (cation) has same name as atom itself
+    + nonmetal (anion): change ending to "ide"
+
+example: 
+
+- NaCl = sodium chlor__ide__
+- Caf_2 = calcium fluoride
+- Al_2O_3 = aluminum oxide
+
+when atoms have more than one charge you use __rrous__ and __rris__
+
+$$Fe^{+2}$$ (iron(II) = ferric  
+$$Fe^{+3}$$ (iron(III)) = ferrous
+
+### Naming anions
+
+atoms can aggregate together into a collective ion
+
+
