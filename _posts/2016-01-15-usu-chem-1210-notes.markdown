@@ -1,0 +1,106 @@
+---
+layout: post
+title: USU - CHEM 1210 - In Class Notes
+---
+
+- Chris - SI leader
+- Tuesday & Thursday, BNR 102, 7:30 - 8:20
+
+- questions: 
+    + naming ios (nomanclature)
+    + converting density back and forth with mass and volume
+        * $$d = \frac{M}{V} $$
+        * Usually a two-step process to convert from one unit to another
+        * Example: $$\frac{kg}{mL}$$
+        * You start by knowing the units
+        * $$\frac{kg}{mL} \times \frac{1000g}{kg} = \frac{g}{mL}$$
+
+# Review
+
+- elements
+- electrons
+- radioactivity
+
+"Most important part" - an atom has a ncleus that houses all of the densit (protons and neutrons)
+
+|charge|mass|approx mass|
+|---|---|---|
+|p = proton|+1|1.007|1
+|n = neutron | 0|1.009|1
+|e = electron | -1|5.5 x $$10^{-4}|0
+
+- atomic number is the number of protons in an atom
+- you may have different numbers of neutrons in the same atom
+- atomic weight and mass
+    + when you're looking at atoms in nature, you almost never find exact quantities of neutrons, you usually have some variance in neutrons
+        * you normally take an average of what is normal
+        * the atomic weight of carbon __not the actual, the average of what you'd see in nature__ is 12.01 amu - this is the same number you'd find in the periodic table
+        * chlorine 35.5 amu - it comes in 2 __isotopes__ $$^{35}Cl and 25% ^{36}Cl$$
+
+## Periodic Table
+
+> It's just a list of numbers that are grouped together
+
+Li, Na, K (3, 11, 19) are just very similar
+He, Ne, Ar (2, 10, 18) are very similar
+Cu, Ag, Au (29, 47, 79) are very similar
+
+numbers elements like you'd read a book in english (1 is in the top left, 116 is in the bottom right)
+
+### Structure
+
+- columns all have similar properties (sometimes called families)
+    + 1A Alkali metals
+    + 7A is Halogens
+    + 8A is noble gases
+- Rows are called periods
+
+## Molecules
+
+> Molecules are nothing more than __atoms attached to each other__. and their attached with things called atomic binds
+
+- diatomic - two of the same atom
+- dioxygen - $$O$$ - unstable
+- oxygen - $$O_2$$ - required for life
+- ozone - $$O_3$$ - toxic
+
+
+### Compounds
+
+- $$H_2O$$, $$H_2O_2$$ -  read 'h' two oh and 'h' two 'o' two
+- if there's only one atom you ommit the number
+
+### Molecular formula
+
+- shows the actual number of atoms in a compound
+
+### Empirical Formula
+
+- just ratios of numbers of given atoms
+
+### Structural Formula 
+
+- shows what atoms are connectd to what
+
+
+Oxygen
+
+~~~
+
+H - O - H
+
+~~~
+
+
+Methane
+
+~~~
+
+    H
+    |
+H - C - H
+    |
+    H
+
+~~~
+

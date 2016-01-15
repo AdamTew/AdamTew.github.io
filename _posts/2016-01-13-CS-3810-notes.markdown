@@ -95,3 +95,4 @@ Important things to note if you're looking at the industry
 - dies per wafer = $$wafer area/die area$$
 - yield = $$1/(1 + (defects / area x die area/2)^2)$$ based on empirical data
 - __te more chips you make the lower your costs are__
+0.0034050
