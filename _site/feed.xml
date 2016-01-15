@@ -6,9 +6,83 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Jan 2016 11:39:37 -0700</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 11:39:37 -0700</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 14:15:57 -0700</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 14:15:57 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;no class next monday (or tuesday)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt; - execution time
+    &lt;ul&gt;
+      &lt;li&gt;total time required to task start to execute and complete&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;throughput - bandwidth
+    &lt;ul&gt;
+      &lt;li&gt;total amount of data worked on in a given time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;performance-x--n--performance-y&quot;&gt;Performance x = n * performance y&lt;/h2&gt;
+
+&lt;p&gt;$\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}$$&lt;/p&gt;
+
+&lt;h2 id=&quot;cpu-execution-time-total-cpu-time&quot;&gt;CPU execution time (total CPU time)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;User CPU Time&lt;/strong&gt; - time spent in program&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;system CPU time&lt;/strong&gt; - time spent running background programs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.4 GHz (gigahertz) clock cycle = &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{2.4e^9} = 4.16e^{-10} = 416 pico? seconds&lt;/script&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+symbol for a clock...
+ __    __    __
+|  |__|  |__|  |
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CPU time&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{CPU execution time for a program} = \text{CPU clock cyceles} \cdot \text{clock cycle time}&lt;/script&gt;
+
+&lt;h2 id=&quot;how-to-improve-performance&quot;&gt;How to improve Performance&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{seconds}{program} = \frac{cycles}{programs} \frac{seconds}{cycle}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;clock rate = clock cycle&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ET = execution time&lt;/li&gt;
+  &lt;li&gt;IC = instruction count = # of instructions executed by program&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt; the number of instructions take different amounts of time.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;ET = IC \cdot CPI \cdot CT = total_cycles \cdot CT&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A: 10 = total\_cycles \cdot \left(\frac{1}{4}GHz\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B: 6 = 1.2 \cdot total\_cycles \cdot \left(\frac{1}{clock\_rate}\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{10}{6} = \left(\frac{clock\_rate}{1.2 \cdot 4GHz}\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;clock_rate = 8GHz&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 15 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//2016/01/15/usu-cs3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//2016/01/15/usu-cs3810-notes.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>USU - CHEM 1210 - In Class Notes</title>
@@ -1667,77 +1741,6 @@ void makeEmpty(Node * node)
         <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//2016/01/09/recursion.html</link>
         <guid isPermaLink="true">http://adamtew.com//2016/01/09/recursion.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Data Structures</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;a data structure is a particular way of organizing data in a computer so that it can be used efficiently&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Data structures are at the core of everything computer scientists do. Understanding how to store, manipulate, sift, move, restructure, or whatever, data is essential when working with programs. Because every data structure operates a little differently, it’s important to know when to use what. A simple example in javascript is knowing when to use an array (list of variables) vs an object (key-value pair). Both are collections (data structures) but they operate in very different ways. Knowing what your options are and how they work can save you some headaches down the road.&lt;/p&gt;
-
-&lt;h2 id=&quot;linked-list&quot;&gt;Linked List&lt;/h2&gt;
-
-&lt;p&gt;A linked list is the most basic data structure you’ll come across in computer science. Under the hood, this is what your simple collections are made out of in most conventional languages.&lt;/p&gt;
-
-&lt;p&gt;The way it works is with pointers. Essentially, you take an object and point its &lt;code&gt;next&lt;/code&gt; variables at another object of the same type. These objects are called &lt;strong&gt;nodes&lt;/strong&gt; and they can contain any type of data. if you wanted a list of &lt;code&gt;int&lt;/code&gt;s. your node would look something like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class node 
-{
-  // the data
-  int myNumber;
-
-  // pointer to the next node
-  node  *next;
-
-  // constructor
-  node( int value, node *next)
-    : myNUmber{ value }, next{ next } { }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a node doesn’t have to be a class, it could be a &lt;code&gt;struct&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You would then point &lt;code&gt;next&lt;/code&gt; to another &lt;code&gt;node&lt;/code&gt; object and there you have it, a linked list. Granted, you’ll rarely, if ever, see a linked list built like that. You’ll normally have another actual linked list class that can perform operations such as &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;delete()&lt;/code&gt;, &lt;code&gt;add()&lt;/code&gt; and so forth.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note: You can have a linked list of any data type, including ones that you’ve made&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;doubly-linked-list&quot;&gt;Doubly Linked List&lt;/h3&gt;
-
-&lt;p&gt;Most nodes in a linked list just have a pointer to their child. However, sometimes it’s more convenient to have a pointer back up to a parent node. A doubly linked list is a linked list where each node has a pointer to both it’s parent and child.&lt;/p&gt;
-
-&lt;h3 id=&quot;circular-linked-list&quot;&gt;Circular Linked List&lt;/h3&gt;
-
-&lt;p&gt;Usually, a linked list has a head and a tail. This makes it really easy to code things like traversals and deletes. Sometimes, though, it would be nice to go from the tail to the head. A &lt;strong&gt;circular linked list&lt;/strong&gt; does just that. It has a pointer from tail to head.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Usually, a cirular linked list will be a doubly linked list&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;trees&quot;&gt;Trees&lt;/h2&gt;
-
-&lt;p&gt;Trees come in many different forms. Among the most common are the &lt;strong&gt;binary search tree&lt;/strong&gt;, &lt;strong&gt;AVL tree&lt;/strong&gt;, and the &lt;strong&gt;b+ tree&lt;/strong&gt;. Though the specifics are different, the basic form of a tree is a &lt;em&gt;root&lt;/em&gt; with pointers to two or more children. Each child also has pointers for two or more children.&lt;/p&gt;
-
-&lt;h3 id=&quot;binary-search-tree&quot;&gt;Binary Search Tree&lt;/h3&gt;
-
-&lt;p&gt;Binary search trees (BST) are among the simplest trees to write. Each node in a BST can have one or two children (left and right). What gives the tree its name is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Binary_search_algorithm&quot;&gt;binary search algorithm&lt;/a&gt;. The tree is always in order. In its traditional form, the value of the left child is less than the value of the node, and the right child is greater. This makes it so that if you print the nodes with an &lt;a href=&quot;https://en.wikipedia.org/wiki/Tree_traversal&quot;&gt;inorder traversal&lt;/a&gt; you’ll see all the values in ascending order. This design makes it extremely easy to perform basic operations like &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;insert()&lt;/code&gt;, and &lt;code&gt;delete()&lt;/code&gt;. However, the complexity will differ depending on how &lt;em&gt;balanced&lt;/em&gt; the tree is.&lt;/p&gt;
-
-&lt;h3 id=&quot;avl-tree&quot;&gt;AVL Tree&lt;/h3&gt;
-
-&lt;p&gt;An AVL tree (named after it’s creators, Georgy Adelson-Velsky and Evgenii Landis’) has the same properties as a BST with some added optimizations. Since the complexity of keeping a tree perfectly balanced all the time would be far too expensive, the AVL tree uses various rotations whenever nodes are inserted or deleted to keep it &lt;em&gt;mostly&lt;/em&gt; balanced. This, combined with the fact that it’s sorted, gives it a surprising &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;O(logn)&lt;/a&gt; complexity for any of the standard &lt;code&gt;find()&lt;/code&gt;, &lt;code&gt;insert()&lt;/code&gt;, and &lt;code&gt;delete()&lt;/code&gt; operations.&lt;/p&gt;
-
-&lt;h3 id=&quot;b-tree&quot;&gt;B+ Tree&lt;/h3&gt;
-
-&lt;p&gt;The B+ tree veers from tradition a little bit. All data is stored in the leaves (nodes with no children). Every other node acts as a pointer to get to the leaves. B+ trees are also architected in a such a way that all of the leaves are at the same depth.&lt;/p&gt;
-
-&lt;p&gt;B+ trees are generally used to house larger data types. The reason you might do this is if I/O is an issue and you want to maintain a conservative height to avoid storing data remotely.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/09/data-structures.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/09/data-structures.html</guid>
         
         
       </item>

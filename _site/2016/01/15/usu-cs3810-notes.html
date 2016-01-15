@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Adam Tew</title>
+  <title>USU - CS 3810 - In Class Notes</title>
   <meta name="description" content="Adam Tew
 ">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://adamtew.com//blog.html">
+  <link rel="canonical" href="http://adamtew.com//2016/01/15/usu-cs3810-notes.html">
 	<!-- mathjax support for LaTex! -->
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script>
@@ -66,165 +66,75 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">USU - CS 3810 - In Class Notes</h1>
+    <p class="post-meta">Jan 15, 2016</p>
   </header>
 
   <article class="post-content">
-    <div class="home">
+    <ul>
+  <li>
+    <p>no class next monday (or tuesday)</p>
+  </li>
+  <li><strong>Response Time</strong> - execution time
+    <ul>
+      <li>total time required to task start to execute and complete</li>
+    </ul>
+  </li>
+  <li>throughput - bandwidth
+    <ul>
+      <li>total amount of data worked on in a given time</li>
+    </ul>
+  </li>
+</ul>
 
-  <h1 class="page-heading">Posts</h1>
+<h2 id="performance-x--n--performance-y">Performance x = n * performance y</h2>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 15, 2016</span>
+<p>$\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}$$</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/15/usu-cs3810-notes.html">USU - CS 3810 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 15, 2016</span>
+<h2 id="cpu-execution-time-total-cpu-time">CPU execution time (total CPU time)</h2>
 
-        <h2>
-          <a class="post-link" href="/2016/01/15/usu-chem-1210-notes.html">USU - CHEM 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 14, 2016</span>
+<ul>
+  <li><strong>User CPU Time</strong> - time spent in program</li>
+  <li><strong>system CPU time</strong> - time spent running background programs</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/2016/01/14/chem-chapter-2.html">USU - CHEM 1210 - Chapter 2 Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
+<p>2.4 GHz (gigahertz) clock cycle = <script type="math/tex">\frac{1}{2.4e^9} = 4.16e^{-10} = 416 pico? seconds</script></p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/13/math-12010-notes.html">USU - MATH 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
+<pre><code>
+symbol for a clock...
+ __    __    __
+|  |__|  |__|  |
 
-        <h2>
-          <a class="post-link" href="/2016/01/13/chem-notes.html">USU - MATH 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
+</code></pre>
 
-        <h2>
-          <a class="post-link" href="/2016/01/13/chem-chapter-1.html">USU - CHEM 1210 - Chapter 1 Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 13, 2016</span>
+<p>CPU time</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/13/CS-3810-notes.html">USU - CS 3810 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 11, 2016</span>
+<script type="math/tex; mode=display">\text{CPU execution time for a program} = \text{CPU clock cyceles} \cdot \text{clock cycle time}</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/11/USU-CS-3810.html">USU - CS 3810 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 11, 2016</span>
+<h2 id="how-to-improve-performance">How to improve Performance</h2>
 
-        <h2>
-          <a class="post-link" href="/2016/01/11/USU-CHEM-1210-day-one.html">USU - CHEM 1210 - In Class Notes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
+<script type="math/tex; mode=display">\frac{seconds}{program} = \frac{cycles}{programs} \frac{seconds}{cycle}</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/09/recursion.html">Recursion</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
+<ul>
+  <li>
+    <p>clock rate = clock cycle</p>
+  </li>
+  <li>ET = execution time</li>
+  <li>IC = instruction count = # of instructions executed by program</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/2016/01/09/data-structures.html">Data Structures</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 8, 2016</span>
+<p><em>Note</em> the number of instructions take different amounts of time.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/01/08/redux-connect.html">Connecting to the Redux Store</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
+<script type="math/tex; mode=display">ET = IC \cdot CPI \cdot CT = total_cycles \cdot CT</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-regex.html">How To Regex</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
+<script type="math/tex; mode=display">A: 10 = total\_cycles \cdot \left(\frac{1}{4}GHz\right)</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/07/how-to-redux.html">How To Redux</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2016</span>
+<script type="math/tex; mode=display">B: 6 = 1.2 \cdot total\_cycles \cdot \left(\frac{1}{clock\_rate}\right)</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/04/How-To-Big-O.html">How to Big O</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 3, 2016</span>
+<script type="math/tex; mode=display">\frac{10}{6} = \left(\frac{clock\_rate}{1.2 \cdot 4GHz}\right)</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/03/Love-you-grandma.html">Love You Grandma</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
+<script type="math/tex; mode=display">clock_rate = 8GHz</script>
 
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Sublime.html">How To Sublime</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/2016/01/02/How-to-Markdown.html">How To Markdown</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
-
-</div>
 
   </article>
 
