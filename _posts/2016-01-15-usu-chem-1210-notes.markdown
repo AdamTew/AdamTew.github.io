@@ -13,7 +13,7 @@ title: USU - CHEM 1210 - In Class Notes
         * Usually a two-step process to convert from one unit to another
         * Example: $$\frac{kg}{mL}$$
         * You start by knowing the units
-        * $$\frac{kg}{mL} \times \frac{1000g}{kg} = \frac{g}{mL}$$
+        * $$\frac{kg}{mL} \cdot \frac{1000g}{kg} = \frac{g}{mL}$$
 
 # Review
 
@@ -144,9 +144,9 @@ Ionic compounds contain both metal and nonmetal molecules contain nonmetals only
 
 example: 
 
-- NaCl = sodium chlor__ide__
-- Caf_2 = calcium fluoride
-- Al_2O_3 = aluminum oxide
+- NaCl = sodium chlor$$\color{red}{ide}$$
+- $$Caf_2$$ = calcium fluoride
+- $$Al_2O_3$$ = aluminum oxide
 
 when atoms have more than one charge you use __rrous__ and __rris__
 
