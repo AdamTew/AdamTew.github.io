@@ -39,6 +39,8 @@ I love to get away from work or school to do my own stuff, which usually include
     + _html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)
 - [__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm taking chemistry this semester. 
     + _html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)
+- [__CFDjango___](https://github.com/adamtew/CFDjango) - A ColdFusion framework I was building while doing some contract work.
+    + _ColdFusion_ - [code](https://github.com/adamtew/CFDjango)
 
 <br />
 <br />
