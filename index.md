@@ -32,6 +32,14 @@ I'm a programmer. Currently attending Utah State University while doing contract
 I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.
 
 I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.
+
+## Projects
+
+- [__Blog__](http://localhost:4000/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.
+    + _html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)
+- [__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm taking chemistry this semester. 
+    + _html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)
+
 <br />
 <br />
 
