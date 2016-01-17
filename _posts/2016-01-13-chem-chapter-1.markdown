@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USU - CHEM 1210 - Chapter 1 Notes
+category: CHEM1210
 ---
 
 # Introduction: Matter and Measurement

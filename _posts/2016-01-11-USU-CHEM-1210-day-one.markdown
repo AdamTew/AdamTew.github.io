@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USU - CHEM 1210 - In Class Notes
+category: CHEM1210
 ---
 
 Today, we mostly talked about the syllabus (which you can checkout [here](https://usu.instructure.com/courses/393593/files/?preview=59642630)). And then started into content from the first chapter of the book.

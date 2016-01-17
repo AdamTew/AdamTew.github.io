@@ -1,5 +1,7 @@
 ---
 layout: post
+title: How to Markdown
+category: markdown
 ---
 
 ## `<hr>`

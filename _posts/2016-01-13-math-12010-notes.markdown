@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USU - MATH 1210 - In Class Notes
+category: math1210
 ---
 
 _notes_

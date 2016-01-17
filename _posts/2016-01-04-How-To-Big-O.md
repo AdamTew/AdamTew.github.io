@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Big O
+category: computerscience
 ---
 
 ## Basics

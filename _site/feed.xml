@@ -6,8 +6,8 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Jan 2016 14:15:57 -0700</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 14:15:57 -0700</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 19:56:48 -0700</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 19:56:48 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -30,7 +30,7 @@
 
 &lt;h2 id=&quot;performance-x--n--performance-y&quot;&gt;Performance x = n * performance y&lt;/h2&gt;
 
-&lt;p&gt;$\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}$$&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}&lt;/script&gt;
 
 &lt;h2 id=&quot;cpu-execution-time-total-cpu-time&quot;&gt;CPU execution time (total CPU time)&lt;/h2&gt;
 
@@ -78,9 +78,11 @@ symbol for a clock...
 
 </description>
         <pubDate>Fri, 15 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/15/usu-cs3810-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/15/usu-cs3810-notes.html</guid>
+        <link>http://adamtew.com//cs3810/2016/01/15/usu-cs3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/15/usu-cs3810-notes.html</guid>
         
+        
+        <category>cs3810</category>
         
       </item>
     
@@ -331,9 +333,11 @@ H - C - H
 
 </description>
         <pubDate>Fri, 15 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/15/usu-chem-1210-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/15/usu-chem-1210-notes.html</guid>
+        <link>http://adamtew.com//chem1210/2016/01/15/usu-chem-1210-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/15/usu-chem-1210-notes.html</guid>
         
+        
+        <category>chem1210</category>
         
       </item>
     
@@ -500,9 +504,11 @@ Hydrogen, oxygen, nitrogen, and the halogens&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 14 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/14/chem-chapter-2.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/14/chem-chapter-2.html</guid>
+        <link>http://adamtew.com//chem1210/2016/01/14/chem-chapter-2.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/14/chem-chapter-2.html</guid>
         
+        
+        <category>chem1210</category>
         
       </item>
     
@@ -650,9 +656,11 @@ f(t) 35.83     54.03    68.11
 
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/13/math-12010-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/13/math-12010-notes.html</guid>
+        <link>http://adamtew.com//math1210/2016/01/13/math-12010-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/13/math-12010-notes.html</guid>
         
+        
+        <category>math1210</category>
         
       </item>
     
@@ -751,9 +759,11 @@ f(t) 35.83     54.03    68.11
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/13/chem-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-notes.html</guid>
+        <link>http://adamtew.com//math1210/2016/01/13/chem-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/13/chem-notes.html</guid>
         
+        
+        <category>math1210</category>
         
       </item>
     
@@ -1192,9 +1202,11 @@ f(t) 35.83     54.03    68.11
 
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/13/chem-chapter-1.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/13/chem-chapter-1.html</guid>
+        <link>http://adamtew.com//chem1210/2016/01/13/chem-chapter-1.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/13/chem-chapter-1.html</guid>
         
+        
+        <category>chem1210</category>
         
       </item>
     
@@ -1330,9 +1342,11 @@ f(t) 35.83     54.03    68.11
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/13/CS-3810-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/13/CS-3810-notes.html</guid>
+        <link>http://adamtew.com//cs3810/2016/01/13/CS-3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/13/CS-3810-notes.html</guid>
         
+        
+        <category>cs3810</category>
         
       </item>
     
@@ -1445,9 +1459,11 @@ bryanwillisphd@gmail.com&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 11 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/11/USU-CS-3810.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/11/USU-CS-3810.html</guid>
+        <link>http://adamtew.com//cs3810/2016/01/11/USU-CS-3810.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/11/USU-CS-3810.html</guid>
         
+        
+        <category>cs3810</category>
         
       </item>
     
@@ -1637,9 +1653,11 @@ SI Scale&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 11 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/11/USU-CHEM-1210-day-one.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/11/USU-CHEM-1210-day-one.html</guid>
+        <link>http://adamtew.com//chem1210/2016/01/11/USU-CHEM-1210-day-one.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/11/USU-CHEM-1210-day-one.html</guid>
         
+        
+        <category>chem1210</category>
         
       </item>
     
@@ -1739,9 +1757,11 @@ void makeEmpty(Node * node)
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//2016/01/09/recursion.html</link>
-        <guid isPermaLink="true">http://adamtew.com//2016/01/09/recursion.html</guid>
+        <link>http://adamtew.com//computerscience/2016/01/09/recursion.html</link>
+        <guid isPermaLink="true">http://adamtew.com//computerscience/2016/01/09/recursion.html</guid>
         
+        
+        <category>computerscience</category>
         
       </item>
     

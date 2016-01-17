@@ -197,6 +197,12 @@ td {
 .text--title {
   font-size: 68px; }
 
+/*
+	Switch categories
+*/
+.catbloc:not(:target) {
+  display: none; }
+
 /**
  * Site header
  */

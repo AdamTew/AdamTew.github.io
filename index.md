@@ -37,7 +37,42 @@ I love to get away from work or school to do my own stuff, which usually include
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+<div>
+     <a href="#allposts">All posts</a>
+     {% for category in site.categories %}
+         <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}
+     {% endfor %}
+</div>
+
+<div>
+ {% for category in site.categories %}
+     <div class="catbloc" id="{{ category | first | remove:' ' }}">
+         <h2>{{ category | first }}</h2>
+         
+         <ul>
+            {% for posts in category %}
+              {% for post in posts %}
+                {% if post.url %}
+                  <li>
+                    <a href="{{ post.url }}">
+                      <time>{{ post.date | date: "%-d %B %Y" }}</time>
+                     {{ post.title }}
+                   </a>
+                 </li>
+               {% endif %}
+             {% endfor %}
+           {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+</div>
+
+
+
+
+
+
+  <ul id="allposts" class="post-list catbloc">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

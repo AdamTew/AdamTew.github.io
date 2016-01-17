@@ -1,6 +1,7 @@
 ---
 title: Recursion
 layout: post
+category: computerscience
 ---
 
 > the repeated application of a recursive procedure or definition.

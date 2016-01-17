@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Love You Grandma
+category: life
 ---
 
 My grandma, Afton Tew, passed away last week - [Sunday Dec. 27 2015](http://www.legacy.com/obituaries/hjnews/obituary.aspx?n=afton-tew&pid=177092980&fhid=6864) after 86 years of tremendous influence. She was a wonderful person that helped so many people.

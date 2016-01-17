@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USU - CS 3810 - In Class Notes
+category: cs3810
 ---
 
 _notes_ 

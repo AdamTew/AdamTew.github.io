@@ -1,6 +1,7 @@
 ---
 layout: post
 title: USU - CS 3810 - In Class Notes
+category: cs3810
 ---
 
 - no class next monday (or tuesday)
@@ -12,7 +13,7 @@ title: USU - CS 3810 - In Class Notes
 
 ## Performance x = n * performance y
 
-$\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}$$
+$$\frac{ perform x}{performance y} = n = \frac{ExecutiontimeY}{executionTime X}$$
 
 ## CPU execution time (total CPU time)
 
