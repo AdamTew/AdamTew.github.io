@@ -1,7 +1,9 @@
 ---
+
 layout: post
 title: USU - CS 3810 - Chapter 1 Notes
 category: cs3810
+
 ---
 
 # Chapter 1 - Computer Abstractions and Technology
