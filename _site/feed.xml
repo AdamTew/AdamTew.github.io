@@ -6,9 +6,180 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Jan 2016 20:31:40 -0700</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 20:31:40 -0700</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2016 18:38:00 -0700</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 18:38:00 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CS 3810 - Chapter 1 Notes</title>
+        <description>&lt;h1 id=&quot;chapter-1---computer-abstractions-and-technology&quot;&gt;Chapter 1 - Computer Abstractions and Technology&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;1.1 Introduction&lt;/h2&gt;
+
+&lt;p&gt;Computers are awesome…&lt;/p&gt;
+
+&lt;h3 id=&quot;classes-of-computers&quot;&gt;Classes of computers&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Personal computers (Pc)&lt;/li&gt;
+  &lt;li&gt;Servers&lt;/li&gt;
+  &lt;li&gt;Embedded computers - include the microprocessor in yyour car, T.V., airplane, cargo ship, etc.
+    &lt;ul&gt;
+      &lt;li&gt;designed to runto run one application or one set of related applications that are normally integrated with the hardware and delivered as a asingle system.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;eight-great-ideas-in-computer-architecture&quot;&gt;1.2 Eight Great Ideas in Computer Architecture&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Design for Moore’s Law&lt;/strong&gt; - integrated circuit resources double every 18-24 months&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use Abstraction to Simplify Design&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make the ommon ase Fast&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance via Parallelism&lt;/strong&gt; - two secrataries, working at the same time, get more work doen than just one secratary&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance via Pipelining&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance via Prediction&lt;/strong&gt; - In some cases it can be faster on average to guess and start working trather than wait until you know for sure, assuming that the mechanism to recover from a misprediction is not too expensive and your prediction is relatively accurate&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hierarchy of Memories&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dependability via Redundancy&lt;/strong&gt; - Why buy one when you can get two for twice the price?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;below-your-program&quot;&gt;1.3 Below Your Program&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The hardware in a computer can only execute extremely simple low-level instructions&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Operating System&lt;/strong&gt; - Interfaces between a user’s program and the hardware.
+    &lt;ul&gt;
+      &lt;li&gt;handles basic input and output operations&lt;/li&gt;
+      &lt;li&gt;allocates storage and memory&lt;/li&gt;
+      &lt;li&gt;Provides protected sharing of the computer among multiple applications using it simultaneousy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compiler&lt;/strong&gt; - Translate programs written in high-level languages (C++, C, C#) into instructions the hardware  can execute.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;from-a-high-level-language-to-the-language-of-hardware&quot;&gt;From a High-Level Language to the Language of Hardware&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;binary digit&lt;/strong&gt; - bit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;assembler&lt;/strong&gt; - translates a symblic version of an instruction into the binary version&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;assembly language&lt;/strong&gt; - just a little more complex than binary&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;machine language&lt;/strong&gt; - binary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The recognition that a program oculd be written to translate a more powerful language into computer instructions was one of the great breakthroughs in the early days of computing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;// High level language
+swap(int v[], int k)
+    
+    |
+    v
+ ________    
+|Compiler|
+ ̅̅̅̅̅̅̅̅
+    |
+    v
+
+multi $2, $5,4
+
+    |
+    v
+ _________
+|Assembler|
+ ̅̅̅̅̅̅̅̅̅
+    |
+    v
+
+000010101011100001100
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;under-the-covers&quot;&gt;1.4 Under the Covers&lt;/h2&gt;
+
+&lt;p&gt;basic data operations&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;input&lt;/li&gt;
+  &lt;li&gt;output&lt;/li&gt;
+  &lt;li&gt;storage&lt;/li&gt;
+  &lt;li&gt;process&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;
+_____________________
+| Processor | Memory |
+|   .-----&amp;lt;    &amp;lt;----Input&amp;lt;---
+|  /        |        |
+|  \        |        |
+|   `-----&amp;gt;    ---&amp;gt;Output---&amp;gt;
+ ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DRAM&lt;/strong&gt; - Dynamic Random Access Memory&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cache memory&lt;/strong&gt; - consists of a small, fast memory that acts as a buffer for the DRAM&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SRAM&lt;/strong&gt; - faster but less dense, and hence more expensive than DRAM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technologies-for-building-processors-and-memory&quot;&gt;1.5 Technologies for Building Processors and Memory&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Transistor&lt;/strong&gt; - on/off switch&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integrated Circuit&lt;/strong&gt; - dozens to hundreds of transistors on a chip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+\text{Cost per die} &amp; = \frac{\text{Cost per wafer}}{\text{Dies per wafer} \cdot \text{yield}} \\
+
+\text{Dies per wafer} &amp; \approx \frac{\text{Wafer area}}{\text{Die area}}\\
+
+\text{Yield} &amp; = \frac{1}{\left(1 + \left(\text{Defects per area} \cdot \frac{\text{Die area}}{2}\right)\right)^2}
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;1.6 Performance&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Execution Time&lt;/strong&gt; - the time between start and completion of a task&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Throughput&lt;/strong&gt; - total amount of work done in a given time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{Performance}_x = \frac{1}{\text{Execution time}_x}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\text{Performance}_x}{\text{Performance}_y} = n&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Elapsed time&lt;/strong&gt; or &lt;strong&gt;User CPU time&lt;/strong&gt; - time to complete a whole program&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CPU execution time&lt;/strong&gt; or &lt;strong&gt;CPU time&lt;/strong&gt; - time to complete &lt;em&gt;specific&lt;/em&gt; task&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;System CPU time&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clock cycles&lt;/strong&gt; -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;big-picture&quot;&gt;Big Picture&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{Time} = \frac{\text{Seconds}}{\text{Program}} = \frac{\text{Instructions}}{\text{Program}} \cdot \frac{\text{Clock Cycles}}{\text{Instructions}} \cdot \frac{\text{Seconds}}{\text{Clock Cycle}}&lt;/script&gt;
+
+&lt;h2 id=&quot;the-power-wall&quot;&gt;1.7 The Power Wall&lt;/h2&gt;
+
+&lt;p&gt;The new limitation is the amount of power you can send through a device without it overheating&lt;/p&gt;
+
+&lt;h2 id=&quot;the-sea-change-the-switch-from-uniprocessors-to-multiprocessors&quot;&gt;1.8 The Sea Change: The Switch from Uniprocessors to Multiprocessors&lt;/h2&gt;
+
+&lt;p&gt;With the challenge of things overheating the new innovation is multiple processors instead of just one.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//cs3810/2016/01/18/cs3810-chapter-1.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/18/cs3810-chapter-1.html</guid>
+        
+        
+        <category>cs3810</category>
+        
+      </item>
     
       <item>
         <title>USU - CS 3810 - In Class Notes</title>
@@ -1658,110 +1829,6 @@ SI Scale&lt;/p&gt;
         
         
         <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>Recursion</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;the repeated application of a recursive procedure or definition.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Recursion is capable of being extremely powerful, while also being extremely simple. At the same time, you can break stuff, cause unexpected behavior, or increase the &lt;a href=&quot;http://www.adamtew.com/2016/01/04/How-To-Big-O.html&quot;&gt;complexity&lt;/a&gt; by oodles of noodles if you don’t follow some simple rules.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-base-cases&quot;&gt;The Base Case(s)&lt;/h2&gt;
-
-&lt;p&gt;The first thing to understand when building a recursive function is that somehow, sometime, &lt;strong&gt;the function needs to stop&lt;/strong&gt;. The cause of this stop should be intentional and should &lt;strong&gt;always be possible&lt;/strong&gt;. If you never hit a &lt;em&gt;base case&lt;/em&gt;, then you’ll never stop, meaning you’ll run forever. This is bad. This is why we start with the base case.&lt;/p&gt;
-
-&lt;p&gt;Sometimes there will be more than one base case. Say you want something to run until it finds a certain outcome. However, if that something doesn’t exist, you only want to run the function 10,000 or so times. This would give us two separate base cases.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if(x == target)return target;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;and&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;if(count &amp;gt;= 10000)return &#39;data not found&#39;;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The way recursion works is by using a function that repeatedly calls itself until it hits a base case. Each time the function calls itself it puts another instance of the function on the call stack, which requires more memory. This happens until you run out of memory and the application throws a stack overflow error.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A call stack is a data structure used by the program to store information about the active subroutines (like functions in C++ or methods in Java) in a program. - from &lt;a href=&quot;http://www.programmerinterview.com/index.php/recursion/explanation-of-recursion/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;always-return&quot;&gt;Always return&lt;/h2&gt;
-
-&lt;p&gt;Something else to keep in mind is that your function should &lt;strong&gt;always return something&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Everytime a function calls itself, it sits there and waits for what was returned to come back up. If nothing comes back up, then the previous function can’t use the data that was collected.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This isn’t something to be concerned with if your function doesn’t return anything. For example, your recursive call was just changing settings on every element of a tree.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Just rememeber to &lt;code&gt;return&lt;/code&gt; if you need access to the data later.&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;return x * factorial(x - 1);&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;whos-recursing&quot;&gt;Who’s recursing?&lt;/h2&gt;
-
-&lt;p&gt;When using recursion, it’s good to remember to take the smallest operation you can and then repeat it. It’s easy to make the mistake of trying to have the recursive function do &lt;em&gt;too much&lt;/em&gt; work. Sometimes, it’s better to have a helper function do the recursion for you, which return the required data.&lt;/p&gt;
-
-&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;
-// c++
-// inorder traversal to print the content of a tree
-
-// public function called by a user
-string toString()
-{
-    if(!isEmpty())return toString(root, &quot;\t&quot;);
-    return &quot;There is nothing for you here, \nonly death...\n\n&quot;;
-}
-
-// private / protected helper function
-string toString(Node * node, string indent)
-{
-    stringstream ss;
-    if(node == nullptr)return &quot; &quot;;      // base case
-    ss &amp;lt;&amp;lt; toString(node-&amp;gt;left, indent + &quot;\t&quot;);
-    ss &amp;lt;&amp;lt; indent &amp;lt;&amp;lt; node-&amp;gt;element &amp;lt;&amp;lt; endl;
-    ss &amp;lt;&amp;lt; toString(node-&amp;gt;right, indent + &quot;\t&quot;);
-    return ss.str();
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-// c++
-// Delete a tree 
-
-// public function called from a user
-void makeEmpty()
-{
-    makeEmpty( root );
-}
-
-// private / protected function that gets called internally
-// This is the helper function that actually does the recursion
-void makeEmpty(Node * node)
-{
-    if(node != nullptr)             // base case
-    {
-        makeEmpty(node-&amp;gt;left);
-        delete node;
-        makeEmpty(node-&amp;gt;right);
-    }
-}
-
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        <pubDate>Sat, 09 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//computerscience/2016/01/09/recursion.html</link>
-        <guid isPermaLink="true">http://adamtew.com//computerscience/2016/01/09/recursion.html</guid>
-        
-        
-        <category>computerscience</category>
         
       </item>
     

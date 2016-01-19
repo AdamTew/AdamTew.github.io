@@ -8,19 +8,133 @@ category: cs3810
 
 # Chapter 1 - Computer Abstractions and Technology
 
-
 ## 1.1 Introduction
+
+Computers are awesome...
+
+### Classes of computers
+
+- Personal computers (Pc)
+- Servers
+- Embedded computers - include the microprocessor in yyour car, T.V., airplane, cargo ship, etc.
+    + designed to runto run one application or one set of related applications that are normally integrated with the hardware and delivered as a asingle system.
 
 ## 1.2 Eight Great Ideas in Computer Architecture
 
+1. __Design for Moore's Law__ - integrated circuit resources double every 18-24 months
+2. __Use Abstraction to Simplify Design__ - 
+3. __Make the ommon ase Fast__ - 
+4. __Performance via Parallelism__ - two secrataries, working at the same time, get more work doen than just one secratary
+5. __Performance via Pipelining__ - 
+6. __Performance via Prediction__ - In some cases it can be faster on average to guess and start working trather than wait until you know for sure, assuming that the mechanism to recover from a misprediction is not too expensive and your prediction is relatively accurate
+7. __Hierarchy of Memories__ - 
+8. __Dependability via Redundancy__ - Why buy one when you can get two for twice the price?
+
 ## 1.3 Below Your Program
+
+> The hardware in a computer can only execute extremely simple low-level instructions
+
+- __Operating System__ - Interfaces between a user's program and the hardware.
+    + handles basic input and output operations
+    + allocates storage and memory
+    + Provides protected sharing of the computer among multiple applications using it simultaneousy
+- __Compiler__ - Translate programs written in high-level languages (C++, C, C#) into instructions the hardware  can execute.
+
+### From a High-Level Language to the Language of Hardware
+
+- __binary digit__ - bit
+- __assembler__ - translates a symblic version of an instruction into the binary version
+- __assembly language__ - just a little more complex than binary
+- __machine language__ - binary
+
+> The recognition that a program oculd be written to translate a more powerful language into computer instructions was one of the great breakthroughs in the early days of computing.
+
+~~~
+// High level language
+swap(int v[], int k)
+    
+    |
+    v
+ ________    
+|Compiler|
+ ̅̅̅̅̅̅̅̅
+    |
+    v
+
+multi $2, $5,4
+
+    |
+    v
+ _________
+|Assembler|
+ ̅̅̅̅̅̅̅̅̅
+    |
+    v
+
+000010101011100001100
+
+~~~
 
 ## 1.4 Under the Covers
 
+basic data operations
+
+- input
+- output
+- storage
+- process
+
+~~~
+
+_____________________
+| Processor | Memory |
+|   .-----<    <----Input<---
+|  /        |        |
+|  \        |        |
+|   `----->    --->Output--->
+ ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+
+~~~
+
+- __DRAM__ - Dynamic Random Access Memory
+- __Cache memory__ - consists of a small, fast memory that acts as a buffer for the DRAM
+- __SRAM__ - faster but less dense, and hence more expensive than DRAM
+
 ## 1.5 Technologies for Building Processors and Memory
+
+- __Transistor__ - on/off switch
+- __Integrated Circuit__ - dozens to hundreds of transistors on a chip
+
+$$\begin{align}
+\text{Cost per die} & = \frac{\text{Cost per wafer}}{\text{Dies per wafer} \cdot \text{yield}} \\
+
+\text{Dies per wafer} & \approx \frac{\text{Wafer area}}{\text{Die area}}\\
+
+\text{Yield} & = \frac{1}{\left(1 + \left(\text{Defects per area} \cdot \frac{\text{Die area}}{2}\right)\right)^2}
+\end{align}$$
 
 ## 1.6 Performance
 
+- __Execution Time__ - the time between start and completion of a task
+- __Throughput__ - total amount of work done in a given time
+
+$$\text{Performance}_x = \frac{1}{\text{Execution time}_x}$$
+
+$$\frac{\text{Performance}_x}{\text{Performance}_y} = n$$
+
+- __Elapsed time__ or __User CPU time__ - time to complete a whole program
+- __CPU execution time__ or __CPU time__ - time to complete _specific_ task
+- __System CPU time__ - 
+- __Clock cycles__ - 
+
+### Big Picture
+
+$$\text{Time} = \frac{\text{Seconds}}{\text{Program}} = \frac{\text{Instructions}}{\text{Program}} \cdot \frac{\text{Clock Cycles}}{\text{Instructions}} \cdot \frac{\text{Seconds}}{\text{Clock Cycle}}$$
+
 ## 1.7 The Power Wall
 
+The new limitation is the amount of power you can send through a device without it overheating
+
 ## 1.8 The Sea Change: The Switch from Uniprocessors to Multiprocessors
+
+With the challenge of things overheating the new innovation is multiple processors instead of just one.
