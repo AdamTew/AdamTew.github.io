@@ -50,7 +50,9 @@ Computers are awesome...
 > The recognition that a program oculd be written to translate a more powerful language into computer instructions was one of the great breakthroughs in the early days of computing.
 
 ~~~
-// High level language
+ ___________________
+|High level language|
+ ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
 swap(int v[], int k)
     
     |
