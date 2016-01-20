@@ -1,0 +1,159 @@
+---
+layout: post
+title: USU - CHEM 1210 - In Class Notes
+category: chem1210
+---
+
+- questions:
+- empirical formula
+  + reduce 
+- What will they look like on the exams?
+  + __questions on the exam will look a lot like the quizzes__
+
+
+## Chapter 2
+
+### Ionic bonds and nomanclature
+
+periodic table
+
+when something becomes and ion it becomes an
+
+general rule:
+
+> Ionic compounds contain both metal and nonmental Molecules caontain nonmetals only
+
+### Nomenclature
+
+NaCl = sodium chloride
+
+CaF$$_2$$ = calcium fluoride
+
+$$Al_2O_2$$ = aluminum oxide
+
+### naming anions
+
+atoms can aggregate together into a collective ion
+
+$$OH^-$$, $$SO_3^-2$$, $$CN^-$$
+
+> very simple ones tend to end in "ide"
+
+|per___ are|__ ite|Hypo___ite|
+|---|---|---|---|
+|CLI_4^-|ClI_3^-|ClI_2^-|ClI
+|perchlorate|Chlorate|Chlorite|Hypochlorite|
+
+
+
+### Full name of ionic compounds
+
+cation + anion
+
+$$CaCl_2$$ calcium chlor__ide__
+
+$$NaNO_3$$ sodium __nitrate__
+
+$$fe(NO_2)2$$  fer_rous_ __nitrite__
+
+$$(NH_4)2SO_4$$ _ammonium_ __sulgate__
+
+> These names are as simple as they can be
+
+
+metal + non-metal = salt
+
+all have definite charge
+
+> Until you get used to these it would be a good ide to refer to [the lists]
+
+__note:__ We'll probably only see the common ions on tests, but there may be others
+
+... Lots of stuff about ionic naming... 
+
+$$CO_2$$ carbod __di__oxide, $$CO$$ carbon __mono__xide
+
+because there's occasion with 1 carbon molecule and 2 molecules, we need to distinguish between both
+
+
+### Acids
+
+Anion ----> Acid
+
+~~~
+
+______ide  ------> hydro ___ic acid
+
+~~~
+
+### Organic Compounds
+
+- hydrocarbons
+- Alkanes 
+  + because they only have single bonds
+  + named based on the number of bonds
+    * meth, eth, prop, but
+- any molecule with a double bond does not have a full complement of H atoms, so called "unsaturated"
+
+
+## Chapter 3
+
+> Now we actually get into chemistry
+
+### Conservation of Mass
+
+- atoms never disappear
+  + if you start with 12 and 24 you're gonna end with 12 and 24
+
+Chemical Equation:
+
+$$2\ H_2 + O_2 \rightarrow\ 2\ H_2O$$
+
+$$\text{reactants} \rightarrow \text{products}$$
+
+Equation is "balanced"
+
+> You can only change coeficients, not substripts
+
+
+in the process of balancing atoms you usually want to end with _oxygen_ because it has so many potentials
+
+> Something plus $$O_2$$ gives you $$CO_2$$ and water [$$H_2O$$]
+
+### Atomic Weight and Mass
+
+> What we've done so far is count the number of atoms
+
+> amu is a physical constant, it is the weight of an atom. If you take one and put it on a scale, that's what you'll get
+
+
+However, not all atoms have the same __weight__ or __mass__
+
+we're going to define everything by it's __atomic mass unit__ (amu)
+
+$$1\ amu = 1.66 \cdot 10^{-24} g$$
+
+$$H$$ atoms in a gram = $$6.02 \cdot 10^23$$
+
+> the atomic weight you'll see in the periodic table will not be perfect integers because of isotopes
+
+### Formula or Molecular Weight
+
+
+you take two molecules and add them together
+
+$$1(23.0) + 1(35.5) = 58.5$$
+
+> Just add up all the numbers, very simple
+
+### Percent Composition
+
+> the atomic weight for each element divided by the formula weight of the compound
+
+NaCl = 58.5
+
+%Na  .39%
+
+> how small a sample can we really observe?
+
+Next time we'll be talking about _moles_
