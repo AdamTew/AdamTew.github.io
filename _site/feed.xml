@@ -6,9 +6,144 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jan 2016 08:18:37 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Jan 2016 08:18:37 -0700</lastBuildDate>
+    <pubDate>Thu, 21 Jan 2016 21:58:02 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Jan 2016 21:58:02 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CHEM 1210 - SI Notes</title>
+        <description>&lt;p&gt;question:&lt;/p&gt;
+
+&lt;p&gt;Dimensional Analysis - what did I do wrong?&lt;/p&gt;
+
+&lt;p&gt;how far has the Millennium Falcon traveled going 700 $$\frac{mi}{h} after 35.0 min?&lt;/p&gt;
+
+&lt;p&gt;a. 657,000 m&lt;/p&gt;
+
+&lt;p&gt;b. &lt;strong&gt;657.3&lt;/strong&gt; m&lt;/p&gt;
+
+&lt;p&gt;c. 11,000 m&lt;/p&gt;
+
+&lt;p&gt;d. 254,100 m&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1.61 km}{1 mi}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{700 mi}{hr} \cdot \frac{1.61 km}{mi} \cdot \frac{1000m}{1km} \cdot \frac{1h}{60m} \cdot \frac{1min}{60s}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;exact numbers - when you invented the numbers you don’t have to worry about significant figures on conversions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nomanclature&quot;&gt;Nomanclature&lt;/h2&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chem1210/2016/01/21/usu-chem-si.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/21/usu-chem-si.html</guid>
+        
+        
+        <category>chem1210</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CHEM 1210 - Chapter 3 Notes</title>
+        <description>&lt;h1 id=&quot;stoichiometry-calculations-with-wchemical-formulas-and-equations&quot;&gt;Stoichiometry: Calculations with Wchemical Formulas and Equations&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Stoichiometry&lt;/strong&gt; - the area of study that examines the quantities of substances comsumed and produced in chemical reactions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Atoms are neither created nor destroyed during a chemical reaction.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;chemical-equations&quot;&gt;3.1 Chemical Equations&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;
+reactions represented as an equation
+
+  reacts     
+     |      
+     v      
+2 H2 + O2 ----&amp;gt; 2 H2O
+reactants   ^  products
+            |
+            |
+         produces
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;balancing-equations&quot;&gt;Balancing Equations&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For most purposes, a balanced equation should contain the smallest possible whole-number coefficients&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Coefficients&lt;/strong&gt; -&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Subscripts&lt;/strong&gt; -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;indications-the-sattes-of-reactants-and-products&quot;&gt;Indications the Sattes of reactants and Products&lt;/h3&gt;
+
+&lt;p&gt;sometimes postfixes are used&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(g) - gas&lt;/li&gt;
+  &lt;li&gt;(l) - liquid&lt;/li&gt;
+  &lt;li&gt;(s) - solid&lt;/li&gt;
+  &lt;li&gt;(aq) - aqueous (water)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;CH_4(g) + 2 O_2(g) \rightarrow CO_2(g) +  2 H_2O(g)&lt;/script&gt;
+
+&lt;h2 id=&quot;some-simple-patterns-of-chemical-reactivity&quot;&gt;3.2 Some Simple Patterns of Chemical Reactivity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;combination reactions&lt;/li&gt;
+  &lt;li&gt;decomposition reactions&lt;/li&gt;
+  &lt;li&gt;combustion reactions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;combination-and-decomposition-reactions&quot;&gt;Combination and Decomposition Reactions&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In &lt;strong&gt;combination reactions&lt;/strong&gt; two or more substances react to form one product.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;basically, multiple things on the left side&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a &lt;strong&gt;decomposition reaction&lt;/strong&gt; one substance undergoes a reaction to produce two or more other substances&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;multiple things on the right side&lt;/p&gt;
+
+&lt;h3 id=&quot;combustion-reactions&quot;&gt;Combustion Reactions&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Combustion reactions&lt;/strong&gt; are rapid reactions that produce a flame.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;note:&lt;/em&gt; hydrocarbons are compounds that contain only carbon and hydrogen, such as &lt;script type=&quot;math/tex&quot;&gt;CH_4 \text{and} C_2H_2&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;formula-weights&quot;&gt;3.3 Formula Weights&lt;/h2&gt;
+
+&lt;h2 id=&quot;avogadros-number-of-the-mole&quot;&gt;3.4 Avogadro’s Number of the Mole&lt;/h2&gt;
+
+&lt;h2 id=&quot;empirical-formulas-from-analyses&quot;&gt;3.5 Empirical Formulas from Analyses&lt;/h2&gt;
+
+&lt;h2 id=&quot;quantitative-information-from-balanced-equations&quot;&gt;3.6 Quantitative Information from Balanced Equations&lt;/h2&gt;
+
+&lt;h2 id=&quot;limiting-reactants&quot;&gt;3.7 Limiting Reactants&lt;/h2&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chem1210/2016/01/21/usu-chem-chapter-3.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/21/usu-chem-chapter-3.html</guid>
+        
+        
+        <category>chem1210</category>
+        
+      </item>
     
       <item>
         <title>USU - MATH 1210 - In Class Notes</title>
@@ -1154,261 +1289,6 @@ Hydrogen, oxygen, nitrogen, and the halogens&lt;/p&gt;
         
         
         <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - MATH 1210 - In Class Notes</title>
-        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;still no syllabus&lt;/li&gt;
-  &lt;li&gt;published on canvas&lt;/li&gt;
-  &lt;li&gt;quiz next wednesday (January 20th)&lt;/li&gt;
-  &lt;li&gt;homework due the week after next&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We have more minute”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;rates-of-change--tangent-tocurves&quot;&gt;2.1 Rates of Change &amp;amp; tangent tocurves:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;average rate of change&lt;/li&gt;
-  &lt;li&gt;instantaneous rate of change&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; a barrel of maple syrup is trapped at &lt;script type=&quot;math/tex&quot;&gt;t = 0&lt;/script&gt;. The total amount of &lt;script type=&quot;math/tex&quot;&gt;f(t)&lt;/script&gt; of syrup poured out at time &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{t(min)}{f(t)gal.}&lt;/script&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     2       4      6
---------------------
-f(t) 35.83  54.03  68.11
-        `-------`
-            |   `-------`
-            |       `14.08/2 = 7.70
-            `18.2/2 = 7.90 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     3.8       4      4.2
---------------------
-f(t) 35.83  54.03  68.11
-        `-------`
-            |   `-------`
-            |       `14.08/2 = 7.8 
-            `18.2/2 = 7.8 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     3.98       4      4.02
---------------------
-f(t) 35.83     54.03    68.11
-        `-------`
-            |   `--------`
-            |       `14.08/2 = 7.04 
-            `18.2/2 = 9.10 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;time interval is &lt;script type=&quot;math/tex&quot;&gt;\delta t&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;when &lt;script type=&quot;math/tex&quot;&gt;\delta t \rightarrow 0&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;average rate of change &lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; instantaeneous&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The slope of a secant line is the average rate of change (change in y over change in x)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;average rate of change = slope of secant line = &lt;script type=&quot;math/tex&quot;&gt;\frac{f(x_2)-f(x_1)}{x_2-x_1} = \frac{\delta y}{\delta x}&lt;/script&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta x = h&lt;/script&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Instanteneous rate of change = slope of tangent line&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta y}{\deltax} = \frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;slope of tangent is limit
-    &lt;ul&gt;
-      &lt;li&gt;lim &lt;script type=&quot;math/tex&quot;&gt;h \rightarrow 0&lt;/script&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;y - y_1 = m(x - x_1)&lt;/script&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;limit-of-a-function-and-limit-laws&quot;&gt;Limit of a function and Limit Laws&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;limiting value&lt;/li&gt;
-  &lt;li&gt;approaching value&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;never 0&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;as x &lt;script type=&quot;math/tex&quot;&gt;\rightarrow x_0, x \rightarrow L&lt;/script&gt;
-    &lt;ul&gt;
-      &lt;li&gt;lim&lt;/li&gt;
-      &lt;li&gt;
-        &lt;script type=&quot;math/tex; mode=display&quot;&gt;x \rightarrow x_0 f(x) = L&lt;/script&gt;
-      &lt;/li&gt;
-      &lt;li&gt;if as x gets close to &lt;script type=&quot;math/tex&quot;&gt;x_0&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; gets clsoe to &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;approaching value or exact value - of a function&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \frac{x^2-1}{x-1}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$$f(1) = exact value does not exist
-    &lt;ul&gt;
-      &lt;li&gt;because there’s a hole at 1&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;approaching value of &lt;script type=&quot;math/tex&quot;&gt;f(x) = 2&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You would have to write it this way&lt;/p&gt;
-
-&lt;p&gt;lim
-&lt;script type=&quot;math/tex&quot;&gt;x \rightarrow 1&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;\frac{x^2 - 1}{x - 1}&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;With limiting values, you solve as much as you can and then plug in &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;
-- you can’t have 0 in the denominator&lt;/p&gt;
-
-&lt;h3 id=&quot;squeeze-theorem&quot;&gt;Squeeze theorem&lt;/h3&gt;
-
-&lt;p&gt;If you have 3 functions then you can solve for &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; on the left and right. Then you have the middle one.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//math1210/2016/01/13/math-12010-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/13/math-12010-notes.html</guid>
-        
-        
-        <category>math1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - MATH 1210 - In Class Notes</title>
-        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;still no syllabus&lt;/li&gt;
-  &lt;li&gt;published on canvas&lt;/li&gt;
-  &lt;li&gt;quiz next wednesday (January 20th)&lt;/li&gt;
-  &lt;li&gt;homework due the week after next&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We have more minute”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;rates-of-change--tangent-tocurves&quot;&gt;2.1 Rates of Change &amp;amp; tangent tocurves:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;average rate of change&lt;/li&gt;
-  &lt;li&gt;instantaneous rate of change&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; a barrel of maple syrup is trapped at &lt;script type=&quot;math/tex&quot;&gt;t = 0&lt;/script&gt;. The total amount of &lt;script type=&quot;math/tex&quot;&gt;f(t)&lt;/script&gt; of syrup poured out at time &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{t(min)}{f(t)gal.}&lt;/script&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     2       4      6
---------------------
-f(t) 35.83  54.03  68.11
-        `-------`
-            |   `-------`
-            |       `14.08/2 = 7.70
-            `18.2/2 = 7.90 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     3.8       4      4.2
---------------------
-f(t) 35.83  54.03  68.11
-        `-------`
-            |   `-------`
-            |       `14.08/2 = 7.8 
-            `18.2/2 = 7.8 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-t     3.98       4      4.02
---------------------
-f(t) 35.83     54.03    68.11
-        `-------`
-            |   `--------`
-            |       `14.08/2 = 7.04 
-            `18.2/2 = 9.10 gal/min
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;time interval is &lt;script type=&quot;math/tex&quot;&gt;\delta t&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;when &lt;script type=&quot;math/tex&quot;&gt;\delta t \rightarrow 0&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;average rate of change &lt;script type=&quot;math/tex&quot;&gt;\rightarrow&lt;/script&gt; instantaeneous&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The slope of a secant line is the average rate of change (change in y over change in x)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;average rate of change = slope of secant line = &lt;script type=&quot;math/tex&quot;&gt;\frac{f(x_2)-f(x_1)}{x_2-x_1} = \frac{\delta y}{\delta x}&lt;/script&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta x = h&lt;/script&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Instanteneous rate of change = slope of tangent line&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\delta y}{\deltax} = \frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;slope of tangent is limit
-    &lt;ul&gt;
-      &lt;li&gt;lim &lt;script type=&quot;math/tex&quot;&gt;h \rightarrow 0&lt;/script&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{f(x_1 + h) - f(x_1)}{h}&lt;/script&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//math1210/2016/01/13/chem-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/13/chem-notes.html</guid>
-        
-        
-        <category>math1210</category>
         
       </item>
     
