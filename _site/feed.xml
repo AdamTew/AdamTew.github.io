@@ -6,9 +6,160 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Jan 2016 11:20:22 -0700</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 11:20:22 -0700</lastBuildDate>
+    <pubDate>Thu, 21 Jan 2016 08:18:37 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Jan 2016 08:18:37 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - MATH 1210 - In Class Notes</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;talked about syllabus&lt;/li&gt;
+  &lt;li&gt;questions
+    &lt;ul&gt;
+      &lt;li&gt;2.2 44. Answer is &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{2}&lt;/script&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x\to \frac{\pi}{1}} sin^2x&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \lim_{x\to \frac{\pi}{1}} sinx^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \left(sin\frac{\pi}{2}\right)^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{1}{2}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2.2 32&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{\frac{1}{x-1} + \frac{1}{x+1}}{x}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{\frac{x + 1 + x - 1}{(x + 1)(x - 1)}}{x}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2x}{(x + 1)(x - 1)} \cdot \frac{1}{x}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2x}{x(x + 1)(x - 1)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2}{(x + 1)(x - 1)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2}{(0 + 1)(0 - 1)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2}{(1)(-1)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta&lt;/script&gt;
+
+&lt;h2 id=&quot;the-precise-definition-of-a-limit&quot;&gt;The Precise Definition of a Limit&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;definition:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;let &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; be defined on an interval about &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;, except possibly at &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; itself. We say that the limit of &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; as &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; approaches to &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; is the number &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; and write &lt;script type=&quot;math/tex&quot;&gt;\lim_{x\to c}&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;f(x) = L&lt;/script&gt;, if, for every number &lt;script type=&quot;math/tex&quot;&gt;e &gt; 0&lt;/script&gt;, there exists a corresponding number &lt;script type=&quot;math/tex&quot;&gt;S &gt; 0&lt;/script&gt; such that for all 4x&lt;script type=&quot;math/tex&quot;&gt;,&lt;/script&gt;0 &amp;lt;&lt;/td&gt;
+      &lt;td&gt;x - c&lt;/td&gt;
+      &lt;td&gt;&amp;lt; S \Rightarrow&lt;/td&gt;
+      &lt;td&gt;f(x) - L&lt;/td&gt;
+      &lt;td&gt;&amp;lt; s$$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//math1210/2016/01/20/usu-math1210-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/20/usu-math1210-notes.html</guid>
+        
+        
+        <category>math1210</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;h1 id=&quot;instructions-example&quot;&gt;Instructions Example&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;basically, you’re writing a program and you’re wondering which will be faster and by how much. Then you want to figure out CPI for each sequence&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;examples for&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CPU clock cycles = &lt;script type=&quot;math/tex&quot;&gt;\sum^n_{i=1} (pi \cdot ci)&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;C&lt;/th&gt;
+      &lt;th&gt;A&lt;/th&gt;
+      &lt;th&gt;B&lt;/th&gt;
+      &lt;th&gt;C&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CPI&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Code sequence&lt;/th&gt;
+      &lt;th&gt;A&lt;/th&gt;
+      &lt;th&gt;B&lt;/th&gt;
+      &lt;th&gt;C&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;CPU cycles&lt;script type=&quot;math/tex&quot;&gt;_1 = (2 \cdot + 1) + (1 \cdot 2) + (2 \cdot 3) = 10&lt;/script&gt; cycles&lt;/p&gt;
+
+&lt;p&gt;CPU cycles&lt;script type=&quot;math/tex&quot;&gt;_2 = (4 \cdot + 1) + (1 \cdot 2) + (1 \cdot 3) = 9&lt;/script&gt; cycles&lt;/p&gt;
+
+&lt;h3 id=&quot;big-picture&quot;&gt;Big picture&lt;/h3&gt;
+
+&lt;p&gt;relate a program in time:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;time = seconds per program = &lt;script type=&quot;math/tex&quot;&gt;\frac{instructions}{programs} \cdot \frac{clock cycles}{instruction} \cdot \frac{seconds}{cycle}&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;power-wall&quot;&gt;Power Wall&lt;/h4&gt;
+
+&lt;p&gt;Power&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;once you switch to multicore processing, CPI doesn’t apply&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//cs3810/2016/01/20/usu-cs3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/20/usu-cs3810-notes.html</guid>
+        
+        
+        <category>cs3810</category>
+        
+      </item>
     
       <item>
         <title>USU - CHEM 1210 - In Class Notes</title>
@@ -1258,589 +1409,6 @@ f(t) 35.83     54.03    68.11
         
         
         <category>math1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - Chapter 1 Notes</title>
-        <description>&lt;h1 id=&quot;introduction-matter-and-measurement&quot;&gt;Introduction: Matter and Measurement&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Chemistry&lt;/strong&gt; is the study of matter and the changes that matter undergoes.&lt;/p&gt;
-
-  &lt;p&gt;The first chapter provides an overview of what chemistry is about and what chemists do.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;the-study-of-chemistry&quot;&gt;1.1 The Study of Chemistry&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We begin with a brief description of what chemistry is, what chemsists do, and why it is useful to learn chemistry&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;the-atomic-and-molecular-perspective-of-chemistry&quot;&gt;The Atomic and Molecular Perspective of Chemistry&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Chemistry is the study of the properties and behavior of matter.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Matter&lt;/strong&gt; - the physical material of the universe. Anything that has &lt;strong&gt;mass&lt;/strong&gt; and occupies space&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Property&lt;/strong&gt; - any characteristic that allows us to recognize a particular type of matter and to distinguish it from other types&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Elements&lt;/strong&gt; - about 100. Composed of atoms&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Atoms&lt;/strong&gt; - the almost infinitesimally small building block of matter
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;composition&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;structure&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;molecules&lt;/strong&gt; - two or more atoms joined together ina specific shape&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;macroscopic&lt;/strong&gt; - realm of ordinary-sized objects&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;microscopic&lt;/strong&gt; - realm of atoms and molecules&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;why-study-chemistry&quot;&gt;Why Study Chemistry?&lt;/h3&gt;
-
-&lt;p&gt;… Because it’s awesome…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;chemistry is the &lt;em&gt;central science&lt;/em&gt;, central to a fundamental understanding of other sciences and technologies.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;classifications-of-matter&quot;&gt;1.2 Classifications of Matter&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Next, we examine some fundamental ways to classify matter, distinguishing between &lt;em&gt;pure substances&lt;/em&gt; and &lt;em&gt;mixtures&lt;/em&gt; and between &lt;em&gt;elements&lt;/em&gt; and &lt;em&gt;compounds&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;two principal ways of classifying matter are according to physical state (gas, liquid, or solid) and according to composition (element, compound, or mixture).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;states-of-matter&quot;&gt;States of Matter&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;States of Matter&lt;/strong&gt; - (&lt;em&gt;simple states&lt;/em&gt;) gas, solid, or a liquid&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gas&lt;/strong&gt; &lt;em&gt;(vapor)&lt;/em&gt; - no fixed volume or shape; rather, it conforms to the volume and shape of its container. A gas can be compressed to occupy a smaller volume, or it can expand to occupy a larger one.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Liquid&lt;/strong&gt; - has a distinct volume independent of its container but has no specific shape. It assumes the shape of the portion of the container it occupies.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Solid&lt;/strong&gt; - has both a definite shape and a definite volume.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; neither liquids or solids can be compressed to any appreciable extent.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;distance between atoms in molecules
-    &lt;ul&gt;
-      &lt;li&gt;gas - furthest apart and fastest moving&lt;/li&gt;
-      &lt;li&gt;liquid - far apart and quickly moving, but not as fast as gas&lt;/li&gt;
-      &lt;li&gt;solid - closests together and slowest moving&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the distance betweenmolecules are similar in the liquid and solid states, but the two states differ in how free the molecules are to move around. Changes in temperature and/or pressure can lead to conversion from one state of matter to another, illustrated by such familiar processes as ice melting or water vapor condensing&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;pure-substances&quot;&gt;Pure Substances&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most forms of matter we encounter …. are not chemically pure. We can, however, separate these forms of matter into pure substances.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Pure Substance&lt;/strong&gt; - &lt;em&gt;(usually referred to as just a substance)&lt;/em&gt; is matter that has disting properties and composition that does not vary from sample to sample
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;elements&lt;/strong&gt; - substances that cannot be decomposed into simpler&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;substances&lt;/strong&gt; - compounds - substances composed of two or more elements; they contain two or more kinds of atoms&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mixtures&lt;/strong&gt; - combinations of two or more substances in which each substance retains its chemical identity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;elements&quot;&gt;Elements&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;currently, 118 elements are known, though they vary widely in abundance. For example, only fie elements–oxygen, silicon, aluminum, iron, and calcium– acount for over 90% of Eearth’s crust (including oceans and atmosphere) and only three–oxygen, carbon, and hydrogen–acount for over 90% of the mass of the human body&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;compounds&quot;&gt;Compounds&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most elements can interact with other elements to form compounds.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;mixtures&quot;&gt;Mixtures&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Heterogeneous&lt;/strong&gt; - quantities can vary throughout the mixture&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Homogeneous&lt;/strong&gt; - mixtures that are uniform &lt;em&gt;(also knows as &lt;strong&gt;solutions&lt;/strong&gt;)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Although the term &lt;em&gt;solution&lt;/em&gt; conjures an image of a liquid, solutions can be solids, liquids, or gases.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;properties-of-matter&quot;&gt;1.3 Properties of Matter&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;every substance has unique properties&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Physical Properties&lt;/strong&gt; - can be observed without changing the identity and composition o the substance. These properties include color, odor, density, melting point, boiling point, and hardness.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Chemical properties&lt;/strong&gt; - describe the way a substance may change, or react, to form another substance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Intensive properties&lt;/strong&gt; - Do not depend on the amount of sample being examined and are particularly useful in chemistry because many intnsie properties an be used to &lt;em&gt;identify&lt;/em&gt; substances&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extensive properties&lt;/strong&gt; - depend on the amount of sample, with two examples being mas and volume. Extensive properties relate to the &lt;em&gt;amount&lt;/em&gt; of substance present&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;physical-and-chemical-changes&quot;&gt;Physical and Chemical Changes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The changes substances undergo are either physical or chemical.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Physical Change&lt;/strong&gt; - changes physical appearance but not composition
-    &lt;ul&gt;
-      &lt;li&gt;All &lt;strong&gt;changes of state&lt;/strong&gt; are physical (from gas to liquid to solid, etc)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Chemical Change&lt;/strong&gt; (Chemical reaction) - a substance is changed into a chemically different substance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;separation-of-mixtures&quot;&gt;Separation of Mixtures&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;filtration - using a filter to separate&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;distillation&lt;/strong&gt; - a method of separating the components of a homogeneous mixture&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Chromatography&lt;/strong&gt; -&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;units-of-measurement&quot;&gt;1.4 Units of Measurement&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Metric System&lt;/strong&gt; - System for scientific measurements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;si-units&quot;&gt;SI Units&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In 1960 an international agreement was reached specifying a particular choice of metric units for use in scientific measurements. Tese preferred units are called &lt;strong&gt;SI units&lt;/strong&gt;, after the French &lt;em&gt;System International d’Unites&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Physical Quantity&lt;/th&gt;
-      &lt;th&gt;Name of Unit&lt;/th&gt;
-      &lt;th&gt;Abbreviation&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Mass&lt;/td&gt;
-      &lt;td&gt;Kilogram&lt;/td&gt;
-      &lt;td&gt;kg&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Length&lt;/td&gt;
-      &lt;td&gt;Meter&lt;/td&gt;
-      &lt;td&gt;m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Time&lt;/td&gt;
-      &lt;td&gt;Second&lt;/td&gt;
-      &lt;td&gt;s or sec&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Termperature&lt;/td&gt;
-      &lt;td&gt;Kelvin&lt;/td&gt;
-      &lt;td&gt;K&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Amount of substance&lt;/td&gt;
-      &lt;td&gt;Mole&lt;/td&gt;
-      &lt;td&gt;mol&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Electric current&lt;/td&gt;
-      &lt;td&gt;Ampere&lt;/td&gt;
-      &lt;td&gt;A or amp&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Luminous intensity&lt;/td&gt;
-      &lt;td&gt;Candela&lt;/td&gt;
-      &lt;td&gt;cd&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Prefixes used in Metric System with SI Units&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Prefix&lt;/th&gt;
-      &lt;th&gt;Abbreviation&lt;/th&gt;
-      &lt;th&gt;Meaning&lt;/th&gt;
-      &lt;th&gt;Example&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Peta&lt;/td&gt;
-      &lt;td&gt;P&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{15}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 petawatt(pW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{15}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tera&lt;/td&gt;
-      &lt;td&gt;T&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{12}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 terawatt(tW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{12}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Giga&lt;/td&gt;
-      &lt;td&gt;G&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^9&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 gigawatt(gW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^9}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Mega&lt;/td&gt;
-      &lt;td&gt;M&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^6&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 megawatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^6}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Kilo&lt;/td&gt;
-      &lt;td&gt;k&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^3&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 kilowatt(kW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10{^3}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Deci&lt;/td&gt;
-      &lt;td&gt;d&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-1}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 deciwatt(dW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-1}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Centi&lt;/td&gt;
-      &lt;td&gt;c&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-2}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 centiwatt(cW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-2}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Milli&lt;/td&gt;
-      &lt;td&gt;m&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-3}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 milliwatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-3}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Micro&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;\mu^b&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-6}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 microwatt(mW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-6}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Nano&lt;/td&gt;
-      &lt;td&gt;n&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-9}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 nanowatt(nW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-9}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pico&lt;/td&gt;
-      &lt;td&gt;p&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-12}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 picowatt(pW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-12}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Femto&lt;/td&gt;
-      &lt;td&gt;f&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-15}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 femtowatt(fW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-15}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Atto&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-18}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 attowatt(aW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-18}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Zepto&lt;/td&gt;
-      &lt;td&gt;z&lt;/td&gt;
-      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;10^{-21}&lt;/script&gt;&lt;/td&gt;
-      &lt;td&gt;1 zeptowatt(zW) &lt;script type=&quot;math/tex&quot;&gt;= 1 X 10^{-21}&lt;/script&gt; watts&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;length-and-mass&quot;&gt;Length and Mass&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Mass&lt;/strong&gt; - A measure of the amount of material in an object&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;temperature&quot;&gt;Temperature&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Temperature&lt;/strong&gt; - A measure of the hotness or coldness of an object
-    &lt;ul&gt;
-      &lt;li&gt;determines the &lt;strong&gt;direction of heat flow&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Heat always flows spontaneously from a substance at higher temperature to one at lower temperature.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Celsius scale&lt;/strong&gt; - originally based on the assignment of 0 C to the freezing point of water and 100 C to its boiling point at sea level&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Kelvin&lt;/strong&gt; - is the SI temperature scale
-    &lt;ul&gt;
-      &lt;li&gt;Zero on the Kelvin scale is the lowest attainabl temperature, -273 C, referred to as &lt;em&gt;absolute zero&lt;/em&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;K = \ ^oC + 273.15&lt;/script&gt;
-
-&lt;h3 id=&quot;derived-si-units&quot;&gt;Derived SI Units&lt;/h3&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{m}{s}&lt;/script&gt; “Meters per second” is a derived unit&lt;/p&gt;
-
-&lt;p&gt;Two common derived units in chemistry are those for volume and density&lt;/p&gt;
-
-&lt;h3 id=&quot;volume&quot;&gt;Volume&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The &lt;em&gt;volume&lt;/em&gt; of a cube is its length cubes, (length)&lt;script type=&quot;math/tex&quot;&gt;^3&lt;/script&gt;. Thus, the derived SI unit of volume is  the SI unit of length, m, raised to the third power.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 mL = 1 cm^3&lt;/script&gt;
-
-&lt;h3 id=&quot;density&quot;&gt;Density&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Density is defined as the amount of mass in a unit of volume of a substance&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Density = \frac{mass}{volume}&lt;/script&gt;
-
-&lt;h2 id=&quot;uncertainty-in-measurement&quot;&gt;1.5 Uncertainty in Measurement&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Exact Numbers&lt;/strong&gt; - those whose values are known exactly&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Inexact Numbers&lt;/strong&gt; - those whose values have some uncertainty
-    &lt;ul&gt;
-      &lt;li&gt;numbers obtained by measurements are always inexact&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;precision-and-accuracy&quot;&gt;Precision and Accuracy&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The terms &lt;em&gt;precision&lt;/em&gt; and &lt;em&gt;accuracy&lt;/em&gt; are often used in discussing the unvertainties of measured values.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Precision&lt;/strong&gt; - A measure of how closely individual measurement agree with one another&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Accuracy&lt;/strong&gt; - refers to how closely individual measurements agree with the correct, or “true,” value&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;significant-figures&quot;&gt;Significant Figures&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;there is alwaus some uncertainty in the last digit reported for any measured quantity.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Significant figures&lt;/strong&gt; - All digits of a measured quantity, including the uncertain one
-    &lt;ul&gt;
-      &lt;li&gt;Zeros between nonzero digits are always significant&lt;/li&gt;
-      &lt;li&gt;Zeros at the beginning of a number are never significant; they merely indicate the position of the decimal point&lt;/li&gt;
-      &lt;li&gt;Zeros at the end ofa number are significant if the number contains a decimal point&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;significant-figures-in-calculations&quot;&gt;Significant Figures in Calculations&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When carrying measured quantities through calculations, the least certain measurement limits the certainty of the calculated quantity and thereby determines the number of significant figures in the final answer. The final answer should be reported with only one uncertain digit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Addition&lt;/strong&gt; - round to the smallest decimal place&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Multiplication&lt;/strong&gt; - Round to the smallest decimal place&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dimensional-analysis&quot;&gt;1.6 Dimensional Analysis&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Using dimensional analysis helps ensure that solutions to problems yield the proper units. Moreover, it provides a systematic way of solving many numerical problems and of checking solutions for possible errors.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Conversion Factor&lt;/strong&gt; - A fraction whose numerator and denominator are the same quantity expressed in diferent units&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; 2.54 &lt;script type=&quot;math/tex&quot;&gt;cm&lt;/script&gt; and 1 &lt;script type=&quot;math/tex&quot;&gt;in&lt;/script&gt; are the same length, &lt;script type=&quot;math/tex&quot;&gt;2.54cm = 1in&lt;/script&gt;. This relationship allows us to write two conversion factors:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2.54cm}{1in} \text{ and } \frac{1in}{2.54cm}&lt;/script&gt;
-
-&lt;h3 id=&quot;using-two-or-more-conversion-factors&quot;&gt;Using Two or More Conversion Factors&lt;/h3&gt;
-
-&lt;h3 id=&quot;conversions-involving-volume&quot;&gt;Conversions Involving Volume&lt;/h3&gt;
-
-</description>
-        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/13/chem-chapter-1.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/13/chem-chapter-1.html</guid>
-        
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CS 3810 - In Class Notes</title>
-        <description>&lt;p&gt;&lt;em&gt;notes&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reading 1.1 - 1.8&lt;/li&gt;
-  &lt;li&gt;only 3 exams&lt;/li&gt;
-  &lt;li&gt;starting with hardware&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;h3 id=&quot;hierarchy&quot;&gt;Hierarchy&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Application Software (apps)&lt;/li&gt;
-  &lt;li&gt;System Software and Hardware Apps&lt;/li&gt;
-  &lt;li&gt;Compiler - programs - translate into high level assembly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;memory&quot;&gt;Memory&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;one reason they can’t make memoty more dense is because they built with positive and negative charges that you don’t want getting close to each other.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;volatile - loses information when loses power
-    &lt;ul&gt;
-      &lt;li&gt;RAM - Random Access Memory&lt;/li&gt;
-      &lt;li&gt;SRAM (Static) (cache RAM) - faster than DRAM (Dynamic). Doesn’t require refresh. Built with transistors&lt;/li&gt;
-      &lt;li&gt;DRAM - requires refresh, made of capacitors&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;nonvolatile - doesn’t lose information (firmware)
-    &lt;ul&gt;
-      &lt;li&gt;DVD&lt;/li&gt;
-      &lt;li&gt;Flash Memory
-        &lt;ul&gt;
-          &lt;li&gt;Wears out after about 100,000 - 1,000,000 write&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;SSD&lt;/li&gt;
-      &lt;li&gt;Hard Drive&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;EPROM - Electronically programmed read only memory&lt;/li&gt;
-  &lt;li&gt;EEPROM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;processors&quot;&gt;Processors&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;CU&lt;/strong&gt; - Control Unit.
-    &lt;ul&gt;
-      &lt;li&gt;Takes instructions&lt;/li&gt;
-      &lt;li&gt;Tells the ALU, I/O what to do&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ALU&lt;/strong&gt; - Arithmetic Logic Unit&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ROM&lt;/strong&gt; - Read Only Memory&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;
- ---------------
-|  __   ___     |
-| |CU| |ALU|    |
-|  __________   |
-| | Registers|  |
-|               |
- -|-----|-----|-
- _|_____|_____|____
-/ |  BUS|     |    \
-\_|_____|_____|____/
-  |     |     |
-|RAM| |ROM| |I/O|
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;registers&quot;&gt;Registers&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Direct Access to CPU&lt;/li&gt;
-  &lt;li&gt;Frequently used variables&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Critical to program performance&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;You can only access registers through assembly code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;transistor&quot;&gt;Transistor&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;transistor&lt;/strong&gt; - logic gate. On/Off switch&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;VLSI&lt;/strong&gt; - Very Large Scale Integrated circuit&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ASICS&lt;/strong&gt; - Application Specific Integrated Circuit.
-    &lt;ul&gt;
-      &lt;li&gt;Similar to the FPGA.&lt;/li&gt;
-      &lt;li&gt;Not reprogrammable.&lt;/li&gt;
-      &lt;li&gt;Expensive&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;FPGA&lt;/strong&gt; - Field Programmable G Array (kinda like a macro)
-    &lt;ul&gt;
-      &lt;li&gt;not expensive&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;how-chips-are-made&quot;&gt;How Chips are Made&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Silicon&lt;/strong&gt; - semi-conductor
-    &lt;ul&gt;
-      &lt;li&gt;Add materials to make it a good conductor or insulator&lt;/li&gt;
-      &lt;li&gt;add paths - switches depends on conditions - charged or not&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;defect&lt;/strong&gt; - silicon waffers often have defects and must be discarded&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;die&lt;/strong&gt; - where the name “chip” came from&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;yield&lt;/strong&gt; - percentage of good dies from total dies on the the waffer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Important things to note if you’re looking at the industry&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;cost per die = &lt;script type=&quot;math/tex&quot;&gt;cost per wafer/dies per wafer X yield&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;dies per wafer = &lt;script type=&quot;math/tex&quot;&gt;wafer area/die area&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;yield = &lt;script type=&quot;math/tex&quot;&gt;1/(1 + (defects / area x die area/2)^2)&lt;/script&gt; based on empirical data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;te more chips you make the lower your costs are&lt;/strong&gt;
-0.0034050&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 13 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//cs3810/2016/01/13/CS-3810-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/13/CS-3810-notes.html</guid>
-        
-        
-        <category>cs3810</category>
         
       </item>
     

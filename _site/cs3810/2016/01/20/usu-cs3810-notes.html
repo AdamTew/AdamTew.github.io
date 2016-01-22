@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>USU - CS 3810 - In Class Notes</title>
+  <meta name="description" content="Adam Tew
+">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://adamtew.com//cs3810/2016/01/20/usu-cs3810-notes.html">
+	<!-- mathjax support for LaTex! -->
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-47753222-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+
+
+  <body>
+
+     <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Adam Tew</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">USU - CS 3810 - In Class Notes</h1>
+    <p class="post-meta">Jan 20, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="instructions-example">Instructions Example</h1>
+
+<blockquote>
+  <p>basically, you’re writing a program and you’re wondering which will be faster and by how much. Then you want to figure out CPI for each sequence</p>
+</blockquote>
+
+<p>examples for</p>
+
+<ul>
+  <li>CPU clock cycles = <script type="math/tex">\sum^n_{i=1} (pi \cdot ci)</script></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>C</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPI</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Code sequence</th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>CPU cycles<script type="math/tex">_1 = (2 \cdot + 1) + (1 \cdot 2) + (2 \cdot 3) = 10</script> cycles</p>
+
+<p>CPU cycles<script type="math/tex">_2 = (4 \cdot + 1) + (1 \cdot 2) + (1 \cdot 3) = 9</script> cycles</p>
+
+<h3 id="big-picture">Big picture</h3>
+
+<p>relate a program in time:</p>
+
+<ul>
+  <li>time = seconds per program = <script type="math/tex">\frac{instructions}{programs} \cdot \frac{clock cycles}{instruction} \cdot \frac{seconds}{cycle}</script></li>
+</ul>
+
+<h4 id="power-wall">Power Wall</h4>
+
+<p>Power</p>
+
+<blockquote>
+  <p>once you switch to multicore processing, CPI doesn’t apply</p>
+</blockquote>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1"></div>
+      <div class="footer-col  footer-col-2"></div>
+      <div class="footer-col  footer-col-3"></div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47753222-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+
+</html>

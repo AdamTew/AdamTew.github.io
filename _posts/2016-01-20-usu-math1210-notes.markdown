@@ -1,0 +1,44 @@
+---
+layout: post
+title: USU - MATH 1210 - In Class Notes
+category: math1210
+---
+
+- talked about syllabus
+- questions
+  + 2.2 44. Answer is $$\frac{1}{2}$$
+
+$$\lim_{x\to \frac{\pi}{1}} sin^2x$$
+
+$$= \lim_{x\to \frac{\pi}{1}} sinx^2$$
+
+$$= \left(sin\frac{\pi}{2}\right)^2$$
+
+$$= \frac{1}{2}$$
+
+- 2.2 32
+
+$$\lim_{x \to 0}\ \frac{\frac{1}{x-1} + \frac{1}{x+1}}{x}$$
+
+$$\lim_{x \to 0}\ \frac{\frac{x + 1 + x - 1}{(x + 1)(x - 1)}}{x}$$
+
+$$\lim_{x \to 0}\ \frac{2x}{(x + 1)(x - 1)} \cdot \frac{1}{x}$$
+
+$$\lim_{x \to 0}\ \frac{2x}{x(x + 1)(x - 1)}$$
+
+$$\lim_{x \to 0}\ \frac{2}{(x + 1)(x - 1)}$$
+
+$$\frac{2}{(0 + 1)(0 - 1)}$$
+
+$$\frac{2}{(1)(-1)}$$
+
+$$-2$$
+
+$$\delta$$
+
+
+## The Precise Definition of a Limit
+
+- definition: 
+
+let $$f(x)$$ be defined on an interval about $$c$$, except possibly at $$c$$ itself. We say that the limit of $$f(x)$$ as $$x$$ approaches to $$c$$ is the number $$L$$ and write $$ \lim_{x\to c}$$ $$f(x) = L$$, if, for every number $$e > 0$$, there exists a corresponding number $$S > 0$$ such that for all 4x$$, $$0 < |x - c| < S \Rightarrow |f(x) - L| < s$$

@@ -1,0 +1,43 @@
+---
+layout: post
+title: USU - CS 3810 - In Class Notes
+category: cs3810
+---
+
+# Instructions Example
+
+> basically, you're writing a program and you're wondering which will be faster and by how much. Then you want to figure out CPI for each sequence
+
+
+examples for 
+
+- CPU clock cycles = $$\sum^n_{i=1} (pi \cdot ci)$$
+
+|C|A|B|C|
+|---|---|---|
+|CPI|1|2|3
+
+---
+
+
+|Code sequence|A|B|C|
+|---|---|---|---|
+|2|4|1|1|
+
+
+CPU cycles$$_1 = (2 \cdot + 1) + (1 \cdot 2) + (2 \cdot 3) = 10$$ cycles
+
+CPU cycles$$_2 = (4 \cdot + 1) + (1 \cdot 2) + (1 \cdot 3) = 9$$ cycles
+
+
+### Big picture
+
+relate a program in time:
+
+- time = seconds per program = $$\frac{instructions}{programs} \cdot \frac{clock cycles}{instruction} \cdot \frac{seconds}{cycle}$$
+
+#### Power Wall
+
+Power
+
+> once you switch to multicore processing, CPI doesn't apply
