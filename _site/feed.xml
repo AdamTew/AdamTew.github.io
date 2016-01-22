@@ -6,9 +6,310 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jan 2016 21:58:02 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Jan 2016 21:58:02 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2016 10:28:08 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 10:28:08 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CHEM 1210 - Recitation Notes</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;sig figs&lt;/li&gt;
+  &lt;li&gt;mass volume density&lt;/li&gt;
+  &lt;li&gt;naming&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sig-figs&quot;&gt;sig figs&lt;/h3&gt;
+
+&lt;p&gt;55 gallon drums shipping chemical waste&lt;/p&gt;
+
+&lt;p&gt;the density of the chemical waste is &lt;script type=&quot;math/tex&quot;&gt;1.5942 \cdot \frac{2g}{cm^3}&lt;/script&gt; mass of chemical waste is in lbs&lt;/p&gt;
+
+&lt;p&gt;gallons to quarts to lt to cm^3&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;mass = volue \cdot density&lt;/script&gt;
+
+&lt;h3 id=&quot;isotopes&quot;&gt;Isotopes&lt;/h3&gt;
+
+&lt;p&gt;what is an isotope?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;has different number of neutrons in it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;if they give you something like this &lt;script type=&quot;math/tex&quot;&gt;^{-40}Ar&lt;/script&gt; how would you figure it out?&lt;/p&gt;
+
+&lt;p&gt;You’d figure out the number of protons in it (via the periodic table) and then you’d subtract that number from the example. The resulting number is the amount of neutrons in it.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;80% \to 80amu&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;20% \to 82amu&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\frac{80}{100} \cdot 80amu) + (\frac{20}{100} \cdot 82amu)&lt;/script&gt;
+
+&lt;h3 id=&quot;naming&quot;&gt;Naming&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ionic&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;if you’re naming nonionic you have to indicate the number of molecules in that molecule&lt;/li&gt;
+      &lt;li&gt;prefix-cadion prefix name + anion name&lt;/li&gt;
+      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;PCl_5&lt;/script&gt; -&lt;/li&gt;
+      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;N_2O_3&lt;/script&gt; - dinitrogen trioxygen?&lt;/li&gt;
+      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;MgCO_3&lt;/script&gt; - magnesium carbonate
+        &lt;ul&gt;
+          &lt;li&gt;polyatomic ions&lt;/li&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;SO^4&lt;/script&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;SO^3&lt;/script&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;CO^3&lt;/script&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;script type=&quot;math/tex; mode=display&quot;&gt;PO^4&lt;/script&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nonionic&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;MgCl_2&lt;/script&gt; - magnesium chloride&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;p&gt;name this: &lt;script type=&quot;math/tex&quot;&gt;PCL_5&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;name this: &lt;script type=&quot;math/tex&quot;&gt;MgCl_2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;the mane difference between a metal and a nonmetal is how far apart they are.&lt;/p&gt;
+
+&lt;h2 id=&quot;chapter-3&quot;&gt;chapter 3&lt;/h2&gt;
+
+&lt;p&gt;Why do we need to balance a chemical equation?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s telling you the ratios of the compounds. It’s telling you this in terms of mols&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;if they ever give you anything in an equation other than moles, you have to get it back to moles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;balancing-equations&quot;&gt;balancing equations&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B_2O_3 + HF \to BG_3 + H_2O&lt;/script&gt;
+
+&lt;p&gt;solve oxygen last because it’s usually in a lot of other things&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B_2O_3 + 6HF \to 2BG_3 + 3H_2O&lt;/script&gt;
+
+&lt;h3 id=&quot;chemical-reaction-chemical-equations&quot;&gt;Chemical reaction chemical equations&lt;/h3&gt;
+
+&lt;p&gt;theoretical yield —&amp;gt; &lt;script type=&quot;math/tex&quot;&gt;2H_2 + O_2 \to 2H_2O&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;25g of hydrogen&lt;/li&gt;
+  &lt;li&gt;225g of oxygen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;your actual yield is 365g&lt;/p&gt;
+
+&lt;p&gt;a. how many grams of water will you produce in grams?&lt;/p&gt;
+
+&lt;p&gt;what is the limiting reagent (reactant)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;convert everything into mols, mole = &lt;script type=&quot;math/tex&quot;&gt;\frac{sample mass}{molar mass}&lt;/script&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;moles &lt;script type=&quot;math/tex&quot;&gt;H = \frac{25g}{2g/m} = 12.5&lt;/script&gt;moles. Need 6.25 moles&lt;/p&gt;
+
+&lt;p&gt;moles &lt;script type=&quot;math/tex&quot;&gt;O_2 = \frac{225g}{32g/m} = 7.03 moles&lt;/script&gt;. We need 14.06 moles&lt;/p&gt;
+
+&lt;p&gt;what is the limiting reactant? Hydrogen&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 moles H \to 2 moles H_2O&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;12.5 moles H&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;12.5 moles H_2O&lt;/script&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;convert from moles to grams - multiply by the molar mass&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;grams = moles \dot molar mass&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;12.5 moles H_2O \cdot 18\frac{g}{mole}&lt;/script&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;find your percent yield&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% = \frac{actual}{theoretical} \cdot 100&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% = \frac{165g}{225g} \cdot 100&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 22 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chem1210/2016/01/22/usu-chem-recitation.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/22/usu-chem-recitation.html</guid>
+        
+        
+        <category>chem1210</category>
+        
+      </item>
+    
+      <item>
+        <title>Metric Chart</title>
+        <description>&lt;p&gt;SI Units&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Measurement&lt;/th&gt;
+      &lt;th&gt;Unit&lt;/th&gt;
+      &lt;th&gt;Symbol&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Length&lt;/td&gt;
+      &lt;td&gt;meter&lt;/td&gt;
+      &lt;td&gt;m&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mass&lt;/td&gt;
+      &lt;td&gt;gram&lt;/td&gt;
+      &lt;td&gt;g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Time&lt;/td&gt;
+      &lt;td&gt;second&lt;/td&gt;
+      &lt;td&gt;s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Electricity&lt;/td&gt;
+      &lt;td&gt;ampere&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Temperature&lt;/td&gt;
+      &lt;td&gt;kelvin&lt;/td&gt;
+      &lt;td&gt;K&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Quantity&lt;/td&gt;
+      &lt;td&gt;Mole&lt;/td&gt;
+      &lt;td&gt;mol&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Luminous Intensity&lt;/td&gt;
+      &lt;td&gt;candela&lt;/td&gt;
+      &lt;td&gt;cd&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Metric Units&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Prefix&lt;/th&gt;
+      &lt;th&gt;Abbreviation&lt;/th&gt;
+      &lt;th&gt;Power&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Peta&lt;/td&gt;
+      &lt;td&gt;P&lt;/td&gt;
+      &lt;td&gt;$10^{15}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tera&lt;/td&gt;
+      &lt;td&gt;T&lt;/td&gt;
+      &lt;td&gt;$10^{12}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Giga&lt;/td&gt;
+      &lt;td&gt;G&lt;/td&gt;
+      &lt;td&gt;$10^{9}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mega&lt;/td&gt;
+      &lt;td&gt;M&lt;/td&gt;
+      &lt;td&gt;$10^{6}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kilo&lt;/td&gt;
+      &lt;td&gt;k&lt;/td&gt;
+      &lt;td&gt;$10^{3}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Deci&lt;/td&gt;
+      &lt;td&gt;d&lt;/td&gt;
+      &lt;td&gt;$10^{-1}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Centi&lt;/td&gt;
+      &lt;td&gt;c&lt;/td&gt;
+      &lt;td&gt;$10^{-2}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Milli&lt;/td&gt;
+      &lt;td&gt;m&lt;/td&gt;
+      &lt;td&gt;$10^{-3}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Micro&lt;/td&gt;
+      &lt;td&gt;$\mu^b$&lt;/td&gt;
+      &lt;td&gt;$10^{-6}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nano&lt;/td&gt;
+      &lt;td&gt;n&lt;/td&gt;
+      &lt;td&gt;$10^{-9}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pico&lt;/td&gt;
+      &lt;td&gt;p&lt;/td&gt;
+      &lt;td&gt;$10^{-12}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Femto&lt;/td&gt;
+      &lt;td&gt;f&lt;/td&gt;
+      &lt;td&gt;$10^{-15}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Atto&lt;/td&gt;
+      &lt;td&gt;a&lt;/td&gt;
+      &lt;td&gt;$10^{-18}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Zepto&lt;/td&gt;
+      &lt;td&gt;z&lt;/td&gt;
+      &lt;td&gt;$10^{-21}$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Fri, 22 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chemistry/chem1210/2016/01/22/metric-chart.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chemistry/chem1210/2016/01/22/metric-chart.html</guid>
+        
+        
+        <category>chemistry</category>
+        
+        <category>chem1210</category>
+        
+      </item>
     
       <item>
         <title>USU - CHEM 1210 - SI Notes</title>
@@ -863,432 +1164,6 @@ symbol for a clock...
         
         
         <category>cs3810</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - In Class Notes</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Chris - SI leader&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tuesday &amp;amp; Thursday, BNR 102, 7:30 - 8:20&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;questions:
-    &lt;ul&gt;
-      &lt;li&gt;naming ios (nomanclature)&lt;/li&gt;
-      &lt;li&gt;converting density back and forth with mass and volume
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;script type=&quot;math/tex; mode=display&quot;&gt;d = \frac{M}{V}&lt;/script&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Usually a two-step process to convert from one unit to another&lt;/li&gt;
-          &lt;li&gt;Example: &lt;script type=&quot;math/tex&quot;&gt;\frac{kg}{mL}&lt;/script&gt;&lt;/li&gt;
-          &lt;li&gt;You start by knowing the units&lt;/li&gt;
-          &lt;li&gt;
-            &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{kg}{mL} \cdot \frac{1000g}{kg} = \frac{g}{mL}&lt;/script&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;review&quot;&gt;Review&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;elements&lt;/li&gt;
-  &lt;li&gt;electrons&lt;/li&gt;
-  &lt;li&gt;radioactivity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;“Most important part” - an atom has a ncleus that houses all of the densit (protons and neutrons)&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;charge&lt;/th&gt;
-      &lt;th&gt;mass&lt;/th&gt;
-      &lt;th&gt;approx mass&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;p = proton&lt;/td&gt;
-      &lt;td&gt;+1&lt;/td&gt;
-      &lt;td&gt;1.007&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;n = neutron&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1.009&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;e = electron&lt;/td&gt;
-      &lt;td&gt;-1&lt;/td&gt;
-      &lt;td&gt;5.5 x $$10^{-4}&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;atomic number is the number of protons in an atom&lt;/li&gt;
-  &lt;li&gt;you may have different numbers of neutrons in the same atom&lt;/li&gt;
-  &lt;li&gt;atomic weight and mass
-    &lt;ul&gt;
-      &lt;li&gt;when you’re looking at atoms in nature, you almost never find exact quantities of neutrons, you usually have some variance in neutrons
-        &lt;ul&gt;
-          &lt;li&gt;you normally take an average of what is normal&lt;/li&gt;
-          &lt;li&gt;the atomic weight of carbon &lt;strong&gt;not the actual, the average of what you’d see in nature&lt;/strong&gt; is 12.01 amu - this is the same number you’d find in the periodic table&lt;/li&gt;
-          &lt;li&gt;chlorine 35.5 amu - it comes in 2 &lt;strong&gt;isotopes&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;^{35}Cl and 25% ^{36}Cl&lt;/script&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;periodic-table&quot;&gt;Periodic Table&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s just a list of numbers that are grouped together&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Li, Na, K (3, 11, 19) are just very similar
-He, Ne, Ar (2, 10, 18) are very similar
-Cu, Ag, Au (29, 47, 79) are very similar&lt;/p&gt;
-
-&lt;p&gt;numbers elements like you’d read a book in english (1 is in the top left, 116 is in the bottom right)&lt;/p&gt;
-
-&lt;h3 id=&quot;structure&quot;&gt;Structure&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;columns all have similar properties (sometimes called families)
-    &lt;ul&gt;
-      &lt;li&gt;1A Alkali metals&lt;/li&gt;
-      &lt;li&gt;7A is Halogens&lt;/li&gt;
-      &lt;li&gt;8A is noble gases&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Rows are called periods&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;molecules&quot;&gt;Molecules&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Molecules are nothing more than &lt;strong&gt;atoms attached to each other&lt;/strong&gt;. and their attached with things called atomic binds&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;diatomic - two of the same atom&lt;/li&gt;
-  &lt;li&gt;dioxygen - &lt;script type=&quot;math/tex&quot;&gt;O&lt;/script&gt; - unstable&lt;/li&gt;
-  &lt;li&gt;oxygen - &lt;script type=&quot;math/tex&quot;&gt;O_2&lt;/script&gt; - required for life&lt;/li&gt;
-  &lt;li&gt;ozone - &lt;script type=&quot;math/tex&quot;&gt;O_3&lt;/script&gt; - toxic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;compounds&quot;&gt;Compounds&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;H_2O&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;H_2O_2&lt;/script&gt; -  read ‘h’ two oh and ‘h’ two ‘o’ two&lt;/li&gt;
-  &lt;li&gt;if there’s only one atom you ommit the number&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;molecular-formula&quot;&gt;Molecular formula&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;shows the actual number of atoms in a compound&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;empirical-formula&quot;&gt;Empirical Formula&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;just ratios of numbers of given atoms&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;structural-formula&quot;&gt;Structural Formula&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;shows what atoms are connectd to what&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Oxygen&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-H - O - H
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Methane&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-    H
-    |
-H - C - H
-    |
-    H
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;different types of structures
-    &lt;ul&gt;
-      &lt;li&gt;ball and stick&lt;/li&gt;
-      &lt;li&gt;space filling&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;br-&quot;&gt;&lt;br /&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ION = non-neutral entity&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Electron has been added or removed
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;ul&gt;
-          &lt;li&gt;= cation (&lt;script type=&quot;math/tex&quot;&gt;e^-&lt;/script&gt; missing)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;ul&gt;
-          &lt;li&gt;= anion (&lt;script type=&quot;math/tex&quot;&gt;e^-&lt;/script&gt; added)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;^{\text{Weight}\ \rightarrow 23}_{\text{Atomic Number} \rightarrow\ 11}NA&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;everything in the 1A column with almost always be +1&lt;/li&gt;
-  &lt;li&gt;everything in the 2A column with almost always be +2&lt;/li&gt;
-  &lt;li&gt;everything in the 7A column with almost always be -1&lt;/li&gt;
-  &lt;li&gt;everything in the 6A column with almost always be -2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;everything else is pretty are to predict&lt;/p&gt;
-
-&lt;h3 id=&quot;ionic-bonds&quot;&gt;Ionic bonds&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the ide makes you know it’s an anion&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;general-rule&quot;&gt;General Rule&lt;/h4&gt;
-
-&lt;p&gt;Ionic compounds contain both metal and nonmetal molecules contain nonmetals only&lt;/p&gt;
-
-&lt;h2 id=&quot;nomenclature&quot;&gt;Nomenclature&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;for ionic compounds
-    &lt;ul&gt;
-      &lt;li&gt;metal (cation) has same name as atom itself&lt;/li&gt;
-      &lt;li&gt;nonmetal (anion): change ending to “ide”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;NaCl = sodium chlor&lt;script type=&quot;math/tex&quot;&gt;\color{red}{ide}&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;Caf_2&lt;/script&gt; = calcium fluoride&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;Al_2O_3&lt;/script&gt; = aluminum oxide&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;when atoms have more than one charge you use &lt;strong&gt;rrous&lt;/strong&gt; and &lt;strong&gt;rris&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Fe^{+2}&lt;/script&gt; (iron(II) = ferric&lt;br /&gt;
-&lt;script type=&quot;math/tex&quot;&gt;Fe^{+3}&lt;/script&gt; (iron(III)) = ferrous&lt;/p&gt;
-
-&lt;h3 id=&quot;naming-anions&quot;&gt;Naming anions&lt;/h3&gt;
-
-&lt;p&gt;atoms can aggregate together into a collective ion&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 15 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/15/usu-chem-1210-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/15/usu-chem-1210-notes.html</guid>
-        
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - Chapter 2 Notes</title>
-        <description>&lt;h1 id=&quot;atoms-molecules-and-ions&quot;&gt;Atoms, Molecules, and Ions&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;lIn a sense, the atoms are like the 26 letters of the English alphabet that join in different combinations to form the immense number of words in our language&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;the-atomic-theory-of-matter&quot;&gt;2.1 The Atomic Theory of Matter&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dalton’sTheory
-    &lt;ol&gt;
-      &lt;li&gt;Each element is composed of extremely small particles called atoms&lt;/li&gt;
-      &lt;li&gt;All atoms of a given element are identical, but the atoms of one element are different from the atoms of all other elements.&lt;/li&gt;
-      &lt;li&gt;Atoms of one element cannot be changed int oatoms of a different element by chemical reactions; atoms are neither created nor destroyed in chemical reactions.&lt;/li&gt;
-      &lt;li&gt;Compounds are formed when atoms of more than one element combine; a given compound always has the same relative number and kind of atoms.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-discovery-of-atomic-structure&quot;&gt;2.2 The Discovery of Atomic Structure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;subatomic particles&lt;/strong&gt; - the parts of an atom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cathode-rays-and-electrons&quot;&gt;Cathode Rays and Electrons&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;cathode rays&lt;/strong&gt; - radiation produced between electrodes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;radioactivity&quot;&gt;Radioactivity&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Radioactivity&lt;/strong&gt; - The spontaneous emission of radiation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-nuclear-model-of-the-atom&quot;&gt;The Nuclear Model of the Atom&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Nuclear Model&lt;/strong&gt; - Most of the mass of an atom and all of its positive charge reside in a very small, extremely dense region - the &lt;strong&gt;nucleus&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Protons&lt;/strong&gt; - positive particles&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Neutrons&lt;/strong&gt; - negative particles&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-modern-view-of-atomic-sructure&quot;&gt;2.3 The Modern View of Atomic Sructure&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;only three subatomic particles–the &lt;strong&gt;proton&lt;/strong&gt;, &lt;strong&gt;neuton&lt;/strong&gt;, and &lt;strong&gt;electron&lt;/strong&gt;– have a bearing on chemical bahvior&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;electronic charge&lt;/strong&gt; - the quantity &lt;script type=&quot;math/tex&quot;&gt;1.602 \times 10^{-19} C&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;electron&lt;/strong&gt; - 1-
-    &lt;ul&gt;
-      &lt;li&gt;mas of &lt;script type=&quot;math/tex&quot;&gt;5.486 * 10^{-4}&lt;/script&gt; amu&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;proton&lt;/strong&gt; - 1+
-    &lt;ul&gt;
-      &lt;li&gt;reside in the nucleus&lt;/li&gt;
-      &lt;li&gt;mass of of 1.0073 amu&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;neutron&lt;/strong&gt; - 1 (neutral)
-    &lt;ul&gt;
-      &lt;li&gt;reside in the nucleus&lt;/li&gt;
-      &lt;li&gt;mass of 1.0087&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Every atom has the same number of electrons and protons, so &lt;strong&gt;atoms have no net electrical charge&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;atomic mass unit&lt;/strong&gt; (amu) - Used to measure the mass of atoms. 1 amu = &lt;script type=&quot;math/tex&quot;&gt;1.66054 \times 10^{-24} g&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;angstrom&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;\AA&lt;/script&gt; -&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;atomic-numbers-mass-numbers-and-isotopes&quot;&gt;Atomic Numbers, Mass Numbers, and Isotopes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Atomic Number&lt;/strong&gt; - The number of protons in an atom&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mass Number&lt;/strong&gt; - the number of protons plus neutrons in the atom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;^{\text{Mass Number(number of protons plus neutrons) }\ \rightarrow\ 12}_{\text{Atomic Number(number of protons or electrons) }\ \rightarrow\ 6}C\leftarrow \text{Symbol of element}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Isotopes&lt;/strong&gt;  - same number of protons different number of neutrons&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;atomic-weights&quot;&gt;2.4 Atomic Weights&lt;/h2&gt;
-
-&lt;h3 id=&quot;atomic-weight&quot;&gt;Atomic Weight&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Atomic Weight&lt;/strong&gt; - average atomic mass of an element&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-atomic-mass-scale&quot;&gt;The Atomic Mass Scale&lt;/h3&gt;
-
-&lt;h2 id=&quot;the-periodic-table&quot;&gt;2.5 The Periodic Table&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The periodic table is the most significant tool that chemists use for organizing and remembering chemical facts.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Periods&lt;/strong&gt; - Horizontal rows&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Groups&lt;/strong&gt; vertical columns&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;molecules-and-molecular-compounds&quot;&gt;2.6 Molecules and Molecular Compounds&lt;/h2&gt;
-
-&lt;h3 id=&quot;molecules-and-chemical-formulas&quot;&gt;Molecules and Chemical Formulas&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Diatomic molecule&lt;/strong&gt; - Molecule made up of two atoms&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Molecular Compounds&lt;/strong&gt; - Compounds composed of molecules&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Elements that normally appear as diatomic molecules:
-Hydrogen, oxygen, nitrogen, and the halogens&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;H_2,\ O_2,\ N_2,\ F_2,\ Cl_2,\ Br_2,\ \text{and}\ I_2&lt;/script&gt;
-
-&lt;h3 id=&quot;molecular-and-empirical-formulas&quot;&gt;Molecular and Empirical Formulas&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Molecular formulas&lt;/strong&gt; - Chemical formulas that indicate th actual numbers of atoms ina molecule&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Empirical formulas&lt;/strong&gt; - Chemical formulas that give onle the relatie number of atoms of each type in a molecule&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;picturing-molecules&quot;&gt;Picturing Molecules&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Structural Formula&lt;/strong&gt; - shows which atoms are attached to which&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ions-and-ionic-compounds&quot;&gt;2.7 Ions and Ionic Compounds&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ion&lt;/strong&gt; - charged particle, formed when electrons are removed from an atom
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Cation&lt;/strong&gt; - An ion with a positive charge&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;anion&lt;/strong&gt; - negatively charged ion&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;predicting-ionic-charges&quot;&gt;Predicting Ionic Charges&lt;/h3&gt;
-
-&lt;h3 id=&quot;ionic-compounds&quot;&gt;Ionic Compounds&lt;/h3&gt;
-
-&lt;h2 id=&quot;naming-inorganic-compounds&quot;&gt;2.8 Naming Inorganic Compounds&lt;/h2&gt;
-
-&lt;h2 id=&quot;some-simple-organic-compounds&quot;&gt;2.9 Some Simple Organic Compounds&lt;/h2&gt;
-
-</description>
-        <pubDate>Thu, 14 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/14/chem-chapter-2.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/14/chem-chapter-2.html</guid>
-        
-        
-        <category>chem1210</category>
         
       </item>
     

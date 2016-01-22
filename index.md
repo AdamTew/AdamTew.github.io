@@ -35,7 +35,7 @@ I love to get away from work or school to do my own stuff, which usually include
 
 ## Projects
 
-- [__Blog__](http://localhost:4000/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.
+- [__Blog__](http://www.adamtew.com/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.
     + _html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)
 - [__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm taking chemistry this semester. 
     + _html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)
@@ -44,6 +44,12 @@ I love to get away from work or school to do my own stuff, which usually include
 
 <br />
 <br />
+
+## Chemistry
+
+- [page](http://www.adamtew.com/chemistry)
+- [page](http://localhost:4000/chemistry)
+- [metric units](http://localhost:4000/chemistry/metric-units)
 
   <h1 class="page-heading">Posts</h1>
 
