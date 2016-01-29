@@ -1,0 +1,27 @@
+---
+layout: post
+title: USU - CS 3810 - In Class Notes
+category: cs3810
+---
+
+> Perfect example of twos complement
+
+convert to decimal using 2^0 + 2^1 + 2^2
+
+for two's complement you do x + xhat = - 1.
+
+convert hexadecimal to decimal
+
+1D9
+
+$$1 * 16^2 + 13 * 16^1 + 9 * 16^0$$
+
+### Logical Operations
+
+|Operations|MIPS|
+|---|---|
+|Shift Left|sll
+|Shift Right|srl
+|Bitwise AND|and, andi
+|Bitwise OR|or, ori
+|Bitwise NOT|nor
