@@ -1,25 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, blockquote, pre,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
+
+h2 {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 50px; }
+
+hr {
+  margin: 20px; }
 
 /**
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  -webkit-font-smoothing: antialiased; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -60,7 +67,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 /**
  * Links
@@ -71,8 +78,8 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #00C853;
+    opacity: .6; }
 
 /**
  * Blockquotes
@@ -95,18 +102,44 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #69F0AE;
+  color: black; }
 
 code {
-  padding: 1px 5px; }
+  padding: 3px 5px; }
 
 pre {
   padding: 8px 12px;
-  overflow-x: auto; }
+  overflow-x: scroll; }
   pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+/*
+    Table
+*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid #e8e8e8;
+  border-radius: 55px; }
+
+th {
+  margin: 10px;
+  padding: 2px;
+  color: #424242;
+  border: 2px solid #e8e8e8;
+  border-radius: 55px; }
+
+td {
+  padding: 8px;
+  margin: 2px;
+  color: #828282;
+  border: 1px solid #e8e8e8;
+  border-radius: 55px; }
 
 /**
  * Wrapper
@@ -143,19 +176,47 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+.icon--large > svg {
+  width: 30px;
+  height: 30px;
+  margin: 10px 16px; }
+  .icon--large > svg path {
+    fill: #69F0AE; }
+  .icon--large > svg:hover path {
+    fill: #dark-green-color; }
+
+/*
+	Text
+*/
+.text--center {
+  text-align: center !important; }
+
+.text--large {
+  font-size: 48px; }
+
+.text--title {
+  font-size: 68px; }
+
+/*
+	Switch categories
+*/
+.catbloc:not(:target) {
+  display: none; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: relative;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 3; }
 
 .site-title {
   font-size: 26px;
-  font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -171,13 +232,13 @@ pre {
   .site-nav .page-link {
     color: #111;
     line-height: 1.5; }
-    .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+    .site-nav .page-link:not(:first-child) {
+      margin-left: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
       top: 9px;
-      right: 15px;
+      right: 30px;
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
@@ -203,16 +264,15 @@ pre {
         padding-bottom: 5px; }
       .site-nav .page-link {
         display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
+        padding: 5px 10px; } }
 
 /**
  * Site footer
  */
 .site-footer {
+  background: #242729;
   border-top: 1px solid #e8e8e8;
+  height: 100px;
   padding: 30px 0; }
 
 .footer-heading {
@@ -264,7 +324,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  padding-top: 80px; }
 
 .page-heading {
   font-size: 20px; }
@@ -299,8 +360,13 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+  .post-content h1 {
+    font-size: 38px;
+    margin: 0 0 60px 0; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 30px 0; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
@@ -320,8 +386,6 @@ pre {
  */
 .highlight {
   background: #fff; }
-  .highlighter-rouge .highlight {
-    background: #eef; }
   .highlight .c {
     color: #998;
     font-style: italic; }
@@ -455,3 +519,13 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.profile__container {
+  width: 100%; }
+.profile__content {
+  margin: 0 auto;
+  max-width: 200px; }
+.profile--image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }
