@@ -25,3 +25,21 @@ $$\frac{700 mi}{hr} \cdot \frac{1.61 km}{mi} \cdot \frac{1000m}{1km} \cdot \frac
 - exact numbers - when you invented the numbers you don't have to worry about significant figures on conversions
 
 ## Nomanclature
+
+- cadions are positive ions
+  + some people tihnk that cats are positive
+- anions are negative ions
+
+if you're naming something it's the same name as the metal
+
+sodium
+aluminum
+ferrous 
+ferrick
+
+- non-metals
+
+- __ate__ - is most commone
+- __ite__ - is less common
+- __Hypo__ - least
+- __per__ - 

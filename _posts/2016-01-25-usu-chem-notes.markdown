@@ -16,3 +16,21 @@ category: chem1210
 > The thing we have more of is called the excess reactant
 
 $$% \text{Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \cdot 100$$
+
+## Chapter 4
+
+### Reactions in Water
+
+- body weight is 60% water
+- aqueous solution - disolves in water
+- __solvent__ - what disolves stuff
+- __solute__ - stuff that gets disolved
+- __Solution__ - the result of the two
+- if something comes apart if water into positive and negative charges means it will conduct electricity
+- __electrolyte__ - something that conducts electricity in water (salt is, sugar is not)
+
+- NaCl (salt) $$\to Na^+ Cl^-$$
+
+### Precipitation Reactions
+
+

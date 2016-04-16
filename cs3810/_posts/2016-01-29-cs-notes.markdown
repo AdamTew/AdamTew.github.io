@@ -25,3 +25,7 @@ $$1 * 16^2 + 13 * 16^1 + 9 * 16^0$$
 |Bitwise AND|and, andi
 |Bitwise OR|or, ori
 |Bitwise NOT|nor
+
+Nor does or and then not/
+
+

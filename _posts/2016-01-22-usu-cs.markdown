@@ -46,3 +46,7 @@ __answer__ A is faster by 1.2
 calculation to determine the MIPS
 
 MIPS = $$\frac{\text{Instruction Count}}{\text{Execution Time} \cdot 10^6}$$
+
+__pitfall__ you can't compare MIPS for separate computers
+
+

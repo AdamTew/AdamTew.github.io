@@ -36,3 +36,10 @@ precipitation reaction
 - neutralization occurs when a solution of an acid and a base are mixed
 
 
+## Oxidation / Reduction
+
+> another class of reactions invloves the movement or transfer of electrons from one entity to another 
+
+- oxidized - the entity loses electrons
+- reduced - the entity that gains electrons
+
