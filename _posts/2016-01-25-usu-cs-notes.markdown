@@ -1,7 +1,7 @@
 ---
 layout: post
 title: USU - CS 3810 - In Class Notes
-category
+category: chem1210
 ---
 
 ## MIPS
