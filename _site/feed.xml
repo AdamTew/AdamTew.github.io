@@ -6,9 +6,356 @@
 </description>
     <link>http://adamtew.com//</link>
     <atom:link href="http://adamtew.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Jan 2016 22:10:41 -0700</pubDate>
-    <lastBuildDate>Sun, 24 Jan 2016 22:10:41 -0700</lastBuildDate>
+    <pubDate>Sat, 16 Apr 2016 15:12:02 -0600</pubDate>
+    <lastBuildDate>Sat, 16 Apr 2016 15:12:02 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>USU - CHEM 1210 - In Class Notes</title>
+        <description>&lt;p&gt;Chapter 5 - Energy&lt;/p&gt;
+
+&lt;h3 id=&quot;systems&quot;&gt;&lt;strong&gt;systems&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They need boundaries, even if they’re imaginary&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;closed&lt;/strong&gt; - energy can cross the barrier, but not matter. Heat energy, but not mass&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;work&lt;/strong&gt; - force is a push or pull on an object. Work is the product of force applied to an object over a distance. Force times distance (displacement) &lt;script type=&quot;math/tex&quot;&gt;w = F \times d&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Energy&lt;/strong&gt; - the work done to move an object against a force. Heat can transfer enery between two objects. Always goes from hot to cold. Energy is the capacity to do work or transfer heat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-first-law-of-thermodynamics&quot;&gt;The First Law of Thermodynamics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;E can transfer from one form to another, and can move but E is conserved
+    &lt;ul&gt;
+      &lt;li&gt;Energy cannot be created or destroyed&lt;/li&gt;
+      &lt;li&gt;energy of (system + surroudings) is constant&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;q&lt;/strong&gt; - energy&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;w&lt;/strong&gt; - work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Remember that when transferring heat, one is gaining energy, the other is performing work. If heat is leaving the system, then q is negative&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta E = q + w&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Endothermic&lt;/strong&gt;: absorbs heat from the surroundings ( feels cold)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exothermic&lt;/strong&gt;: transfers heat to the surroudgins (feels hot)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;State function&lt;/strong&gt; depends oly on present conditions not on past history. They don’t depend on the route you’re taking
+    &lt;ul&gt;
+      &lt;li&gt;some examples are latitute, altitude, score of a football game, bank account amount&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enthalpy (H)&lt;/strong&gt; - closely related to energy, but defined slightly differently. Different definition neede because chemical reactions can release head &lt;strong&gt;and&lt;/strong&gt; do work. Heat that goes between the system and surroundings carried out under constant pressure
+    &lt;ul&gt;
+      &lt;li&gt;Example explosion that pusheda piston&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;w = - P \delta V&lt;/script&gt; - assumes constant P resistance&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;P&lt;/strong&gt; - external pressure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta H = \delta (Eee + PV)&lt;/script&gt;
+
+&lt;h3 id=&quot;enthalpy-of-reaction&quot;&gt;Enthalpy of Reaction&lt;/h3&gt;
+
+&lt;p&gt;chemical reactions that cause heating would be exothermic reactions. An example is when you oxidize paper, it burns and causes heat&lt;/p&gt;
+
+&lt;p&gt;enthalpy reaction&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;A + B \to C + D&lt;/script&gt;
+H1              H2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important rules&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;when we reverse a reaction, we change the sign of &lt;script type=&quot;math/tex&quot;&gt;\delta H&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;Change in enthalpy depends on state&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 08 Feb 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chemistry/chem1210/2016/02/08/inclass-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chemistry/chem1210/2016/02/08/inclass-notes.html</guid>
+        
+        
+        <category>chemistry</category>
+        
+        <category>chem1210</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;p&gt;Building Blocks&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;blt - branch less than&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;slt - set less than&lt;/li&gt;
+  &lt;li&gt;slti - set less than i&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;procedures&quot;&gt;Procedures&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pieces of code that you want put together&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prologue&lt;/li&gt;
+  &lt;li&gt;Body&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Epilogue&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;jump and link - procedure call
+    &lt;ul&gt;
+      &lt;li&gt;command jal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;jump register -
+    &lt;ul&gt;
+      &lt;li&gt;command: jr&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;leaf-and-non-leaf-procedures&quot;&gt;Leaf and Non-Leaf Procedures&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leaf procedures - do not call other procedures&lt;/li&gt;
+  &lt;li&gt;non-leaf procedures - do call other procedures&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//cs3810/2016/02/01/cs3810-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/02/01/cs3810-notes.html</guid>
+        
+        
+        <category>cs3810</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Perfect example of twos complement&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;convert to decimal using 2^0 + 2^1 + 2^2&lt;/p&gt;
+
+&lt;p&gt;for two’s complement you do x + xhat = - 1.&lt;/p&gt;
+
+&lt;p&gt;convert hexadecimal to decimal&lt;/p&gt;
+
+&lt;p&gt;1D9&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 * 16^2 + 13 * 16^1 + 9 * 16^0&lt;/script&gt;
+
+&lt;h3 id=&quot;logical-operations&quot;&gt;Logical Operations&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operations&lt;/th&gt;
+      &lt;th&gt;MIPS&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Shift Left&lt;/td&gt;
+      &lt;td&gt;sll&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Shift Right&lt;/td&gt;
+      &lt;td&gt;srl&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitwise AND&lt;/td&gt;
+      &lt;td&gt;and, andi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitwise OR&lt;/td&gt;
+      &lt;td&gt;or, ori&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bitwise NOT&lt;/td&gt;
+      &lt;td&gt;nor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nor does or and then not/&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 29 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//cs3810/2016/01/29/cs-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/29/cs-notes.html</guid>
+        
+        
+        <category>cs3810</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CHEM 1210 - In Class Notes</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;exam is next friday&lt;/li&gt;
+  &lt;li&gt;tomorrow the quiz 4 is due&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reactions&quot;&gt;reactions&lt;/h2&gt;
+
+&lt;p&gt;precipitation reaction&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;precipitate - when two elements don’t want to stay in solution, they make crystals&lt;/li&gt;
+  &lt;li&gt;spectator ions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3 ways to write precipitation reactions&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;net ionic - remove spectator ions&lt;/li&gt;
+  &lt;li&gt;ionic - ions with spectator ions&lt;/li&gt;
+  &lt;li&gt;molecular - don’t recognize them as ions, just molecules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;acid-base-chemistry&quot;&gt;Acid-Base Chemistry&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;definition: acids release &lt;script type=&quot;math/tex&quot;&gt;H^+&lt;/script&gt; ions in solution&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;monoprotic&lt;/li&gt;
+  &lt;li&gt;diprotic - &lt;script type=&quot;math/tex&quot;&gt;H_2SO_4 \to 3H^+ + PO_$^{3-}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;triprotic -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;bases react with &lt;script type=&quot;math/tex&quot;&gt;H^+&lt;/script&gt; ions to lower their concentration: &lt;script type=&quot;math/tex&quot;&gt;OH^- + H^+ \to HOH&lt;/script&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;strong acids and bases strong electrolytes - they are c ompletely ionized in solution&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;weak acids and bases are weak electrolytes - they are partially ionized in solution&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;neutralization occurs when a solution of an acid and a base are mixed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;oxidation--reduction&quot;&gt;Oxidation / Reduction&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;another class of reactions invloves the movement or transfer of electrons from one entity to another&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;oxidized - the entity loses electrons&lt;/li&gt;
+  &lt;li&gt;reduced - the entity that gains electrons&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 27 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chemistry/chem1210/2016/01/27/usu-chem-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chemistry/chem1210/2016/01/27/usu-chem-notes.html</guid>
+        
+        
+        <category>chemistry</category>
+        
+        <category>chem1210</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CS 3810 - In Class Notes</title>
+        <description>&lt;h2 id=&quot;mips&quot;&gt;MIPS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;MIPS&lt;/strong&gt; - language of the microcontroller&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;registers&lt;/strong&gt; - most primitive brick of the logic structure
+    &lt;ul&gt;
+      &lt;li&gt;t - temporary register&lt;/li&gt;
+      &lt;li&gt;s - save register&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;word&lt;/strong&gt; - either a 32 bit instruction set&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;add # add $t with $t and store in $s&lt;/li&gt;
+  &lt;li&gt;sub # subtract $t with $t and store in $s&lt;/li&gt;
+  &lt;li&gt;lw # pull 32($s) from memory and save in $t&lt;/li&gt;
+  &lt;li&gt;sw #&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chem1210/2016/01/25/usu-cs-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/25/usu-cs-notes.html</guid>
+        
+        
+        <category>chem1210</category>
+        
+      </item>
+    
+      <item>
+        <title>USU - CHEM 1210 - In Class Notes</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Emily Olsen tutoring&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Empirical formula - ratios&lt;/li&gt;
+  &lt;li&gt;Combustion analysis - determining what’s in the x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Take grams, go to moles, use moles for the calculations, got back to grams&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The thing that there’s not enough of is the limiting reagent&lt;/p&gt;
+
+  &lt;p&gt;The thing we have more of is called the excess reactant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% \text{Yield} = \frac{\text{Actual Yield}}{\text{Theoretical Yield}} \cdot 100&lt;/script&gt;
+
+&lt;h2 id=&quot;chapter-4&quot;&gt;Chapter 4&lt;/h2&gt;
+
+&lt;h3 id=&quot;reactions-in-water&quot;&gt;Reactions in Water&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;body weight is 60% water&lt;/li&gt;
+  &lt;li&gt;aqueous solution - disolves in water&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;solvent&lt;/strong&gt; - what disolves stuff&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;solute&lt;/strong&gt; - stuff that gets disolved&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Solution&lt;/strong&gt; - the result of the two&lt;/li&gt;
+  &lt;li&gt;if something comes apart if water into positive and negative charges means it will conduct electricity&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;electrolyte&lt;/strong&gt; - something that conducts electricity in water (salt is, sugar is not)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;NaCl (salt) &lt;script type=&quot;math/tex&quot;&gt;\to Na^+ Cl^-&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;precipitation-reactions&quot;&gt;Precipitation Reactions&lt;/h3&gt;
+
+</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 -0700</pubDate>
+        <link>http://adamtew.com//chem1210/2016/01/25/usu-chem-notes.html</link>
+        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/25/usu-chem-notes.html</guid>
+        
+        
+        <category>chem1210</category>
+        
+      </item>
     
       <item>
         <title>USU - MATH 1210 - Homework Problems</title>
@@ -222,6 +569,9 @@ computer b: cycle time = 500ps, CPI = 1.2&lt;/p&gt;
 &lt;p&gt;calculation to determine the MIPS&lt;/p&gt;
 
 &lt;p&gt;MIPS = &lt;script type=&quot;math/tex&quot;&gt;\frac{\text{Instruction Count}}{\text{Execution Time} \cdot 10^6}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;pitfall&lt;/strong&gt; you can’t compare MIPS for separate computers&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 22 Jan 2016 00:00:00 -0700</pubDate>
         <link>http://adamtew.com//cs3810/2016/01/22/usu-cs.html</link>
@@ -456,660 +806,6 @@ computer b: cycle time = 500ps, CPI = 1.2&lt;/p&gt;
         
         
         <category>chemistry</category>
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>Metric Chart</title>
-        <description>&lt;p&gt;SI Units&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Measurement&lt;/th&gt;
-      &lt;th&gt;Unit&lt;/th&gt;
-      &lt;th&gt;Symbol&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Length&lt;/td&gt;
-      &lt;td&gt;meter&lt;/td&gt;
-      &lt;td&gt;m&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Mass&lt;/td&gt;
-      &lt;td&gt;gram&lt;/td&gt;
-      &lt;td&gt;g&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Time&lt;/td&gt;
-      &lt;td&gt;second&lt;/td&gt;
-      &lt;td&gt;s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Electricity&lt;/td&gt;
-      &lt;td&gt;ampere&lt;/td&gt;
-      &lt;td&gt;A&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Temperature&lt;/td&gt;
-      &lt;td&gt;kelvin&lt;/td&gt;
-      &lt;td&gt;K&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Quantity&lt;/td&gt;
-      &lt;td&gt;Mole&lt;/td&gt;
-      &lt;td&gt;mol&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Luminous Intensity&lt;/td&gt;
-      &lt;td&gt;candela&lt;/td&gt;
-      &lt;td&gt;cd&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Metric Units&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Prefix&lt;/th&gt;
-      &lt;th&gt;Abbreviation&lt;/th&gt;
-      &lt;th&gt;Power&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Peta&lt;/td&gt;
-      &lt;td&gt;P&lt;/td&gt;
-      &lt;td&gt;$10^{15}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Tera&lt;/td&gt;
-      &lt;td&gt;T&lt;/td&gt;
-      &lt;td&gt;$10^{12}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Giga&lt;/td&gt;
-      &lt;td&gt;G&lt;/td&gt;
-      &lt;td&gt;$10^{9}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Mega&lt;/td&gt;
-      &lt;td&gt;M&lt;/td&gt;
-      &lt;td&gt;$10^{6}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Kilo&lt;/td&gt;
-      &lt;td&gt;k&lt;/td&gt;
-      &lt;td&gt;$10^{3}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Deci&lt;/td&gt;
-      &lt;td&gt;d&lt;/td&gt;
-      &lt;td&gt;$10^{-1}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Centi&lt;/td&gt;
-      &lt;td&gt;c&lt;/td&gt;
-      &lt;td&gt;$10^{-2}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Milli&lt;/td&gt;
-      &lt;td&gt;m&lt;/td&gt;
-      &lt;td&gt;$10^{-3}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Micro&lt;/td&gt;
-      &lt;td&gt;$\mu^b$&lt;/td&gt;
-      &lt;td&gt;$10^{-6}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Nano&lt;/td&gt;
-      &lt;td&gt;n&lt;/td&gt;
-      &lt;td&gt;$10^{-9}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pico&lt;/td&gt;
-      &lt;td&gt;p&lt;/td&gt;
-      &lt;td&gt;$10^{-12}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Femto&lt;/td&gt;
-      &lt;td&gt;f&lt;/td&gt;
-      &lt;td&gt;$10^{-15}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Atto&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;$10^{-18}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Zepto&lt;/td&gt;
-      &lt;td&gt;z&lt;/td&gt;
-      &lt;td&gt;$10^{-21}$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Fri, 22 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chemistry/chem1210/2016/01/22/metric-chart.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chemistry/chem1210/2016/01/22/metric-chart.html</guid>
-        
-        
-        <category>chemistry</category>
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - SI Notes</title>
-        <description>&lt;p&gt;question:&lt;/p&gt;
-
-&lt;p&gt;Dimensional Analysis - what did I do wrong?&lt;/p&gt;
-
-&lt;p&gt;how far has the Millennium Falcon traveled going 700 $$\frac{mi}{h} after 35.0 min?&lt;/p&gt;
-
-&lt;p&gt;a. 657,000 m&lt;/p&gt;
-
-&lt;p&gt;b. &lt;strong&gt;657.3&lt;/strong&gt; m&lt;/p&gt;
-
-&lt;p&gt;c. 11,000 m&lt;/p&gt;
-
-&lt;p&gt;d. 254,100 m&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1.61 km}{1 mi}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{700 mi}{hr} \cdot \frac{1.61 km}{mi} \cdot \frac{1000m}{1km} \cdot \frac{1h}{60m} \cdot \frac{1min}{60s}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;exact numbers - when you invented the numbers you don’t have to worry about significant figures on conversions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nomanclature&quot;&gt;Nomanclature&lt;/h2&gt;
-</description>
-        <pubDate>Thu, 21 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/21/usu-chem-si.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/21/usu-chem-si.html</guid>
-        
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - Chapter 3 Notes</title>
-        <description>&lt;h1 id=&quot;stoichiometry-calculations-with-wchemical-formulas-and-equations&quot;&gt;Stoichiometry: Calculations with Wchemical Formulas and Equations&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Stoichiometry&lt;/strong&gt; - the area of study that examines the quantities of substances comsumed and produced in chemical reactions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Atoms are neither created nor destroyed during a chemical reaction.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;chemical-equations&quot;&gt;3.1 Chemical Equations&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;
-reactions represented as an equation
-
-  reacts     
-     |      
-     v      
-2 H2 + O2 ----&amp;gt; 2 H2O
-reactants   ^  products
-            |
-            |
-         produces
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;balancing-equations&quot;&gt;Balancing Equations&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For most purposes, a balanced equation should contain the smallest possible whole-number coefficients&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Coefficients&lt;/strong&gt; -&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Subscripts&lt;/strong&gt; -&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;indications-the-sattes-of-reactants-and-products&quot;&gt;Indications the Sattes of reactants and Products&lt;/h3&gt;
-
-&lt;p&gt;sometimes postfixes are used&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;(g) - gas&lt;/li&gt;
-  &lt;li&gt;(l) - liquid&lt;/li&gt;
-  &lt;li&gt;(s) - solid&lt;/li&gt;
-  &lt;li&gt;(aq) - aqueous (water)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;CH_4(g) + 2 O_2(g) \rightarrow CO_2(g) +  2 H_2O(g)&lt;/script&gt;
-
-&lt;h2 id=&quot;some-simple-patterns-of-chemical-reactivity&quot;&gt;3.2 Some Simple Patterns of Chemical Reactivity&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;combination reactions&lt;/li&gt;
-  &lt;li&gt;decomposition reactions&lt;/li&gt;
-  &lt;li&gt;combustion reactions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;combination-and-decomposition-reactions&quot;&gt;Combination and Decomposition Reactions&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In &lt;strong&gt;combination reactions&lt;/strong&gt; two or more substances react to form one product.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;basically, multiple things on the left side&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In a &lt;strong&gt;decomposition reaction&lt;/strong&gt; one substance undergoes a reaction to produce two or more other substances&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;multiple things on the right side&lt;/p&gt;
-
-&lt;h3 id=&quot;combustion-reactions&quot;&gt;Combustion Reactions&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Combustion reactions&lt;/strong&gt; are rapid reactions that produce a flame.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;note:&lt;/em&gt; hydrocarbons are compounds that contain only carbon and hydrogen, such as &lt;script type=&quot;math/tex&quot;&gt;CH_4 \text{and} C_2H_2&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;formula-weights&quot;&gt;3.3 Formula Weights&lt;/h2&gt;
-
-&lt;h2 id=&quot;avogadros-number-of-the-mole&quot;&gt;3.4 Avogadro’s Number of the Mole&lt;/h2&gt;
-
-&lt;h2 id=&quot;empirical-formulas-from-analyses&quot;&gt;3.5 Empirical Formulas from Analyses&lt;/h2&gt;
-
-&lt;h2 id=&quot;quantitative-information-from-balanced-equations&quot;&gt;3.6 Quantitative Information from Balanced Equations&lt;/h2&gt;
-
-&lt;h2 id=&quot;limiting-reactants&quot;&gt;3.7 Limiting Reactants&lt;/h2&gt;
-</description>
-        <pubDate>Thu, 21 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/21/usu-chem-chapter-3.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/21/usu-chem-chapter-3.html</guid>
-        
-        
-        <category>chem1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - MATH 1210 - In Class Notes</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;talked about syllabus&lt;/li&gt;
-  &lt;li&gt;questions
-    &lt;ul&gt;
-      &lt;li&gt;2.2 44. Answer is &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{2}&lt;/script&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x\to \frac{\pi}{1}} sin^2x&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \lim_{x\to \frac{\pi}{1}} sinx^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \left(sin\frac{\pi}{2}\right)^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{1}{2}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.2 32&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{\frac{1}{x-1} + \frac{1}{x+1}}{x}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{\frac{x + 1 + x - 1}{(x + 1)(x - 1)}}{x}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2x}{(x + 1)(x - 1)} \cdot \frac{1}{x}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2x}{x(x + 1)(x - 1)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{x \to 0}\ \frac{2}{(x + 1)(x - 1)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2}{(0 + 1)(0 - 1)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2}{(1)(-1)}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\delta&lt;/script&gt;
-
-&lt;h2 id=&quot;the-precise-definition-of-a-limit&quot;&gt;The Precise Definition of a Limit&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;definition:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;let &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; be defined on an interval about &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;, except possibly at &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; itself. We say that the limit of &lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt; as &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; approaches to &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; is the number &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt; and write &lt;script type=&quot;math/tex&quot;&gt;\lim_{x\to c}&lt;/script&gt; &lt;script type=&quot;math/tex&quot;&gt;f(x) = L&lt;/script&gt;, if, for every number &lt;script type=&quot;math/tex&quot;&gt;e &gt; 0&lt;/script&gt;, there exists a corresponding number &lt;script type=&quot;math/tex&quot;&gt;S &gt; 0&lt;/script&gt; such that for all 4x&lt;script type=&quot;math/tex&quot;&gt;,&lt;/script&gt;0 &amp;lt;&lt;/td&gt;
-      &lt;td&gt;x - c&lt;/td&gt;
-      &lt;td&gt;&amp;lt; S \Rightarrow&lt;/td&gt;
-      &lt;td&gt;f(x) - L&lt;/td&gt;
-      &lt;td&gt;&amp;lt; s$$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//math1210/2016/01/20/usu-math1210-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//math1210/2016/01/20/usu-math1210-notes.html</guid>
-        
-        
-        <category>math1210</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CS 3810 - In Class Notes</title>
-        <description>&lt;h1 id=&quot;instructions-example&quot;&gt;Instructions Example&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;basically, you’re writing a program and you’re wondering which will be faster and by how much. Then you want to figure out CPI for each sequence&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;examples for&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CPU clock cycles = &lt;script type=&quot;math/tex&quot;&gt;\sum^n_{i=1} (pi \cdot ci)&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;C&lt;/th&gt;
-      &lt;th&gt;A&lt;/th&gt;
-      &lt;th&gt;B&lt;/th&gt;
-      &lt;th&gt;C&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CPI&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Code sequence&lt;/th&gt;
-      &lt;th&gt;A&lt;/th&gt;
-      &lt;th&gt;B&lt;/th&gt;
-      &lt;th&gt;C&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;CPU cycles&lt;script type=&quot;math/tex&quot;&gt;_1 = (2 \cdot + 1) + (1 \cdot 2) + (2 \cdot 3) = 10&lt;/script&gt; cycles&lt;/p&gt;
-
-&lt;p&gt;CPU cycles&lt;script type=&quot;math/tex&quot;&gt;_2 = (4 \cdot + 1) + (1 \cdot 2) + (1 \cdot 3) = 9&lt;/script&gt; cycles&lt;/p&gt;
-
-&lt;h3 id=&quot;big-picture&quot;&gt;Big picture&lt;/h3&gt;
-
-&lt;p&gt;relate a program in time:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;time = seconds per program = &lt;script type=&quot;math/tex&quot;&gt;\frac{instructions}{programs} \cdot \frac{clock cycles}{instruction} \cdot \frac{seconds}{cycle}&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;power-wall&quot;&gt;Power Wall&lt;/h4&gt;
-
-&lt;p&gt;Power&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;once you switch to multicore processing, CPI doesn’t apply&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//cs3810/2016/01/20/usu-cs3810-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//cs3810/2016/01/20/usu-cs3810-notes.html</guid>
-        
-        
-        <category>cs3810</category>
-        
-      </item>
-    
-      <item>
-        <title>USU - CHEM 1210 - In Class Notes</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;questions:&lt;/li&gt;
-  &lt;li&gt;empirical formula
-    &lt;ul&gt;
-      &lt;li&gt;reduce&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;What will they look like on the exams?
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;questions on the exam will look a lot like the quizzes&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chapter-2&quot;&gt;Chapter 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;ionic-bonds-and-nomanclature&quot;&gt;Ionic bonds and nomanclature&lt;/h3&gt;
-
-&lt;p&gt;periodic table&lt;/p&gt;
-
-&lt;p&gt;when something becomes and ion it becomes an&lt;/p&gt;
-
-&lt;p&gt;general rule:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ionic compounds contain both metal and nonmental Molecules caontain nonmetals only&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;nomenclature&quot;&gt;Nomenclature&lt;/h3&gt;
-
-&lt;p&gt;NaCl = sodium chloride&lt;/p&gt;
-
-&lt;p&gt;CaF&lt;script type=&quot;math/tex&quot;&gt;_2&lt;/script&gt; = calcium fluoride&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Al_2O_2&lt;/script&gt; = aluminum oxide&lt;/p&gt;
-
-&lt;h3 id=&quot;naming-anions&quot;&gt;naming anions&lt;/h3&gt;
-
-&lt;p&gt;atoms can aggregate together into a collective ion&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;OH^-&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;SO_3^-2&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;CN^-&lt;/script&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;very simple ones tend to end in “ide”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;per___ are&lt;/th&gt;
-      &lt;th&gt;__ ite&lt;/th&gt;
-      &lt;th&gt;Hypo___ite&lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CLI_4^-&lt;/td&gt;
-      &lt;td&gt;ClI_3^-&lt;/td&gt;
-      &lt;td&gt;ClI_2^-&lt;/td&gt;
-      &lt;td&gt;ClI&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;perchlorate&lt;/td&gt;
-      &lt;td&gt;Chlorate&lt;/td&gt;
-      &lt;td&gt;Chlorite&lt;/td&gt;
-      &lt;td&gt;Hypochlorite&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;full-name-of-ionic-compounds&quot;&gt;Full name of ionic compounds&lt;/h3&gt;
-
-&lt;p&gt;cation + anion&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;CaCl_2&lt;/script&gt; calcium chlor__ide__&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;NaNO_3&lt;/script&gt; sodium &lt;strong&gt;nitrate&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;fe(NO_2)2&lt;/script&gt;  fer_rous_ &lt;strong&gt;nitrite&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;(NH_4)2SO_4&lt;/script&gt; &lt;em&gt;ammonium&lt;/em&gt; &lt;strong&gt;sulgate&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These names are as simple as they can be&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;metal + non-metal = salt&lt;/p&gt;
-
-&lt;p&gt;all have definite charge&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Until you get used to these it would be a good ide to refer to [the lists]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;note:&lt;/strong&gt; We’ll probably only see the common ions on tests, but there may be others&lt;/p&gt;
-
-&lt;p&gt;… Lots of stuff about ionic naming…&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;CO_2&lt;/script&gt; carbod __di__oxide, &lt;script type=&quot;math/tex&quot;&gt;CO&lt;/script&gt; carbon __mono__xide&lt;/p&gt;
-
-&lt;p&gt;because there’s occasion with 1 carbon molecule and 2 molecules, we need to distinguish between both&lt;/p&gt;
-
-&lt;h3 id=&quot;acids&quot;&gt;Acids&lt;/h3&gt;
-
-&lt;p&gt;Anion —-&amp;gt; Acid&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-______ide  ------&amp;gt; hydro ___ic acid
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;organic-compounds&quot;&gt;Organic Compounds&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hydrocarbons&lt;/li&gt;
-  &lt;li&gt;Alkanes
-    &lt;ul&gt;
-      &lt;li&gt;because they only have single bonds&lt;/li&gt;
-      &lt;li&gt;named based on the number of bonds
-        &lt;ul&gt;
-          &lt;li&gt;meth, eth, prop, but&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;any molecule with a double bond does not have a full complement of H atoms, so called “unsaturated”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;chapter-3&quot;&gt;Chapter 3&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Now we actually get into chemistry&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;conservation-of-mass&quot;&gt;Conservation of Mass&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;atoms never disappear
-    &lt;ul&gt;
-      &lt;li&gt;if you start with 12 and 24 you’re gonna end with 12 and 24&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Chemical Equation:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2\ H_2 + O_2 \rightarrow\ 2\ H_2O&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\text{reactants} \rightarrow \text{products}&lt;/script&gt;
-
-&lt;p&gt;Equation is “balanced”&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You can only change coeficients, not substripts&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;in the process of balancing atoms you usually want to end with &lt;em&gt;oxygen&lt;/em&gt; because it has so many potentials&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Something plus &lt;script type=&quot;math/tex&quot;&gt;O_2&lt;/script&gt; gives you &lt;script type=&quot;math/tex&quot;&gt;CO_2&lt;/script&gt; and water [&lt;script type=&quot;math/tex&quot;&gt;H_2O&lt;/script&gt;]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;atomic-weight-and-mass&quot;&gt;Atomic Weight and Mass&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What we’ve done so far is count the number of atoms&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;amu is a physical constant, it is the weight of an atom. If you take one and put it on a scale, that’s what you’ll get&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;However, not all atoms have the same &lt;strong&gt;weight&lt;/strong&gt; or &lt;strong&gt;mass&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;we’re going to define everything by it’s &lt;strong&gt;atomic mass unit&lt;/strong&gt; (amu)&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1\ amu = 1.66 \cdot 10^{-24} g&lt;/script&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;H&lt;/script&gt; atoms in a gram = &lt;script type=&quot;math/tex&quot;&gt;6.02 \cdot 10^23&lt;/script&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the atomic weight you’ll see in the periodic table will not be perfect integers because of isotopes&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;formula-or-molecular-weight&quot;&gt;Formula or Molecular Weight&lt;/h3&gt;
-
-&lt;p&gt;you take two molecules and add them together&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1(23.0) + 1(35.5) = 58.5&lt;/script&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Just add up all the numbers, very simple&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;percent-composition&quot;&gt;Percent Composition&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the atomic weight for each element divided by the formula weight of the compound&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;NaCl = 58.5&lt;/p&gt;
-
-&lt;p&gt;%Na  .39%&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;how small a sample can we really observe?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Next time we’ll be talking about &lt;em&gt;moles&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0700</pubDate>
-        <link>http://adamtew.com//chem1210/2016/01/20/usu-chem1210-notes.html</link>
-        <guid isPermaLink="true">http://adamtew.com//chem1210/2016/01/20/usu-chem1210-notes.html</guid>
-        
         
         <category>chem1210</category>
         
