@@ -2,20 +2,12 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
+p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
 
-h2 {
-    border-bottom: 1px solid $grey-color-light;
-    margin-bottom: 50px;
-}
-
-hr {
-    margin: 20px;
-}
 
 
 /**
@@ -29,7 +21,6 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -99,18 +90,15 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    // color: $dark-green-color; // dark green
     text-decoration: none;
 
     &:visited {
         color: darken($brand-color, 15%);
-        // color: $dark-green-color; // green
     }
 
     &:hover {
-        // color: $text-color;
-        color: $dark-green-color;
-        opacity: .6;
+        color: $text-color;
+        text-decoration: underline;
     }
 }
 
@@ -142,12 +130,11 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: $light-green-color; // green
-    color: black;
+    background-color: #eef;
 }
 
 code {
-    padding: 3px 5px;
+    padding: 1px 5px;
 }
 
 pre {
@@ -161,34 +148,7 @@ pre {
     }
 }
 
-/*
-    Table
-*/
 
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 2px;
-    padding: 2px;
-    border:2px solid $grey-color-light;
-    border-radius: 55px;
-}
-
-th{
-    margin: 10px;
-    padding: 2px;
-    color: $grey-color-dark;
-    border:2px solid $grey-color-light;
-    border-radius: 55px;
-}
-
-td{
-    padding: 8px;
-    margin: 2px;
-    color: $grey-color;
-    border:1px solid $grey-color-light;
-    border-radius: 55px;
-}
 
 /**
  * Wrapper
@@ -239,23 +199,6 @@ td{
 
         path {
             fill: $grey-color;
-        }
-    }
-
-    &--large {
-        > svg {
-            width: 30px;
-            height: 30px;
-            margin: 10px 16px;
-
-            path {
-                fill: $light-green-color;
-            }
-            &:hover {
-                path {
-                    fill: #dark-green-color;
-                }
-            }
         }
     }
 }
