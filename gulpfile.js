@@ -36,7 +36,7 @@ gulp.task('styles', function() {
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(gulp.dest('./css/'));
+    .pipe(gulp.dest('./'));
 });
 
 // autoprefixer and sourcemaps

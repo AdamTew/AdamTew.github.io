@@ -6,104 +6,123 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-
-<!-- <div class="home"> -->
-<div class="profile__container">
-    <div class="profile__content">
-        <img class="profile--image" src="./source/img/me.jpg">
-        <a href="https://twitter.com/">
-            <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#twitter"></use></svg>
-            </span>
-        </a>
-        <a href="mailto:">
-            <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#email"></use></svg>
-            </span>
-        </a>
-        <a href="https://github.com/">
-            <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#github"></use></svg>
-            </span>
-        </a>
+    
+      
+<div class="page-content">
+      <div class="wrapper">
+    <!-- <div class="home"> -->
+    <div class="profile__container">
+        <div class="profile__content">
+            <img class="profile--image" src="./source/img/me.jpg">
+            <a href="https://twitter.com/">
+                <span class="icon icon--large">
+                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#twitter"></use></svg>
+                </span>
+            </a>
+            <a href="mailto:">
+                <span class="icon icon--large">
+                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#email"></use></svg>
+                </span>
+            </a>
+            <a href="https://github.com/">
+                <span class="icon icon--large">
+                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#github"></use></svg>
+                </span>
+            </a>
+        </div>
+        <h1 class="text--title text--center">Adam Tew</h1>
     </div>
-    <h1 class="text--title text--center">Adam Tew</h1>
-</div>
 
-<br />
+    <br />
 
-I'm a programmer. Currently attending Utah State University while doing contract work on the side.
+    <p>I'm a programmer. Currently attending Utah State University while doing contract work on the side.</p>
 
-I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.
+    <p>I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.</p>
 
-I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.
+    <p>I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.</p>
 
-## Projects
+    <h2>Projects</h2>
 
-- [__Blog__](http://www.adamtew.com/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.
-    + _html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)
-- [__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm taking chemistry this semester. 
-    + _html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)
-- [__CFDjango___](https://github.com/adamtew/CFDjango) - A ColdFusion framework I was building while doing some contract work.
-    + _ColdFusion_ - [code](https://github.com/adamtew/CFDjango)
+    <ul>
+    <li>[__Blog__](http://www.adamtew.com/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.</li>
+        <li>_html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)</li>
+    <li>[__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm </li>taking chemistry this semester. 
+        <li>_html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)</li>
+    <li>[__CFDjango___](https://github.com/adamtew/CFDjango) - A ColdFusion framework I was building while doing some contract work.</li>
+        <li>_ColdFusion_ - [code](https://github.com/adamtew/CFDjango)</li>
+    </ul>
 
-<br />
-<br />
+    <br />
+    <br />
 
-## Chemistry
+    <h2>Chemistry</h2>
 
-- [page](http://www.adamtew.com/chemistry)
-- [page](http://localhost:4000/chemistry)
-- [metric units](http://localhost:4000/chemistry/metric-units)
+    <ul>
+      <li>[page](http://www.adamtew.com/chemistry)</li>
+      <li>[page](http://localhost:4000/chemistry)</li>
+      <li>[metric units](http://localhost:4000/chemistry/metric-units)</li>
+    </ul>
+      <h1 class="page-heading">Posts</h1>
 
-  <h1 class="page-heading">Posts</h1>
+    <!-- <div>
+         <a href="#allposts">All posts</a>
+         {% for category in site.categories %}
+             <a href="#"><strong></strong></a> {% if forloop.last %}.{% else %}, {% endif %}
+         {% endfor %}
+    </div>
 
-<!-- <div>
-     <a href="#allposts">All posts</a>
+    <div>
      {% for category in site.categories %}
-         <a href="#"><strong></strong></a> {% if forloop.last %}.{% else %}, {% endif %}
-     {% endfor %}
-</div>
-
-<div>
- {% for category in site.categories %}
-     <div class="catbloc" id="">
-         <h2></h2>
-         
-         <ul>
-            {% for posts in category %}
-              {% for post in posts %}
-                {% if post.url %}
-                  <li>
-                    <a href="">
-                      <time></time>
-                     
-                   </a>
-                 </li>
-               {% endif %}
-             {% endfor %}
-           {% endfor %}
-        </ul>
-    </div>
-{% endfor %}
-</div> -->
-
-
-
-
-
-
-  <!-- <ul id="allposts" class="post-list catbloc">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta"></span>
-
-        <h2>
-          <a class="post-link" href=""></a>
-        </h2>
-      </li>
+         <div class="catbloc" id="">
+             <h2></h2>
+             
+             <ul>
+                {% for posts in category %}
+                  {% for post in posts %}
+                    {% if post.url %}
+                      <li>
+                        <a href="">
+                          <time></time>
+                         
+                       </a>
+                     </li>
+                   {% endif %}
+                 {% endfor %}
+               {% endfor %}
+            </ul>
+        </div>
     {% endfor %}
-  </ul> -->
+    </div> -->
 
+
+
+
+
+
+      <!-- <ul id="allposts" class="post-list catbloc">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta"></span>
+
+            <h2>
+              <a class="post-link" href=""></a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul> -->
+    </div>
+  </div>
 </body>
 </html>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47753222-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
