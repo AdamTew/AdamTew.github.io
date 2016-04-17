@@ -3,30 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Adam Tew</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  
 
 <!-- <div class="home"> -->
 <div class="profile__container">
-    <!-- <div class="profile__content">
-        <img class="profile--image" src="./assets/images/me.jpg">
-        <a href="https://twitter.com/{{ site.twitter_username }}">
+    <div class="profile__content">
+        <img class="profile--image" src="./source/img/me.jpg">
+        <a href="https://twitter.com/">
             <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#twitter"></use></svg>
+                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#twitter"></use></svg>
             </span>
         </a>
-        <a href="mailto:{{ site.email }}">
+        <a href="mailto:">
             <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#email"></use></svg>
+                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#email"></use></svg>
             </span>
         </a>
-        <a href="https://github.com/{{ site.github_username }}">
+        <a href="https://github.com/">
             <span class="icon icon--large">
-                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./assets/images/sprites.svg#github"></use></svg>
+                <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#github"></use></svg>
             </span>
         </a>
-    </div> -->
+    </div>
     <h1 class="text--title text--center">Adam Tew</h1>
 </div>
 
@@ -61,23 +61,23 @@ I love to get away from work or school to do my own stuff, which usually include
 <!-- <div>
      <a href="#allposts">All posts</a>
      {% for category in site.categories %}
-         <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}
+         <a href="#"><strong></strong></a> {% if forloop.last %}.{% else %}, {% endif %}
      {% endfor %}
 </div>
 
 <div>
  {% for category in site.categories %}
-     <div class="catbloc" id="{{ category | first | remove:' ' }}">
-         <h2>{{ category | first }}</h2>
+     <div class="catbloc" id="">
+         <h2></h2>
          
          <ul>
             {% for posts in category %}
               {% for post in posts %}
                 {% if post.url %}
                   <li>
-                    <a href="{{ post.url }}">
-                      <time>{{ post.date | date: "%-d %B %Y" }}</time>
-                     {{ post.title }}
+                    <a href="">
+                      <time></time>
+                     
                    </a>
                  </li>
                {% endif %}
@@ -96,10 +96,10 @@ I love to get away from work or school to do my own stuff, which usually include
   <!-- <ul id="allposts" class="post-list catbloc">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta"></span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href=""></a>
         </h2>
       </li>
     {% endfor %}
