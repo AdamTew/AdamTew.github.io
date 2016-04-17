@@ -1,7 +1,3 @@
----
-layout: home
----
-
 <!-- <div class="home"> -->
 <div class="profile__container">
     <div class="profile__content">
