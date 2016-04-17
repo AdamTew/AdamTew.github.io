@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Adam Tew</title>
+  <title>{{ data.name }}</title>
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
@@ -15,55 +15,49 @@
     <div class="profile__container">
         <div class="profile__content">
             <img class="profile--image" src="./source/img/me.jpg">
-            <a href="https://twitter.com/">
+            <a href="https://twitter.com/{{ data.twitter }}">
                 <span class="icon icon--large">
                     <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#twitter"></use></svg>
                 </span>
             </a>
-            <a href="mailto:">
+            <a href="mailto:{{ data.email }}">
                 <span class="icon icon--large">
                     <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#email"></use></svg>
                 </span>
             </a>
-            <a href="https://github.com/">
+            <a href="https://github.com/{{ github.account }}">
                 <span class="icon icon--large">
                     <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#github"></use></svg>
                 </span>
             </a>
         </div>
-        <h1 class="text--title text--center">Adam Tew</h1>
+        <h1 class="text--title text--center">{{ data.name }}</h1>
     </div>
 
     <br />
-
-    <p>I'm a programmer. Currently attending Utah State University while doing contract work on the side.</p>
-
-    <p>I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV.</p>
-
-    <p>I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code.</p>
+      {{ #data.bio }}
+          <p>{{ p }}</p>
+      {{ /data.bio }}
 
     <h2>Projects</h2>
 
     <ul>
-    <li>[__Blog__](http://www.adamtew.com/#allposts) - Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.</li>
-        <li>_html, css, jekyll, mathjax, markdown_ - [code](https://github.com/adamtew/adamtew.github.io)</li>
-    <li>[__Periodic Table__](http://www.adamtew.com/periodic-table) - Fun personal project because I'm </li>taking chemistry this semester. 
-        <li>_html, css, react, js_ - [code](https://github.com/adamtew/periodic-table)</li>
-    <li>[__CFDjango___](https://github.com/adamtew/CFDjango) - A ColdFusion framework I was building while doing some contract work.</li>
-        <li>_ColdFusion_ - [code](https://github.com/adamtew/CFDjango)</li>
+    {{ #data.projects }}
+      {{> list-item }}
+    {{ /data.projects }}
     </ul>
 
     <br />
     <br />
 
-    <h2>Chemistry</h2>
+    {{!-- <h2>Chemistry</h2> --}}
 
     <ul>
-      <li>[page](http://www.adamtew.com/chemistry)</li>
-      <li>[page](http://localhost:4000/chemistry)</li>
-      <li>[metric units](http://localhost:4000/chemistry/metric-units)</li>
+      {{!-- <li>[page](http://www.adamtew.com/chemistry)</li> --}}
+      {{!-- <li>[page](http://localhost:4000/chemistry)</li> --}}
+      {{!-- <li>[metric units](http://localhost:4000/chemistry/metric-units)</li> --}}
     </ul>
-      <h1 class="page-heading">Posts</h1>
+      {{!-- <h1 class="page-heading">Posts</h1> --}}
 
     <!-- <div>
          <a href="#allposts">All posts</a>

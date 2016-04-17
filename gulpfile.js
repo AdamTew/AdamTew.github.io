@@ -1,30 +1,26 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
-
-// sass pre-processors
 var sass = require('gulp-sass');
 var sassGlob = require('gulp-sass-glob');
-
-// post-processors
 var autoprefixer = require('gulp-autoprefixer');
 // var sourcemaps = require('gulp-sourcemaps');
 // var cleanCss = require('gulp-clean-css');
 // var uglify = require('gulp-uglify');
-
-// html stuffs...
 var mustache = require('gulp-mustache-plus');
+var path = require('path');
 
 // HTML
 gulp.task('mustache', function() {
   gulp.src('./source/templates/*.mustache')
     .pipe(mustache({
-      msg: 'parsing templates'
+      msg: 'parsing templates',
+      title: 'yes',
+      data: require('./source/data.json').data
     },
+    {},
     {
-
-    },
-    {
-      head: './source/partials/head.mustache'
+      head: './source/partials/head.mustache',
+      'list-item': './source/partials/list-item.mustache',
     }))
     .pipe(gulp.dest('./'));
 })

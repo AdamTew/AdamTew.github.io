@@ -1,3 +1,47 @@
 {
-  "name": "Adam Tew"
+  "data": {
+    "name": "Adam Tew",
+    "bio": [
+      { "p": "I'm a programmer. Currently attending Utah State University while doing contract work on the side." },
+      { "p": "I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV." },
+      { "p": "I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code." }
+    ],
+    "projects": [
+      {
+        "url": "http://www.adamtew.com/info-graphic/",
+        "title": "Info Graphic",
+        "description": "a recent stab at building an info  graphic for a companies portfolio piece",
+        "technologies": "html, css/scss, js, gulp",
+        "code-url": "https://github.com/adamtew/info-graphic"
+      },
+      {
+        "url": "http://www.adamtew.com/css/",
+        "title": "My CSS",
+        "description": "I recently started playing around with some front-end css animations.",
+        "technologies": "html, css, js",
+        "code-url": "https://github.com/adamtew/css"
+      },
+      {
+        "url": "http://www.adamtew.com/#allposts",
+        "title": "Blog",
+        "description": "Everything from computer science to chemistry. Just a fun place a like to collect my thoughts.",
+        "technologies": "html, css, jekyll, mathjax, markdown",
+        "code-url": "https://github.com/adamtew/adamtew.github.io"
+      },
+      {
+        "url": "http://www.adamtew.com/periodic-table/",
+        "title": "Periodic Table",
+        "description": "Fun personal project because I'm taking chemistry this semester.",
+        "technologies": "html, css, react, js",
+        "code-url": "https://github.com/adamtew/periodic-table"
+      },
+      {
+        "url": "https://github.com/adamtew/CFDjango/",
+        "title": "CFDjango",
+        "description": "A ColdFusion framework I was building while doing some contract work.",
+        "technologies": "ColdFusion",
+        "code-url": "https://github.com/adamtew/CFDjango"
+      }
+    ]
+  }
 }
