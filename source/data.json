@@ -1,6 +1,9 @@
 {
   "data": {
     "name": "Adam Tew",
+    "email": "adamjtew@gmail.com",
+    "twitter": "adamjtew",
+    "github": "adamtew",
     "bio": [
       { "p": "I'm a programmer. Currently attending Utah State University while doing contract work on the side." },
       { "p": "I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV." },
