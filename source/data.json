@@ -9,6 +9,17 @@
       { "p": "I was born in Salt Lake City, UT but spent most of my teenage years in Reno, NV." },
       { "p": "I love to get away from work or school to do my own stuff, which usually includes time with family, coding personal projects, or researching code." }
     ],
+    "icons": [
+      { "url": "https://twitter.com/adamjtew",
+        "icon": "twitter"
+      },
+      { "url": "mailto:adamjtew@gmail.com",
+        "icon": "email"
+      },
+      { "url": "https://github.com/adamtew",
+        "icon": "github"
+      }
+    ],
     "projects": [
       {
         "url": "http://www.adamtew.com/info-graphic/",

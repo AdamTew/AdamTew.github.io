@@ -1,123 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ data.name }}</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-47753222-2', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-</head>
-<body>
   {{> head }}
+<body>
     
-      
-<div class="page-content">
-      <div class="wrapper">
-    <!-- <div class="home"> -->
-    <div class="profile__container">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="profile__container">
         <div class="profile__content">
-            <img class="profile--image" src="./source/img/me.jpg">
-            <a href="https://twitter.com/{{ data.twitter }}">
-                <span class="icon icon--large">
-                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#twitter"></use></svg>
-                </span>
-            </a>
-            <a href="mailto:{{ data.email }}">
-                <span class="icon icon--large">
-                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#email"></use></svg>
-                </span>
-            </a>
-            <a href="https://github.com/{{ data.github }}">
-                <span class="icon icon--large">
-                    <svg class="icon" viewBox="0 0 16 16"><use xmlns:xlink="//www.w3.org/1999/xlink" xlink:href="./source/img/sprites.svg#github"></use></svg>
-                </span>
-            </a>
+          <img class="profile--image" src="./source/img/me.jpg" />
+          {{ #data.icons }}
+            {{> icon }}
+          {{ /data.icons }}
         </div>
         <h1 class="text--title text--center">{{ data.name }}</h1>
-    </div>
+      </div>
 
-    <br />
+      <br />
       {{ #data.bio }}
-          <p>{{ p }}</p>
+        <p>{{ p }}</p>
       {{ /data.bio }}
 
-    <h2>Projects</h2>
+      <h2>Projects</h2>
 
-    <ul>
-    {{ #data.projects }}
-      {{> list-item }}
-    {{ /data.projects }}
-    </ul>
+      <ul>
+        {{ #data.projects }}
+          {{> list-item }}
+        {{ /data.projects }}
+      </ul>
 
-    <br />
-    <br />
-
-    {{!-- <h2>Chemistry</h2> --}}
-
-    <ul>
-      {{!-- <li>[page](http://www.adamtew.com/chemistry)</li> --}}
-      {{!-- <li>[page](http://localhost:4000/chemistry)</li> --}}
-      {{!-- <li>[metric units](http://localhost:4000/chemistry/metric-units)</li> --}}
-    </ul>
-      {{!-- <h1 class="page-heading">Posts</h1> --}}
-
-    <!-- <div>
-         <a href="#allposts">All posts</a>
-         {% for category in site.categories %}
-             <a href="#"><strong></strong></a> {% if forloop.last %}.{% else %}, {% endif %}
-         {% endfor %}
-    </div>
-
-    <div>
-     {% for category in site.categories %}
-         <div class="catbloc" id="">
-             <h2></h2>
-             
-             <ul>
-                {% for posts in category %}
-                  {% for post in posts %}
-                    {% if post.url %}
-                      <li>
-                        <a href="">
-                          <time></time>
-                         
-                       </a>
-                     </li>
-                   {% endif %}
-                 {% endfor %}
-               {% endfor %}
-            </ul>
-        </div>
-    {% endfor %}
-    </div> -->
-
-
-
-
-
-
-      <!-- <ul id="allposts" class="post-list catbloc">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta"></span>
-
-            <h2>
-              <a class="post-link" href=""></a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul> -->
     </div>
   </div>
 </body>
 </html>
-
-

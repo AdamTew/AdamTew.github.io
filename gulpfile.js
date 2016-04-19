@@ -21,6 +21,7 @@ gulp.task('mustache', function() {
     {
       head: './source/partials/head.mustache',
       'list-item': './source/partials/list-item.mustache',
+      icon: './source/partials/icon.mustache'
     }))
     .pipe(gulp.dest('./'));
 })
