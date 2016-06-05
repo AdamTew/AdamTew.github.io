@@ -1,6 +1,6 @@
 {
   "data": {
-    "name": "Adam Tew",
+    "name": "Adam Tews",
     "email": "adamjtew@gmail.com",
     "twitter": "adamjtew",
     "github": "adamtew",
@@ -16,7 +16,7 @@
       { "url": "mailto:adamjtew@gmail.com",
         "icon": "email"
       },
-      { "url": "https://github.com/adamtew",
+      { "url": "https://github.com/adasmtew",
         "icon": "github"
       }
     ],

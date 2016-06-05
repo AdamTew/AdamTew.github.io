@@ -8,14 +8,15 @@ var autoprefixer = require('gulp-autoprefixer');
 // var uglify = require('gulp-uglify');
 var mustache = require('gulp-mustache-plus');
 var path = require('path');
+var data = require('gulp-data');
+var fs = require('fs');
 
 // HTML
 gulp.task('mustache', function() {
   gulp.src('./source/templates/*.mustache')
     .pipe(mustache({
-      msg: 'parsing templates',
-      title: 'yes',
       data: require('./source/data.json').data
+      // data: fs.readFile('./source/data.json', 'utf8')
     },
     {},
     {
@@ -65,7 +66,7 @@ gulp.task('server', function() {
 
 // watchers
 gulp.task('watch-mustache', function() {
-  gulp.watch('./source/**/*.mustache', ['mustache'])
+  gulp.watch(['./source/**/*.mustache', './source/*.json'], ['mustache'])
 })
 gulp.task('watch-scss', function() {
   gulp.watch('./source/scss/**/*.scss', ['styles']);
