@@ -29,6 +29,13 @@
         "code-url": "https://github.com/adamtew/flex-grid"
       },
       {
+        "url": "http://www.adamtew.com/info-graphic/",
+        "title": "Info Graphic",
+        "description": "a recent stab at building an info  graphic for a companies portfolio piece",
+        "technologies": "html, css/scss, js, gulp",
+        "code-url": "https://github.com/adamtew/info-graphic"
+      },
+      {
         "url": "http://www.adamtew.com/css/",
         "title": "My CSS",
         "description": "I recently started playing around with some front-end css animations.",
